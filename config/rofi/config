@@ -1,0 +1,4 @@
+# Dark theme.
+# rofi.theme:~/.cache/wal/colors-rofi-light
+
+rofi.theme: ~/.config/rofi/rofi-jooh.rasi
