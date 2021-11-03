@@ -27,15 +27,15 @@ super + p
 
 # Play pause
 XF86AudioPlay
-    playerctl --player=spotify play-pause
+    playerctl  play-pause
 
 # Next song
 XF86AudioNext
-    playerctl --player=spotify next
+    playerctl  next
 
 # Previous song
 XF86AudioPrev
-    playerctl --player=spotify previous
+    playerctl  previous
 
 # Increase sound volume
 XF86AudioRaiseVolume
