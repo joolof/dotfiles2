@@ -13,7 +13,7 @@ badd +226 ~/Codes/C/gasdrag/gasdrag.c
 badd +1 ~/Codes/C/gasdrag/gasdrag.h
 badd +1 ~/Codes/C/gasdrag/height_comparison.py
 badd +16 ~/Codes/C/gasdrag/profile_test.py
-badd +1 ~/Codes/C/gasdrag/biblio/disks.csv
+badd +7 ~/Codes/C/gasdrag/biblio/disks.csv
 badd +73 ~/Codes/C/gasdrag/incl_panic/panic.c
 badd +16 ~/Codes/C/gasdrag/incl_panic/yaaaa.py
 badd +123 ~/Codes/C/gasdrag/get_sb.py
@@ -41,8 +41,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 103 + 115) / 230)
-exe 'vert 2resize ' . ((&columns * 126 + 115) / 230)
+exe 'vert 1resize ' . ((&columns * 139 + 155) / 310)
+exe 'vert 2resize ' . ((&columns * 170 + 155) / 310)
 argglobal
 balt ~/Codes/C/gasdrag/incl_panic/panic.c
 setlocal fdm=manual
@@ -86,8 +86,8 @@ keepjumps 39
 normal! 040|
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 103 + 115) / 230)
-exe 'vert 2resize ' . ((&columns * 126 + 115) / 230)
+exe 'vert 1resize ' . ((&columns * 139 + 155) / 310)
+exe 'vert 2resize ' . ((&columns * 170 + 155) / 310)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0&& getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

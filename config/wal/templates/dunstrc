@@ -28,7 +28,7 @@
     idle_threshold = 120
 
     # Font and typography settings
-    font = Iosevka Medium 12
+    font = JetBrains Mono 11
     alignment = "left" 
     word_wrap = no
 
