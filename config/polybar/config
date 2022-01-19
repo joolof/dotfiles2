@@ -44,7 +44,7 @@ font-1 = FontAwesome:pixelsize=14;2
 font-2 = JetBrains Mono:size=10;2
 
 ; >> Modules
-modules-left = spotify_i spotify 
+modules-left = spotify_i spotify mpv_i mpv-polybar
 ;mpv_i mpv-polybar 
 ; modules-center = taskwarrior
 ;modules-right = left-rightbar taskwarrior_i right-rightbar taskwarrior left-rightbar volume_i right-rightbar volume left-rightbar date_i right-rightbar date
@@ -379,19 +379,19 @@ label-urgent-foreground = ${colors.fg}
 
 [module/mpv_i]
 type = custom/text
-content = "  "
+content = ""
 content-margin-left = 0
 content-foreground = ${colors.icon-fg}
 content-background = ${colors.bg}
 
 [module/mpv-polybar]
 type = custom/script
-exec = ~/.dotfiles/scripts/mpv-info
-interval = 1
+exec = ~/.scripts/mpv-info
+interval = 5
 label-foreground = ${colors.fg}
 ;click-left = "~/.dotfiles/scripts/mpv-clipboard &"
-click-left = echo 'cycle pause' | socat - /tmp/mpvsocket
-click-right = echo 'cycle mute' | socat - /tmp/mpvsocket
+; click-left = echo 'cycle pause' | socat - /tmp/mpvsocket
+; click-right = echo 'cycle mute' | socat - /tmp/mpvsocket
 
 [module/cpu_i]
 type = custom/text
