@@ -29,9 +29,14 @@ bspc config single_monocle       true
 
 bspc rule -a Zathura state=floating rectangle=1000x900+400+150
 bspc rule -a Yad state=floating
+bspc rule -a Blender state=floating
+bspc rule -a cube state=floating
+bspc rule -a Cube state=floating
+bspc rule -a Toplevel state=floating
 bspc rule -a feh state=floating
 bspc rule -a zoom state=floating
 bspc rule -a Msgcompose state=floating
+bspc rule -a Thunderbird state=floating
 bspc rule -a Mailspring state=floating
 bspc rule -a uk-ac-starlink-topcat-Driver state=floating
 bspc rule -a Ds9.tcl state=floating

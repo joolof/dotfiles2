@@ -8,7 +8,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +80 ~/Codes/Python/Projects/ddit_rt/DDiT.py
+badd +180 ~/Codes/Python/Projects/ddit_rt/DDiT.py
 badd +1 ~/Codes/Python/Projects/ddit_rt/README.md
 argglobal
 %argdel
@@ -43,12 +43,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 16 - ((15 * winheight(0) + 24) / 48)
+let s:l = 534 - ((45 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 16
-normal! 049|
+keepjumps 534
+normal! 0
 wincmd w
 argglobal
 if bufexists("~/Codes/Python/Projects/ddit_rt/README.md") | buffer ~/Codes/Python/Projects/ddit_rt/README.md | else | edit ~/Codes/Python/Projects/ddit_rt/README.md | endif

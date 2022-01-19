@@ -3,24 +3,24 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/Codes/C/gasdrag
+cd ~/Codes/Python/Projects/bdisk/DUST
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +669 ~/Codes/C/gasdrag/height.py
-badd +198 ~/Codes/C/gasdrag/gasdrag.c
-badd +1 ~/Codes/C/gasdrag/gasdrag.h
-badd +62 ~/Codes/C/gasdrag/single_grain/check_dt.py
-badd +72 ~/Codes/C/gasdrag/single_grain/onegrain.c
-badd +1 ~/Codes/C/gasdrag/single_grain/eta.py
-badd +75 ~/Codes/C/gasdrag/get_sb.py
-badd +5 ~/Codes/C/gasdrag/models/HD32297.csv
-badd +5 ~/Codes/C/gasdrag/biblio/bib_plot.py
-badd +125 ~/Codes/C/gasdrag/sb_binned.py
+badd +150 ~/Codes/Python/Projects/bdisk/frame.py
+badd +25 ~/Codes/Python/Projects/bdisk/bdisk.py
+badd +40 ~/Codes/Python/Projects/bdisk/FitSphere.py
+badd +382 ~/Codes/Python/Projects/bdisk/FitAlma.py
+badd +495 ~/Codes/Python/Projects/bdisk/combined.py
+badd +109 ~/Codes/Python/Projects/bdisk/DUST/dust_prop.py
+badd +325 ~/Codes/Python/Projects/bdisk/DUST/pfunc.py
+badd +63 ~/Codes/Python/Projects/bdisk/plot_alma.py
+badd +2 ~/Codes/Python/Projects/bdisk/DUST/priors/HD32297_mmf.csv
+badd +1 ~/Codes/Python/Projects/bdisk/DUST/priors/HD32297_dhs.csv
 argglobal
 %argdel
-edit ~/Codes/C/gasdrag/height.py
+edit ~/Codes/Python/Projects/bdisk/combined.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -37,10 +37,10 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 103 + 115) / 230)
-exe 'vert 2resize ' . ((&columns * 126 + 115) / 230)
+exe 'vert 1resize ' . ((&columns * 115 + 115) / 230)
+exe 'vert 2resize ' . ((&columns * 114 + 115) / 230)
 argglobal
-balt ~/Codes/C/gasdrag/gasdrag.c
+balt ~/Codes/Python/Projects/bdisk/FitAlma.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -51,19 +51,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 669 - ((40 * winheight(0) + 24) / 48)
+let s:l = 495 - ((38 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 669
-normal! 09|
+keepjumps 495
+normal! 0
 wincmd w
 argglobal
-if bufexists("~/Codes/C/gasdrag/gasdrag.c") | buffer ~/Codes/C/gasdrag/gasdrag.c | else | edit ~/Codes/C/gasdrag/gasdrag.c | endif
+if bufexists("~/Codes/Python/Projects/bdisk/DUST/pfunc.py") | buffer ~/Codes/Python/Projects/bdisk/DUST/pfunc.py | else | edit ~/Codes/Python/Projects/bdisk/DUST/pfunc.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/Codes/C/gasdrag/gasdrag.c
+  silent file ~/Codes/Python/Projects/bdisk/DUST/pfunc.py
 endif
-balt ~/Codes/C/gasdrag/sb_binned.py
+balt ~/Codes/Python/Projects/bdisk/plot_alma.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -74,15 +74,16 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 579 - ((23 * winheight(0) + 24) / 48)
+let s:l = 317 - ((36 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 579
-normal! 040|
+keepjumps 317
+normal! 02|
 wincmd w
-exe 'vert 1resize ' . ((&columns * 103 + 115) / 230)
-exe 'vert 2resize ' . ((&columns * 126 + 115) / 230)
+2wincmd w
+exe 'vert 1resize ' . ((&columns * 115 + 115) / 230)
+exe 'vert 2resize ' . ((&columns * 114 + 115) / 230)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0&& getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

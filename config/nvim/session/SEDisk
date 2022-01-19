@@ -8,9 +8,9 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +2 ~/Codes/Python/Projects/SEDisk/sedisk.py
+badd +14 ~/Codes/Python/Projects/SEDisk/sedisk.py
 badd +212 ~/Codes/Python/Projects/SEDisk/dust.py
-badd +407 ~/Codes/Python/Projects/SEDisk/disk.py
+badd +257 ~/Codes/Python/Projects/SEDisk/disk.py
 badd +13 ~/Codes/Python/Projects/SEDisk/misc.py
 badd +3 ~/Codes/Python/Projects/SEDisk/filters.py
 badd +35 ~/Codes/Python/Projects/SEDisk/syntphot.py
@@ -38,7 +38,7 @@ set winwidth=1
 exe 'vert 1resize ' . ((&columns * 115 + 115) / 230)
 exe 'vert 2resize ' . ((&columns * 114 + 115) / 230)
 argglobal
-balt ~/Codes/Python/Projects/SEDisk/star.py
+balt ~/Codes/Python/Projects/SEDisk/dust.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -57,11 +57,11 @@ keepjumps 14
 normal! 067|
 wincmd w
 argglobal
-if bufexists("~/Codes/Python/Projects/SEDisk/disk.py") | buffer ~/Codes/Python/Projects/SEDisk/disk.py | else | edit ~/Codes/Python/Projects/SEDisk/disk.py | endif
+if bufexists("~/Codes/Python/Projects/SEDisk/query_phot.py") | buffer ~/Codes/Python/Projects/SEDisk/query_phot.py | else | edit ~/Codes/Python/Projects/SEDisk/query_phot.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/Codes/Python/Projects/SEDisk/disk.py
+  silent file ~/Codes/Python/Projects/SEDisk/query_phot.py
 endif
-balt ~/Codes/Python/Projects/SEDisk/dust.py
+balt ~/Codes/Python/Projects/SEDisk/syntphot.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -72,13 +72,14 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 257 - ((23 * winheight(0) + 24) / 48)
+let s:l = 19 - ((18 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 257
+keepjumps 19
 normal! 0
 wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 115 + 115) / 230)
 exe 'vert 2resize ' . ((&columns * 114 + 115) / 230)
 tabnext 1
@@ -94,6 +95,7 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
