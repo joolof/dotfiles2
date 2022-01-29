@@ -23,10 +23,11 @@ let g:which_key_map['q'] = [':bp<cr> bd#', 'Close buffer']
 
 " t is for floaterm
 " \ 'l' : [':w | FloatermNew latexmk -pdf %', 'Latex'],
+" \ 'o' : [':FloatermNew vifm', 'Vifm'],
 let g:which_key_map.t = {
       \ 'name' : 'terminal' ,
       \ 't' : [':FloatermToggle', 'Toggle'],
-      \ 'o' : [':FloatermNew vifm', 'Vifm'],
+      \ 'o' : [':Vifm', 'Vifm'],
       \ 'p' : [':w | FloatermNew python3 %', 'Python'],
       \ 'i' : [':FloatermNew ipython', 'IPython'],
       \ 'l' : [':w | FloatermNew latexmk -pdf %', 'Latex'],
