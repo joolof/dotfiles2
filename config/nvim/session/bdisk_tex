@@ -8,15 +8,12 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +239 ~/Papers/bdisk/bdisk.tex
-badd +1460 ~/Papers/bdisk/biblio.bib
-badd +570 ~/Papers/GasDrag/gasdrag.tex
 argglobal
 %argdel
 $argadd bdisk.tex
 edit ~/Papers/bdisk/bdisk.tex
 argglobal
-balt ~/Papers/GasDrag/gasdrag.tex
+balt ~/Papers/bdisk/biblio.bib
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -27,14 +24,17 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 239 - ((5 * winheight(0) + 24) / 48)
+let s:l = 239 - ((1 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 239
 normal! 0127|
+if exists(':tcd') == 2 | tcd ~/Papers/bdisk | endif
 tabnext 1
-if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0&& getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+badd +239 ~/Papers/bdisk/bdisk.tex
+badd +1460 ~/Papers/bdisk/biblio.bib
+if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
 unlet! s:wipebuf
@@ -44,6 +44,7 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
