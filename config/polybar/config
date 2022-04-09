@@ -1,11 +1,15 @@
-; vim:ft=dosini 
+; vim:ft=dosini
+
+[settings]
+pseudo-transparency = true
+
 [colors]
-fg = ${xrdb:color4}
-bg = ${xrdb:background}
+fg = ${xrdb:color1}
+bg = ${xrdb:color0}
 colspot = ${xrdb:color2}
 coldate = ${xrdb:color5}
-icon-bg = ${xrdb:color1}
-icon-fg = ${xrdb:color1}
+icon-bg = ${xrdb:color2}
+icon-fg = ${xrdb:color4}
 underline = ${xrdb:color8}
 
 [global/wm]
@@ -13,10 +17,10 @@ margin-top = 0
 margin-bottom = 0
 
 [bar/mainbar]
-width = 100%
-height = 22
-offset-x = 0
-offset-y = 0
+width = 98%
+height = 3%
+offset-x = 1%
+offset-y = 1%
 background = ${colors.bg}
 foreground = ${colors.fg}
 
@@ -31,32 +35,34 @@ border-top-size = 0.%
 border-left-size = 0%
 border-right-size = 0%
 border-bottom-size = 0.%
-radius = 0
+radius = 15
 
-padding-left = 2%
-padding-right = 2%
+padding = 1
+; padding-left = 1%
+; padding-right = 3%
 module-margin-left = 1
-module-margin-right = 1.
+module-margin-right = 1
 
 ; font_family        JetBrains Mono Regular
-font-0 = JetBrains Mono:pixelsize=10;2
-font-1 = FontAwesome:pixelsize=14;2
-font-2 = JetBrains Mono:size=10;2
+font-0 = JetBrains Mono:style=Bold:pixelsize=22;4
+font-1 = FontAwesome:pixelsize=24;6
+font-2 = JetBrains Mono:size=22;2
 
 ; >> Modules
-modules-left = spotify_i spotify mpv_i mpv-polybar
+modules-left = spotify 
 ;mpv_i mpv-polybar 
 ; modules-center = taskwarrior
 ;modules-right = left-rightbar taskwarrior_i right-rightbar taskwarrior left-rightbar volume_i right-rightbar volume left-rightbar date_i right-rightbar date
-modules-right = taskwarrior_i taskwarrior volume_i volume battery_i battery date_i date 
+modules-right = volume battery date 
+; modules-right = taskwarrior_i taskwarrior volume_i volume battery_i battery date_i date 
 ;fixed-center = true
 ;
 wm-restack = bspwm
 
-tray-position = right
-tray-padding = 2
-tray-transparent = false
-tray-background = ${colors.bg}
+; tray-position = right
+; tray-padding = 2
+; tray-transparent = false
+; tray-background = ${colors.bg}
 
 [module/decor-glyph]
 type = custom/text
@@ -107,8 +113,9 @@ content-background = ${colors.bg}
 [module/spotify]
 type = custom/script
 interval = 2
-;format-prefix = "  "
+format-prefix = "  "
 format-suffix = " "
+format-prefix-foreground = ${colors.icon-fg}
 format-foreground = ${colors.fg}
 format-background = ${colors.bg}
 ;format-background = ${colors.bg}
@@ -200,22 +207,6 @@ format-disconnected-underline = ${self.format-connected-underline}
 label-disconnected = %ifname% disconnected
 label-disconnected-foreground = ${colors.fg}
 
-;[module/dateh_i]
-;type = custom/text
-;content = ""
-;content-foreground = ${colors.icon-fg}
-;content-background = ${colors.icon-bg}
-
-;[module/dateh]
-;type = internal/date
-;interval = 5
-;time = %H:%M
-;label = %time% 
-;label-foreground = ${colors.fg}
-;label-background = ${colors.bg}
-;label-padding = 1
-;;format-underline = ${colors.underline}
-
 
 [module/date_i]
 type = custom/text
@@ -224,17 +215,19 @@ content-foreground = ${colors.icon-fg}
 ;content-background = ${colors.icon-bg}
 
 [module/date]
-type = custom/script
-exec = ~/.scripts/popup_calendar.sh
+; type = custom/script
+; exec = ~/.scripts/popup_calendar.sh
+; interval = 5
+; click-left = ~/.scripts/popup-calendar.sh --popup
+type = internal/date
 interval = 5
-click-left = ~/.scripts/popup-calendar.sh --popup
-;type = internal/date
-;interval = 5
-;date = "%d/%m"
-;label = %date%
+date = "%d/%m %H:%M"
+label = %date%
 label-foreground = ${colors.fg}
+format-prefix = ""
+format-foreground = ${colors.icon-fg}
 ;label-background = ${colors.bg}
-;label-padding = 1
+label-padding = 1
 format-underline = ${colors.coldate}
 
 ; >> volume
@@ -243,7 +236,7 @@ type = internal/alsa
 master-soundcard = default
 speaker-soundcard = default
 headphone-soundcard = default
-format-volume = <label-volume>
+format-volume = <ramp-volume> <label-volume>
 format-volume-background = ${colors.bg}
 format-volume-foreground = ${colors.fg}
 format-volume-padding = 0
@@ -251,10 +244,17 @@ label-volume = %percentage%%
 format-muted-background = ${colors.bg}
 format-muted-foreground = ${colors.fg}
 format-muted-padding = 0
-label-muted = 0%
+; format-muted = <ramp-volume> <label-muted>
+label-muted =  0%
+; label-muted = 0%
 label-muted-foreground = ${colors.fg}
 format-muted-underline = ${colors.fg}
 format-volume-underline = ${colors.fg}
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-foreground = ${colors.icon-fg}
+;ramp-volume-background = ${colors.icon-bg}
+ramp-volume-padding = 0
 
 [module/volume_i]
 type = internal/alsa
@@ -275,22 +275,37 @@ type = internal/battery
 full-at = 98
 battery = BAT0
 adapter = AC
-poll-interval = 2
+poll-interval = 5
 time-format = %H:%M
-format-charging = <label-charging>
+format-charging = <animation-charging> <label-charging>
 ;format-charging-background = ${colors.icon-bg}
-format-charging-foreground = ${colors.fg}
+; format-charging-foreground = ${colors.fg}
 format-charging-padding = 0
-format-discharging = <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 ;format-discharging-background = ${colors.icon-bg}
 format-discharging-foreground = ${colors.fg}
 format-discharging-padding = 0
+
+format-full = <ramp-capacity> <label-full>
 label-charging = %percentage%%
 label-discharging = %percentage%%
-label-full = %percentage%%
+label-full =  %percentage%%
 ;label-full-background = ${colors.icon-bg}
 label-full-foreground = ${colors.fg}
 label-full-padding = 0
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+animation-charging-0 =  
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+ramp-capacity-foreground = ${colors.icon-fg}
+animation-charging-foreground = ${colors.icon-fg}
 
 [module/battery_i]
 type = internal/battery

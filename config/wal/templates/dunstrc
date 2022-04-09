@@ -5,7 +5,7 @@
 
 [global]
     # Make the width 3740 (3840 - 100), have 50 left margin and 95 above
-    geometry = "700+500+2"
+    geometry = "2100+500+25"
     shrink = yes
     corner_radius = 2
 
@@ -28,7 +28,7 @@
     idle_threshold = 120
 
     # Font and typography settings
-    font = JetBrains Mono 11
+    font = JetBrains Mono Bold 11
     alignment = "left" 
     word_wrap = no
 
@@ -49,16 +49,16 @@
 # Set the background and foreground (text) color for all notifications
 [urgency_low]
     background = "{background}"
-    foreground = "{color1}"
+    foreground = "{color4}"
 
 [urgency_normal]
     # background = "{color2}"
     background = "{background}"
-    foreground = "{color1}"
+    foreground = "{color4}"
 
 [urgency_critical]
     background = "{background}"
-    foreground = "{color1}"
+    foreground = "{color4}"
 
 # vim:ft=cfg
 

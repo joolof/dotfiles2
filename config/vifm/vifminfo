@@ -20,7 +20,7 @@ b/home/joo/Desktop/Stuff/Papers_admin/Chile/
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -28,129 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-6
-d/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-d/home/joo/Desktop/Stuff
-	Papers_admin
-13
-d/home/joo/Desktop
-	Stuff
-8
-d/home/joo
-	Codes
-4
-d/home/joo/Codes
-	Python
-5
-d/home/joo/Codes/Python
-	Dust
-3
-d/home/joo/Codes/Python/Dust
-	S11.png
-3
-d/home/joo/Codes/Python
-	Dust
-3
-d/home/joo/Codes
-	Python
-5
-d/home/joo
-	DatabaseDebris
-7
-d/home/joo/DatabaseDebris
-	Nico
-2
-d/home/joo/DatabaseDebris/Nico
-	pdf
-25
-d/home/joo/DatabaseDebris/Nico/pdf
-	SED_HD36968.pdf
-3
-d/home/joo/DatabaseDebris/Nico
-	pdf
-26
-d/home/joo/DatabaseDebris
-	Nico
-2
-d/home/joo
-	Fundings
-11
-d/home/joo/Fundings
-	..
-0
-d/home/joo
-	Fundings
-11
-d/home/joo/Fundings
-	Valparaiso
-8
-d/home/joo/Fundings/Valparaiso
-	2020-ALMA
-9
-d/home/joo/Fundings
-	Spain
-6
-d/home/joo/Fundings/Spain
-	..
-0
-d/home/joo/Fundings
-	ESO
-1
-d/home/joo/Fundings/ESO
-	2021-USD
-1
-d/home/joo/Fundings/ESO/2021-USD
-	..
-0
-d/home/joo/Fundings/ESO
-	2021-OPO
-1
-d/home/joo/Fundings/ESO/2021-OPO
-	..
-0
-d/home/joo/Fundings/ESO
-	2021-OPO
-1
-d/home/joo/Fundings
-	ESO
-1
-d/home/joo
-	Desktop
-8
-d/home/joo/Desktop
-	Stuff
-8
-d/home/joo/Desktop/Stuff
-	Papers_admin
-13
-d/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Chile
-	MPTG
-12
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG
-	Evaluation
-5
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG/Evaluation
-	Acta Reunion Eval Olofsson Tandem Group.pdf
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG
-	Evaluation
-5
-d/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-6
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2020
-3
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Boletas
-1
 d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Boletas
 	Alonso_01.pdf
 1
@@ -327,295 +204,166 @@ d/home/joo/Codes/Python/Debris
 20
 d/home/joo/Codes/Python/Debris/mayo_hci
 	reformat.py
+18
+d/home/joo/Codes/Python/Debris
+	mayo_hci
+19
+d/home/joo/Codes/Python
+	Debris
+2
+d/home/joo/Codes
+	Python
+5
+d/home/joo
+	Desktop
+8
+d/home/joo/Desktop
+	Comprobante_solicitud_registro_animal_@serie.pdf
+4
+d/home/joo
+	Codes
+4
+d/home/joo/Codes
+	Python
+5
+d/home/joo
+	Pictures
+23
+d/home/joo/Pictures
+	wallpapers
+17
+d/home/joo/Pictures/wallpapers
+	phone
+1
+d/home/joo/Pictures/wallpapers/phone
+	sunset-mountains.jpeg
+3
+d/home/joo/Pictures/wallpapers
+	mountains.png
+30
+d/home/joo/Pictures
+	screenshots
+15
+d/home/joo/Pictures/screenshots
+	mythiiiiiiiiic.png
+35
+d/home/joo/Pictures
+	Screenshot from 2022-01-27 11-00-46.png
 21
+d/home/joo
+	Desktop
+8
+d/home/joo/Desktop
+	fotos.zip
+20
+d/home/joo
+	SPHERE
+26
+d/home/joo/SPHERE
+	SPHERE-SAM
+28
+d/home/joo/SPHERE/SPHERE-SAM
+	plot_data.py
+5
+d/home/joo/SPHERE
+	SPHERE-SAM
+28
+d/home/joo
+	PIONIER
+20
+d/home/joo/PIONIER
+	tcha
+7
+d/home/joo/PIONIER/tcha
+	u_disk.py
+28
+d/home/joo/Papers/bdisk
+	..
+0
+d/home/joo/Papers
+	GasDrag
+4
+d/home/joo/Papers/GasDrag
+	gasdrag.tex
+18
+d/home/joo/SPHERE/SPHERE-SAM
+	plot_data.py
+5
+d/home/joo/SPHERE
+	SPHERE-SAM
+28
+d/home/joo
+	SPHERE
+26
+d/home/joo/SPHERE
+	SPHERE-SAM
+28
+d/home/joo/SPHERE/SPHERE-SAM
+	plot_data.py
+5
+d/home/joo/SPHERE
+	SPHERE-SAM
+28
+d/home/joo
+	PIONIER
+20
+d/home/joo/PIONIER
+	SAM
+5
+d/home/joo/PIONIER/SAM
+	..
+0
+d/home/joo/PIONIER
+	HD32297
+1
+d/home/joo/PIONIER/HD32297
+	get_model.py
+1
+d/home/joo/PIONIER/tcha
+	get_v2.py
+7
+d/home/joo/PIONIER/HD32297
+	get_model.py
+1
+d/home/joo/SPHERE/SPHERE-SAM
+	plot_data.py
+5
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Desktop/Stuff
-	Bouquins
-4
-D/home/joo/Desktop/Stuff/Bouquins
-	Self-improvment
-7
-D/home/joo/Desktop/Stuff/Bouquins/Self-improvment
-	..
-0
-D/home/joo/Desktop/Stuff/Bouquins
-	Self-improvment
-7
-D/home/joo/Desktop/Stuff/Bouquins/Self-improvment
-	..
-0
-D/home/joo/Desktop/Stuff/Bouquins
-	Self-improvment
-7
-D/home/joo/Desktop/Stuff
-	Bouquins
-4
-D/home/joo/Desktop
-	HIP72070
-2
-D/home/joo/Desktop/HIP72070
-	out_ipca_1_10_single.fits
-4
-D/home/joo/Desktop
-	HIP72070
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2020
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Rendicion
+D/home/joo/Pictures
+	Potes
 9
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Rendicion
-	Anexo6_Olofsson.pdf
-8
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Objections-main
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Objections-main
-	AnexoN6_Gabriel.pdf
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Objections-third
-7
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Objections-third
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Objections-main
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Objections-main
-	Anexo3_Olofsson.pdf
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Rendicion
+D/home/joo
+	Documents
 9
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Rendicion
-	Anexo2.pdf
+D/home/joo/Documents
+	Passport
+11
+D/home/joo/Documents/Passport
+	passport.pdf
 2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Objections-main
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Objections-main
-	Anexo3_Olofsson.pdf
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Boletas
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Boletas
-	Boleta_Olofsson_Fondecyt_1180395_etapa2020.pdf
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Boletas
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2020
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Boleta
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Boleta
-	Boleta_Olofsson_Fondecyt_1180395_etapa2021.pdf
-46
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Boletas
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Boletas
-	Boleta_Olofsson_Fondecyt_1180395_etapa2021.pdf
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Boletas
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2020
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Objections-main
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Objections-main
-	Anexo6_Olofsson.pdf
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Objections-main
-6
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Boletas
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-6
-D/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-D/home/joo/Desktop/Stuff
-	Papers_admin
+D/home/joo/Documents
+	Pictures
 13
-D/home/joo/Desktop
-	Stuff
-8
-D/home/joo
-	Codes
-5
-D/home/joo/Codes
-	Python
-5
-D/home/joo/Codes/Python
-	Debris
-2
-D/home/joo/Codes/Python/Debris
-	IPCA
-8
-D/home/joo/Codes/Python/Debris/IPCA
-	HD129590
-1
-D/home/joo/Codes/Python/Debris/IPCA/HD129590
-	challenge_1_15_1.png
-1
-D/home/joo/Codes/Python/Debris/IPCA
-	HD129590
-1
-D/home/joo/Codes/Python/Debris
-	IPCA
-8
-D/home/joo/Codes/Python
-	Debris
-2
-D/home/joo/Codes
-	Python
-5
-D/home/joo
-	PROPOSALS
-22
-D/home/joo/PROPOSALS
-	ESO
-3
-D/home/joo/PROPOSALS/ESO
-	P100
-23
-D/home/joo/PROPOSALS/ESO/P100
-	DPI
-1
-D/home/joo/PROPOSALS/ESO/P100/DPI
-	FIGURE
-1
-D/home/joo/PROPOSALS/ESO/P100/DPI/FIGURE
-	plot.pdf
-19
-D/home/joo/PROPOSALS/ESO/P100/DPI
-	FIGURE
-1
-D/home/joo/PROPOSALS/ESO/P100
-	DPI
-1
-D/home/joo/PROPOSALS/ESO
-	P100
-23
-D/home/joo/PROPOSALS
-	ESO
-3
-D/home/joo
-	Fundings
-12
-D/home/joo/Fundings
-	Valparaiso
-8
-D/home/joo/Fundings/Valparaiso
-	2021-Fondecyt-Regular
-12
-D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular
-	submitted
-2
-D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular/submitted
-	Resumen.pdf
-1
-D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular
-	Documents
-1
-D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular/Documents
-	ProposedResearchRegEng.pdf
-7
-D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular
-	Documents
-1
-D/home/joo/Fundings/Valparaiso
-	2021-Fondecyt-Regular
-12
-D/home/joo/Fundings
-	Valparaiso
-8
-D/home/joo
-	Codes
-5
-D/home/joo/Codes
-	Python
-5
-D/home/joo/Codes/Python
-	Debris
-2
-D/home/joo/Codes/Python/Debris
-	IPCA
-8
-D/home/joo/Codes/Python/Debris/IPCA
-	HIP79977
-3
-D/home/joo/Codes/Python/Debris/IPCA/HIP79977
-	out_pca_15_single.fits
-47
-D/home/joo/Codes/Python/Debris/IPCA
-	HD129590
-1
-D/home/joo/Codes/Python/Debris/IPCA/HD129590
-	out_ipca_1_2.txt
-1
-D/home/joo/Codes/Python/Debris/IPCA
-	HIP79977
-3
-D/home/joo/Codes/Python/Debris/IPCA/HIP79977
-	out_ipca_1_2.txt
-2
-D/home/joo/Desktop
-	concepcion.jpeg
-33
-D/home/joo
-	Talks
-30
-D/home/joo/Talks
+D/home/joo/Documents/Pictures
 	..
 0
-D/home/joo
-	Fundings
-12
-D/home/joo/Fundings
-	Valparaiso
-8
-D/home/joo/Fundings/Valparaiso
-	2021-Fondecyt-Regular
-12
-D/home/joo/Fundings
-	Valparaiso
-8
+D/home/joo/Documents
+	Pictures
+13
 D/home/joo
 	Desktop
-9
+8
 D/home/joo/Desktop
 	Stuff
 5
+D/home/joo/Desktop/Stuff
+	whatsapp
+20
+D/home/joo/Desktop/Stuff/whatsapp
+	..
+0
 D/home/joo/Desktop/Stuff
 	Papers_admin
 13
@@ -623,14 +371,266 @@ D/home/joo/Desktop/Stuff/Papers_admin
 	Chile
 1
 D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	MPTG
-12
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG
-	Evaluation
+	Permanencia
+13
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Permanencia
+	papers
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Permanencia/papers
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Permanencia
+	papers
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Appartment
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment
+	Esmeralda-1074
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment/Esmeralda-1074
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment
+	Esmeralda-1074
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment/Esmeralda-1074
+	Gastos_comunes.pdf
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment
+	Esmeralda-1074
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Appartment
+1
+D/home/joo/Desktop/Stuff/Papers_admin
+	Chile
+1
+D/home/joo/Desktop/Stuff
+	Papers_admin
+13
+D/home/joo/Desktop
+	Stuff
 5
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG/Evaluation
-	MPTG-evaluation.pdf
+D/home/joo
+	Videos
+32
+D/home/joo/Videos
+	Stuff
+2
+D/home/joo/Videos/Stuff
+	..
+0
+D/home/joo/Videos
+	youtube
 3
+D/home/joo/Videos/youtube
+	..
+0
+D/home/joo/Videos
+	Samurai Champloo
+1
+D/home/joo/Videos/Samurai Champloo
+	..
+0
+D/home/joo/Videos
+	Samurai Champloo
+1
+D/home/joo
+	Documents
+8
+D/home/joo/Documents
+	rogue-cycle-DPS.rtf
+26
+D/home/joo
+	snap
+33
+D/home
+	joo
+1
+D/home/joo
+	snap
+35
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	ETAPA_2021
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Rendicion
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion
+	Transferencia
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion/Transferencia
+	Transfer4.pdf
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion
+	Scanned
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion/Scanned
+	Olofsson-1180395-ETAPA2021.pdf
+5
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion
+	Scanned
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Rendicion
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	ETAPA_2021
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Filipinos
+8
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Filipinos
+8
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Union
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Union
+	AUC_500438228910_23176497.pdf
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Union
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Union
+	AUC_500438228910_23176497.pdf
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Union
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	CruzBlanca
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/CruzBlanca
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	ETAPA_2021
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Rendicion
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	ETAPA_2021
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	IFA
+14
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/IFA
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin
+	Chile
+1
+D/home/joo/Desktop/Stuff
+	Papers_admin
+13
+D/home/joo/Desktop
+	Stuff
+5
+D/home/joo
+	Fundings
+11
+D/home/joo/Fundings
+	Valparaiso
+8
+D/home/joo/Fundings/Valparaiso
+	2021-Fondecyt-Regular
+12
+D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular
+	..
+0
+D/home/joo/Fundings/Valparaiso
+	2021-Fondecyt-Regular
+12
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Filipinos
+8
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Apartment
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Apartment
+	Procuration_Lorena.pdf
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Apartment
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Filipinos
+8
+D/home/joo/Desktop/Stuff/Papers_admin
+	Chile
+1
+D/home/joo/Desktop/Stuff
+	Papers_admin
+13
+D/home/joo/Desktop
+	Stuff
+5
+D/home/joo
+	Downloads
+10
+D/home/joo/Downloads
+	CV_Olofsson.pdf
+2
+D/home/joo
+	Documents
+9
+D/home/joo/Documents
+	Passport
+11
+D/home/joo/Documents/Passport
+	passport_Olofsson.pdf
+3
+D/home/joo/Documents
+	Passport
+11
+D/home/joo
+	Documents
+9
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	Filipinos
+8
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Apartment ^ Auto
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Apartment ^ Auto
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Apartment & Auto
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Apartment & Auto
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
+	Apartment & Auto
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	ETAPA_2021
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Facturas
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Facturas
+	Lenovo_factura.pdf
+6
 D
 
 # Command line history (oldest to newest):
@@ -644,12 +644,14 @@ D
 :mkdir reintegro
 :mkdir 2021-OPO
 :!gimp %c
-:!evince %c
 :mkdir Cartolas-observaciones
-:bmgo Chile
 :!ds9 %c
-:move
 :bmgo Desktop
+:!evince %c
+:Apartment
+:mkdir Apartment
+:bmgo Chile
+:move
 :q
 
 # Search history (oldest to newest):
@@ -746,11 +748,15 @@ pWilliam Porter - Alcohol Explained.mobi
 pBoleta_Olofsson_Fondecyt_1180395_etapa2021.pdf
 pMeilleursVoeux.png
 pHD191089_ALMA.fits
+pOlofsson-1180395-ETAPA2021.pdf
+pProcuration_Lorena.pdf
+pApartment ^ Auto
+pApartment & Auto
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/003_zoom_amd64.deb
+""/home/joo/.local/share/vifm/Trash/000_zoom_amd64.deb
 
 # Directory stack (oldest to newest):
 
@@ -1301,6 +1307,26 @@ t/home/joo/.local/share/vifm/Trash/000_HD106906_ALMA_cont.pbcor.fits
 	/home/joo/Desktop/HD106906_ALMA_cont.pbcor.fits
 t/home/joo/.local/share/vifm/Trash/000_stab3531.pdf
 	/home/joo/Desktop/stab3531.pdf
+t/home/joo/.local/share/vifm/Trash/000_output.pdf
+	/home/joo/Documents/output.pdf
+t/home/joo/.local/share/vifm/Trash/000_certificado.pdf
+	/home/joo/certificado.pdf
+t/home/joo/.local/share/vifm/Trash/000_AnexoN9 Recibo Simple Movilizacion.pdf
+	/home/joo/Desktop/AnexoN9 Recibo Simple Movilizacion.pdf
+t/home/joo/.local/share/vifm/Trash/000_Banco de Chile.pdf
+	/home/joo/Desktop/Banco de Chile.pdf
+t/home/joo/.local/share/vifm/Trash/000_FINAL_SUMMARY.pdf
+	/home/joo/Desktop/FINAL_SUMMARY.pdf
+t/home/joo/.local/share/vifm/Trash/000_Tienda de tecnología en Chile | pc Factory.pdf
+	/home/joo/Desktop/Tienda de tecnología en Chile | pc Factory.pdf
+t/home/joo/.local/share/vifm/Trash/000_justif_addresse.pdf
+	/home/joo/Desktop/justif_addresse.pdf
+t/home/joo/.local/share/vifm/Trash/000_proposal-14857.pdf
+	/home/joo/Desktop/proposal-14857.pdf
+t/home/joo/.local/share/vifm/Trash/000_qrCode.jpg
+	/home/joo/Desktop/qrCode.jpg
+t/home/joo/.local/share/vifm/Trash/000_rdi.png
+	/home/joo/Desktop/rdi.png
 
 # State:
 f

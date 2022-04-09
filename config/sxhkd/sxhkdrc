@@ -54,11 +54,13 @@ XF86AudioMute
 
 # Decrease screen brightness
 XF86MonBrightnessUp
-    xrandr --output eDP-1 -brightness 1.0
+    /home/joo/.scripts/brightness.sh + eDP-1
+    # xrandr --output eDP-1 -brightness 1.0
 
 # decrease screen brightness
 XF86MonBrightnessDown
-    xrandr --output eDP-1 -brightness 0.5 
+    /home/joo/.scripts/brightness.sh - eDP-1
+    # xrandr --output eDP-1 -brightness 0.5 
     # xbacklight -dec 10 
 
 # program launcher

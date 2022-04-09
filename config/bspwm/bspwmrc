@@ -6,47 +6,45 @@ xrdb /home/joo/.Xresources &
 # compton &
 nm-applet &
 xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' &
-feh --bg-scale /home/joo/Pictures/wallpapers/trains.jpg &
+feh --bg-scale /home/joo/Pictures/wallpapers/mountains.png &
 wal -R
 pacmd set-default-sink alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink
 
-# if [ -x $HOME/.scripts/mirror.sh ];then
-#     $HOME/.scripts/mirror.sh
-# fi
-
 bspc monitor -d I II III IV V VI VII VIII IX X
 
-bspc config top_padding         1
+bspc config top_padding         5
 bspc config border_width        2
-bspc config window_gap          1
+bspc config window_gap          20
 
-bspc config active_border_color #FFA71A
+bspc config active_border_color FFA71A
 
-bspc config split_ratio          0.52
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
-bspc config single_monocle       true
+bspc config split_ratio          0.6
+bspc config borderless_monocle   false
+bspc config gapless_monocle      false
+bspc config single_monocle       false
 
-bspc rule -a Zathura state=floating rectangle=1000x900+400+150
+bspc rule -a Zathura state=floating rectangle=2000x1300+400+150
+bspc rule -a Skype state=floating
 bspc rule -a Yad state=floating
 bspc rule -a Blender state=floating
 bspc rule -a cube state=floating
 bspc rule -a Cube state=floating
 bspc rule -a Toplevel state=floating
 bspc rule -a feh state=floating
-bspc rule -a zoom state=floating
+bspc rule -a "zoom " state=floating
 bspc rule -a Msgcompose state=floating
 bspc rule -a Thunderbird state=floating
 bspc rule -a Mailspring state=floating
 bspc rule -a uk-ac-starlink-topcat-Driver state=floating
-bspc rule -a Ds9.tcl state=floating
-bspc rule -a lutris state=floating
+bspc rule -a Ds9.tcl state=floating layer=above
+bspc rule -a Lutris state=floating
 bspc rule -a blueman-manager state=floating
-bspc rule -a Matplotlib state=floating
-bspc rule -a matplotlib state=floating
+bspc rule -a matplotlib state=floating layer=above
 bspc rule -a herschel-ia-gui-apps-HipeStarter state=floating
 bspc rule -a " " state=floating
+
 bspc rule -a Firefox desktop='^1'
+bspc rule -a Thunderbird desktop='^2'
 bspc rule -a GoPanda2 desktop='^7'
 bspc rule -a Sabaki desktop='^7'
 bspc rule -a mpv desktop='^8'
