@@ -5,7 +5,7 @@
 
 [global]
     # Make the width 3740 (3840 - 100), have 50 left margin and 95 above
-    geometry = "1100+500+11"
+    geometry = "1100+250+11"
     shrink = yes
     corner_radius = 2
 
