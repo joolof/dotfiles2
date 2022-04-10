@@ -1,4 +1,4 @@
-Xft.dpi: 192
+Xft.dpi: 96
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
 Xft.hintstyle:  hintfull
@@ -9,33 +9,8 @@ Xft.rgba: rgb
 !-------------------------------------------------------------------------------
 ! ROFI Color theme - Alley
 !-------------------------------------------------------------------------------
-rofi.font: JetBrains Mono 20
+rofi.font: JetBrains Mono 12
 rofi.color-enabled: true
 rofi.fullscreen: false
-!-------------------------------------------------------------------------------
-! URxvt
-!-------------------------------------------------------------------------------
-/* URxvt.termName: rxvt-unicode */
-/* URxvt.scrollBar: false */
-/* URxvt*internalBorder: 40 */
-/* !URxvt.foreground: termfg */
-/* URxvt*depth: 24 */
-/* !URxvt.background: [95]termbg */
-
-/* !! Font preferences */
-/* URxvt.font: xft:Jetbrains Mono:pixelsize=14 */
-/* URxvt.boldFont: xft:Jetbrains Mono:pixelsize=14:weight=Bold */ 
-
-/* !! Larger history limit */
-/* URxvt.saveLines: 5000 */
-
-/* !! Perl extensions */
-/* URxvt.perl-ext-common: default,matcher,font-size */
-/* !! Open urls in browser with Control-Click */
-/* URxvt.url-launcher: /usr/bin/firefox */
-/* URxvt.matcher.button: C1 */
-/* !! Change font size on Control-Plus/Minus */
-/* URxvt.keysym.Control-0x2b: perl:font-size:increase */
-/* URxvt.keysym.Control-0x2d: perl:font-size:decrease */
 
 

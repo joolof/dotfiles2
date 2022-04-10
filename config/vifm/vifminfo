@@ -5,6 +5,10 @@
 	/home/joo/bin/
 	..
 1626465185
+'g
+	/home/joo/SPHERE/SPHERE-SAM
+	plot_data.py
+1649590065
 'h
 	/home/joo/
 	..
@@ -28,9 +32,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Boletas
-	Alonso_01.pdf
-1
 d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
 	Boletas
 1
@@ -328,6 +329,9 @@ d/home/joo/PIONIER/HD32297
 d/home/joo/SPHERE/SPHERE-SAM
 	plot_data.py
 5
+d/home/joo/Desktop
+	iq.png
+29
 d
 
 # Right window history (oldest to newest):
@@ -646,13 +650,13 @@ D
 :!gimp %c
 :mkdir Cartolas-observaciones
 :!ds9 %c
-:bmgo Desktop
 :!evince %c
 :Apartment
 :mkdir Apartment
 :bmgo Chile
 :move
 :q
+:bmgo Desktop
 
 # Search history (oldest to newest):
 
