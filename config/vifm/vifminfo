@@ -33,30 +33,6 @@ r2
 
 # Left window history (oldest to newest):
 d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Boletas
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Boletas
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Boletas
-	..
-0
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Boletas
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2020
-3
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Rendicion
-7
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Rendicion
-	..
-0
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
 	Saldo-autorizado
 8
 d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Saldo-autorizado
@@ -332,6 +308,30 @@ d/home/joo/SPHERE/SPHERE-SAM
 d/home/joo/Desktop
 	iq.png
 29
+d/home/joo/.notes
+	..
+0
+d/home/joo
+	..
+0
+d/home/joo/.dotfiles/config/polybar
+	..
+0
+d/home/joo/.dotfiles/config
+	dunst
+2
+d/home/joo/.dotfiles/config/dunst
+	dunstrc
+1
+d/home/joo/.dotfiles/config
+	wal
+9
+d/home/joo/.dotfiles/config/wal
+	templates
+2
+d/home/joo/.dotfiles/config/wal/templates
+	dunstrc
+1
 d
 
 # Right window history (oldest to newest):
@@ -655,8 +655,8 @@ D
 :mkdir Apartment
 :bmgo Chile
 :move
-:q
 :bmgo Desktop
+:q
 
 # Search history (oldest to newest):
 

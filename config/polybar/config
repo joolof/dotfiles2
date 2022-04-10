@@ -50,19 +50,15 @@ font-2 = JetBrains Mono:size=12;2
 
 ; >> Modules
 modules-left = spotify 
-;mpv_i mpv-polybar 
-; modules-center = taskwarrior
-;modules-right = left-rightbar taskwarrior_i right-rightbar taskwarrior left-rightbar volume_i right-rightbar volume left-rightbar date_i right-rightbar date
 modules-right = volume battery date 
-; modules-right = taskwarrior_i taskwarrior volume_i volume battery_i battery date_i date 
 ;fixed-center = true
 ;
 wm-restack = bspwm
 
-; tray-position = right
-; tray-padding = 2
-; tray-transparent = false
-; tray-background = ${colors.bg}
+tray-position = right
+tray-padding = 2
+tray-transparent = false
+tray-background = ${colors.bg}
 
 [module/decor-glyph]
 type = custom/text
@@ -112,7 +108,7 @@ content-background = ${colors.bg}
 
 [module/spotify]
 type = custom/script
-interval = 2
+interval = 5
 format-prefix = "  "
 format-suffix = " "
 format-prefix-foreground = ${colors.icon-fg}
@@ -217,7 +213,7 @@ content-foreground = ${colors.icon-fg}
 [module/date]
 ; type = custom/script
 ; exec = ~/.scripts/popup_calendar.sh
-; interval = 5
+; interval = 10
 ; click-left = ~/.scripts/popup-calendar.sh --popup
 type = internal/date
 interval = 5
@@ -275,7 +271,7 @@ type = internal/battery
 full-at = 98
 battery = BAT0
 adapter = AC
-poll-interval = 5
+poll-interval = 10
 time-format = %H:%M
 format-charging = <animation-charging> <label-charging>
 ;format-charging-background = ${colors.icon-bg}

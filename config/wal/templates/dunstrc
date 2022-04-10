@@ -5,7 +5,7 @@
 
 [global]
     # Make the width 3740 (3840 - 100), have 50 left margin and 95 above
-    geometry = "2100+500+25"
+    geometry = "1100+500+11"
     shrink = yes
     corner_radius = 2
 
@@ -28,7 +28,7 @@
     idle_threshold = 120
 
     # Font and typography settings
-    font = JetBrains Mono Bold 11
+    font = JetBrains Mono Bold 10
     alignment = "left" 
     word_wrap = no
 
