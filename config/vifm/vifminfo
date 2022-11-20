@@ -32,645 +32,650 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020
-	Saldo-autorizado
-8
-d/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2020/Saldo-autorizado
-	ETAPA2020-1180395-Saldo_autorizado.pdf
-13
-d/home/joo/Codes/C/gasdrag/biblio
-	..
-0
-d/home/joo/Codes/C/gasdrag
-	biblio
-3
-d/home/joo/Codes/C
-	gasdrag
-11
 d/home/joo/Codes
 	Python
+5
+d/home/joo/Codes/Python
+	Debris
+2
+d/home/joo/Codes/Python/Debris
+	MPTG_Logo
+11
+d/home/joo/Codes/Python/Debris/MPTG_Logo
+	PNG
+1
+d/home/joo/Codes/Python/Debris/MPTG_Logo/PNG
+	image_0003.png
+1
+d/home/joo/Codes/Python/Debris/MPTG_Logo
+	PNG
+1
+d/home/joo/Codes/Python/Debris/MPTG_Logo/PNG
+	image_0003.png
+4
+d/home/joo/Codes/Python/Debris/MPTG_Logo
+	PNG
+1
+d/home/joo/Codes/Python/Debris/MPTG_Logo/PNG
+	image_0100.png
+44
+d/home/joo/Codes/Python/Debris/MPTG_Logo
+	PNG
+1
+d/home/joo/Codes/Python/Debris
+	MPTG_Logo
+11
+d/home/joo/Codes/Python
+	Debris
+2
+d/home/joo/Codes
+	Python
+5
+d/home/joo
+	Desktop
+9
+d/home/joo/Desktop
+	ADI_H2H3
+1
+d/home/joo/Desktop/ADI_H2H3
+	..
+0
+d/home/joo/Desktop
+	Doctors-and-Medical-Services-Munich-Bavaria.pdf
+4
+d/home/joo
+	Concours
+7
+d/home/joo/Concours
+	CV_ENG
+8
+d/home/joo/Concours/CV_ENG
+	cv.pdf
+8
+d/home/joo/Concours
+	CV_ENG
+8
+d/home/joo
+	after.png
+44
+d/home/joo/Desktop
+	sphere_list.csv
+44
+d/home/joo
+	Pictures
+23
+d/home/joo/Pictures
+	screenshots
+16
+d/home/joo/Pictures/screenshots
+	address.png
+48
+d/home/joo/Pictures
+	screenshots
+16
+d/home/joo
+	HD129_nmf_lin.png
+38
+d/home/joo/SPHERE/star-hopping
+	..
+0
+d/home/joo/SPHERE
+	star-hopping
+35
+d/home/joo
+	Codes
+5
+d/home/joo/Codes
+	Python
+5
+d/home/joo/Codes/Python
+	Projects
+8
+d/home/joo/Codes/Python/Projects
+	Query
+5
+d/home/joo/Codes/Python/Projects/Query
+	..
+0
+d/home/joo/Codes/Python/Projects
+	Query
 5
 d/home/joo/Codes/Python
 	SphereDB
 9
 d/home/joo/Codes/Python/SphereDB
-	query.py
-4
-d/home/joo
-	Desktop
-9
-d/home/joo/Desktop
-	..
-0
-d/home/joo
-	Desktop
-9
-d/home
-	joo
-1
-d/
-	home
-5
-d/home
-	joo
-1
-d/home/joo
-	Desktop
-9
-d/home/joo/Desktop
-	besace
-10
-d/home/joo/Desktop/besace
-	09.pdf
-9
-d/home/joo/Desktop
-	besace
-10
-d/home/joo
-	Desktop
-9
-d/home/joo/Desktop
-	stamp.png
-43
-d/home/joo
-	..
-0
-d/home/joo/Codes/Python/Projects/bdisk
-	..
-0
-d/home/joo/Desktop
-	aa40319-21.pdf
-39
-d/home/joo
-	Desktop
-9
-d/home/joo/Desktop
-	gasdrag
-7
-d/home/joo/Desktop/gasdrag
-	image_0004.png
-5
-d/home/joo/Desktop
-	paki
-9
-d/home/joo
-	Teaching
-31
-d/home/joo/Teaching
-	2021
-2
-d/home/joo/Teaching/2021
-	Circumstellar_disks
-1
-d/home/joo/Teaching/2021/Circumstellar_disks
-	2021B - Circumstellar disks.pdf
-24
-d/home/joo/Teaching/2021
-	Circumstellar_disks
-1
-d/home/joo/Teaching
-	2021
-2
-d/home/joo
-	Pictures
-24
-d/home/joo/Pictures
-	wallpapers
-17
-d/home/joo/Pictures/wallpapers
-	house_lake.jpg
-43
-d/home/joo/Pictures
-	wallpapers
-17
-d/home/joo
-	Teaching
-31
-d/home/joo/Teaching
-	2021
-2
-d/home/joo/Teaching/2021
-	Circumstellar_disks
-1
-d/home/joo/Teaching/2021/Circumstellar_disks
-	2021B - Circumstellar disks.pdf
-24
-d/home/joo/Teaching/2021
-	Circumstellar_disks
-1
-d/home/joo/Teaching
-	2021
-2
-d/home/joo
-	Teaching
-31
-d/home/joo/Desktop
-	iq.png
-42
-d/home/joo
-	Codes
-5
-d/home/joo/Codes
-	Python
+	spherequery.py
 5
 d/home/joo/Codes/Python
-	Debris
-2
-d/home/joo/Codes/Python/Debris
-	mayo_hci
-20
-d/home/joo/Codes/Python/Debris/mayo_hci
-	reformat.py
-18
-d/home/joo/Codes/Python/Debris
-	mayo_hci
-19
-d/home/joo/Codes/Python
-	Debris
-2
+	SphereDB
+9
 d/home/joo/Codes
 	Python
 5
 d/home/joo
-	Desktop
-8
-d/home/joo/Desktop
-	Comprobante_solicitud_registro_animal_@serie.pdf
-4
-d/home/joo
-	Codes
-4
-d/home/joo/Codes
-	Python
-5
-d/home/joo
-	Pictures
-23
-d/home/joo/Pictures
-	wallpapers
-17
-d/home/joo/Pictures/wallpapers
-	phone
-1
-d/home/joo/Pictures/wallpapers/phone
-	sunset-mountains.jpeg
+	PROPOSALS
+22
+d/home/joo/PROPOSALS
+	ESO
 3
-d/home/joo/Pictures/wallpapers
-	mountains.png
-30
-d/home/joo/Pictures
-	screenshots
-15
-d/home/joo/Pictures/screenshots
-	mythiiiiiiiiic.png
-35
-d/home/joo/Pictures
-	Screenshot from 2022-01-27 11-00-46.png
-21
+d/home/joo/PROPOSALS/ESO
+	P110
+29
+d/home/joo/PROPOSALS/ESO/P110
+	HD32297
+1
+d/home/joo/PROPOSALS/ESO/P110/HD32297
+	HD32297.tex
+6
+d/home/joo/PROPOSALS/ESO/P110
+	HD32297
+1
+d/home/joo/PROPOSALS/ESO
+	P110
+29
+d/home/joo/PROPOSALS
+	ESO
+3
 d/home/joo
 	Desktop
-8
+9
 d/home/joo/Desktop
-	fotos.zip
-20
+	Back.pdf
+4
 d/home/joo
-	SPHERE
-26
-d/home/joo/SPHERE
-	SPHERE-SAM
-28
+	Desktop
+9
+d/home/joo/Desktop
+	MLS_1.0.1.pdf
+12
+d/home/joo
+	DatabaseDebris
+8
+d/home/joo/DatabaseDebris
+	..
+0
+d/home/joo
+	DatabaseDebris
+8
+d/home/joo/DatabaseDebris
+	P111
+4
+d/home/joo/DatabaseDebris/P111
+	pdf
+11
+d/home/joo/DatabaseDebris/P111/pdf
+	..
+0
+d/home/joo/DatabaseDebris/P111
+	pdf
+11
+d/home/joo/DatabaseDebris
+	P111
+4
+d/home/joo
+	Desktop
+9
+d/home/joo/Desktop
+	Doctors-and-Medical-Services-Munich-Bavaria.pdf
+17
 d/home/joo/SPHERE/SPHERE-SAM
-	plot_data.py
-5
+	..
+0
 d/home/joo/SPHERE
-	SPHERE-SAM
-28
-d/home/joo
-	PIONIER
+	HD129590
+14
+d/home/joo/SPHERE/HD129590
+	PSF
+3
+d/home/joo/SPHERE/HD129590/PSF
+	get_fwhm.py
+1
+d/home/joo/SPHERE/SPHERE-SAM/DATA
+	..
+0
+d/home/joo/SPHERE/SPHERE-SAM
+	DATA
+1
+d/home/joo/SPHERE
+	HR4796
+21
+d/home/joo/SPHERE/HR4796
+	Radial.py
 20
-d/home/joo/PIONIER
-	tcha
-7
-d/home/joo/PIONIER/tcha
-	u_disk.py
-28
+d/home/joo/SPHERE/SPHERE-SAM/DATA
+	..
+0
+d/home/joo/SPHERE/SPHERE-SAM
+	DATA
+1
+d/home/joo/SPHERE
+	HR4796
+21
+d/home/joo/SPHERE/HR4796
+	Radial.py
+20
+d/home/joo/SPHERE/SPHERE-SAM/DATA
+	..
+0
+d/home/joo/SPHERE/SPHERE-SAM
+	DATA
+1
+d/home/joo/SPHERE
+	HD129590
+14
+d/home/joo/SPHERE/HD129590
+	FitPfunc.py
+10
+d/home/joo/Papers/HD129590
+	..
+0
+d/home/joo/Papers
+	bdisk
+42
 d/home/joo/Papers/bdisk
+	bdisk.tex
+16
+d/home/joo/Papers/HD129590
+	..
+0
+d/home/joo/Papers
+	bdisk
+42
+d/home/joo/Papers/bdisk
+	bdisk.tex
+16
+d/home/joo/Papers/HD129590
 	..
 0
 d/home/joo/Papers
 	GasDrag
-4
+10
 d/home/joo/Papers/GasDrag
 	gasdrag.tex
 18
-d/home/joo/SPHERE/SPHERE-SAM
-	plot_data.py
-5
-d/home/joo/SPHERE
-	SPHERE-SAM
-28
-d/home/joo
-	SPHERE
-26
-d/home/joo/SPHERE
-	SPHERE-SAM
-28
-d/home/joo/SPHERE/SPHERE-SAM
-	plot_data.py
-5
-d/home/joo/SPHERE
-	SPHERE-SAM
-28
-d/home/joo
-	PIONIER
+d/home/joo/Papers/HD129590
+	..
+0
+d/home/joo/Papers
+	HR4796-SPHERE
+17
+d/home/joo/Papers/HR4796-SPHERE
+	biblio.bib
 20
-d/home/joo/PIONIER
-	SAM
-5
-d/home/joo/PIONIER/SAM
+d/home/joo/Papers/HD129590
 	..
 0
-d/home/joo/PIONIER
-	HD32297
-1
-d/home/joo/PIONIER/HD32297
-	get_model.py
-1
-d/home/joo/PIONIER/tcha
-	get_v2.py
+d/home/joo/Papers
+	PhaseFunction
+30
+d/home/joo/Papers/PhaseFunction
+	biblio.bib
+10
+d/home/joo/Codes/Python/Projects/bdisk/DUST
+	dust_prop.py
 7
-d/home/joo/PIONIER/HD32297
-	get_model.py
-1
-d/home/joo/SPHERE/SPHERE-SAM
-	plot_data.py
-5
-d/home/joo/Desktop
-	iq.png
-29
-d/home/joo/.notes
+d/home/joo/Papers/HD129590
 	..
 0
-d/home/joo
+d/home/joo/Papers
+	HR4796-SPHERE
+17
+d/home/joo/Papers/HR4796-SPHERE
+	biblio.bib
+20
+d/home/joo/Papers/HD129590
 	..
 0
-d/home/joo/.dotfiles/config/polybar
-	..
-0
-d/home/joo/.dotfiles/config
-	dunst
-2
-d/home/joo/.dotfiles/config/dunst
-	dunstrc
-1
-d/home/joo/.dotfiles/config
-	wal
-9
-d/home/joo/.dotfiles/config/wal
-	templates
-2
-d/home/joo/.dotfiles/config/wal/templates
-	dunstrc
-1
+d/home/joo/Papers
+	bdisk
+42
+d/home/joo/Papers/bdisk
+	bdisk.tex
+16
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Pictures
-	Potes
-9
-D/home/joo
-	Documents
-9
-D/home/joo/Documents
-	Passport
-11
-D/home/joo/Documents/Passport
-	passport.pdf
-2
-D/home/joo/Documents
-	Pictures
-13
-D/home/joo/Documents/Pictures
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Objectiones1
+	AnexoN3.pdf
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Objectiones2
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Objectiones2
 	..
 0
-D/home/joo/Documents
-	Pictures
-13
-D/home/joo
-	Desktop
-8
-D/home/joo/Desktop
-	Stuff
-5
-D/home/joo/Desktop/Stuff
-	whatsapp
-20
-D/home/joo/Desktop/Stuff/whatsapp
-	..
-0
-D/home/joo/Desktop/Stuff
-	Papers_admin
-13
-D/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Permanencia
-13
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Permanencia
-	papers
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Permanencia/papers
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Permanencia
-	papers
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Appartment
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment
-	Esmeralda-1074
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment/Esmeralda-1074
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment
-	Esmeralda-1074
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment/Esmeralda-1074
-	Gastos_comunes.pdf
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Appartment
-	Esmeralda-1074
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Appartment
-1
-D/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-D/home/joo/Desktop/Stuff
-	Papers_admin
-13
-D/home/joo/Desktop
-	Stuff
-5
-D/home/joo
-	Videos
-32
-D/home/joo/Videos
-	Stuff
-2
-D/home/joo/Videos/Stuff
-	..
-0
-D/home/joo/Videos
-	youtube
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Objectiones1
 3
-D/home/joo/Videos/youtube
-	..
-0
-D/home/joo/Videos
-	Samurai Champloo
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Objectiones1
+	AnexoN3.pdf
 1
-D/home/joo/Videos/Samurai Champloo
-	..
-0
-D/home/joo/Videos
-	Samurai Champloo
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Objectiones2
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Objectiones2
+	Anexo_N3.pdf
 1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
+	Objectiones2
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	ETAPA_2021
+4
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Theresienstrasse29
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Theresienstrasse29
+	WaterLeak-Bedroom
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Theresienstrasse29/WaterLeak-Bedroom
+	20221015_104931.jpg
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Theresienstrasse29
+	WaterLeak-Bedroom
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Theresienstrasse29
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+1
+D/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+3
+D/home/joo/Desktop/Stuff
+	Papers_admin
+13
+D/home/joo/Desktop
+	Stuff
+4
 D/home/joo
-	Documents
-8
-D/home/joo/Documents
-	rogue-cycle-DPS.rtf
-26
-D/home/joo
-	snap
-33
+	1000.png
+38
+D/home
+	joo
+1
+D/
+	home
+5
 D/home
 	joo
 1
 D/home/joo
-	snap
-35
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-7
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Rendicion
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion
-	Transferencia
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion/Transferencia
-	Transfer4.pdf
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion
-	Scanned
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion/Scanned
-	Olofsson-1180395-ETAPA2021.pdf
-5
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Rendicion
-	Scanned
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Rendicion
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Filipinos
-8
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Filipinos
-8
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Union
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Union
-	AUC_500438228910_23176497.pdf
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Union
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Union
-	AUC_500438228910_23176497.pdf
-2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Union
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	CruzBlanca
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/CruzBlanca
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-7
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Rendicion
-3
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	IFA
-14
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/IFA
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-7
-D/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-D/home/joo/Desktop/Stuff
-	Papers_admin
-13
-D/home/joo/Desktop
-	Stuff
-5
-D/home/joo
-	Fundings
-11
-D/home/joo/Fundings
-	Valparaiso
-8
-D/home/joo/Fundings/Valparaiso
-	2021-Fondecyt-Regular
-12
-D/home/joo/Fundings/Valparaiso/2021-Fondecyt-Regular
-	..
-0
-D/home/joo/Fundings/Valparaiso
-	2021-Fondecyt-Regular
-12
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Filipinos
-8
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Apartment
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Apartment
-	Procuration_Lorena.pdf
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Apartment
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Filipinos
-8
-D/home/joo/Desktop/Stuff/Papers_admin
-	Chile
-1
-D/home/joo/Desktop/Stuff
-	Papers_admin
-13
-D/home/joo/Desktop
-	Stuff
-5
-D/home/joo
-	Downloads
-10
-D/home/joo/Downloads
-	CV_Olofsson.pdf
-2
-D/home/joo
-	Documents
+	Desktop
 9
-D/home/joo/Documents
-	Passport
-11
-D/home/joo/Documents/Passport
-	passport_Olofsson.pdf
+D/home/joo/Desktop
+	Ticha
+5
+D/home/joo/Desktop/Ticha
+	Anna
+1
+D/home/joo/Desktop/Ticha/Anna
+	WhatsApp Image 2021-11-26 at 15.54.32.jpeg
 3
-D/home/joo/Documents
-	Passport
-11
-D/home/joo
-	Documents
-9
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	Filipinos
-8
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Apartment ^ Auto
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Apartment ^ Auto
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Apartment & Auto
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos/Apartment & Auto
-	..
-0
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/Filipinos
-	Apartment & Auto
-1
-D/home/joo/Desktop/Stuff/Papers_admin/Chile
-	FONDECYT_Regular - 2018
-7
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
-	ETAPA_2021
-4
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021
-	Facturas
+D/home/joo/Desktop/Ticha
+	darktable_exported
 2
-D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Facturas
-	Lenovo_factura.pdf
+D/home/joo/Desktop/Ticha/darktable_exported
+	IMG_3758.png
+2
+D/home/joo/Desktop/Ticha
+	DSC_0061.jpg
+3
+D/home/joo/Desktop
+	Vueling
 6
+D/home/joo/Desktop/Vueling
+	..
+0
+D/home/joo/Desktop
+	lufthansa
+7
+D/home/joo/Desktop/lufthansa
+	..
+0
+D/home/joo/Desktop
+	tl
+8
+D/home/joo/Desktop/tl
+	test.m4v
+2
+D/home/joo/Desktop
+	tl
+8
+D/home/joo
+	Codes
+5
+D/home/joo/Codes
+	Python
+5
+D/home/joo/Codes/Python
+	Projects
+8
+D/home/joo/Codes/Python/Projects
+	betadisk
+10
+D/home/joo/Codes/Python/Projects/betadisk
+	screenshots
+3
+D/home/joo/Codes/Python/Projects/betadisk/screenshots
+	pretty.png
+1
+D/home/joo/Codes/Python/Projects/betadisk
+	screenshots
+3
+D/home/joo/Codes/Python/Projects
+	betadisk
+10
+D/home/joo/Codes/Python
+	Projects
+8
+D/home/joo/Codes
+	Python
+5
+D/home/joo
+	PROPOSALS
+22
+D/home/joo/PROPOSALS
+	ESO
+3
+D/home/joo/PROPOSALS/ESO
+	P101
+24
+D/home/joo/PROPOSALS/ESO/P101
+	Planets
+2
+D/home/joo/PROPOSALS/ESO/P101/Planets
+	FIGURE
+1
+D/home/joo/PROPOSALS/ESO/P101/Planets/FIGURE
+	spectras.pdf
+3
+D/home/joo/PROPOSALS/ESO/P101/Planets
+	FIGURE
+1
+D/home/joo/PROPOSALS/ESO/P101
+	Planets
+2
+D/home/joo/PROPOSALS/ESO
+	P102
+25
+D/home/joo/PROPOSALS/ESO/P102
+	Warm_disks
+2
+D/home/joo/PROPOSALS/ESO
+	P100
+23
+D/home/joo/PROPOSALS/ESO/P100
+	warm_disks
+4
+D/home/joo/PROPOSALS/ESO/P100/warm_disks
+	..
+0
+D/home/joo/PROPOSALS/ESO/P100
+	warm_disks
+4
+D/home/joo/PROPOSALS/ESO
+	P99
+22
+D/home/joo/PROPOSALS/ESO/P99
+	planets
+3
+D/home/joo/PROPOSALS/ESO/P99/planets
+	planets.pdf
+14
+D/home/joo/PROPOSALS/ESO/P99
+	planets
+3
+D/home/joo/PROPOSALS/ESO
+	P98
+21
+D/home/joo/PROPOSALS/ESO/P98
+	debris
+3
+D/home/joo/PROPOSALS/ESO/P98/debris
+	debris.pdf
+8
+D/home/joo/PROPOSALS/ESO/P98
+	debris
+3
+D/home/joo/PROPOSALS/ESO
+	P97
+20
+D/home/joo/PROPOSALS/ESO/P97
+	..
+0
+D/home/joo/PROPOSALS/ESO
+	P97
+20
+D/home/joo/PROPOSALS/ESO/P97
+	stirring
+3
+D/home/joo/PROPOSALS/ESO/P97/stirring
+	stirring.pdf
+11
+D/home/joo/PROPOSALS/ESO/P97
+	stirring
+3
+D/home/joo/PROPOSALS/ESO
+	P97
+20
+D/home/joo/PROPOSALS
+	ESO
+3
+D/home/joo
+	Desktop
+9
+D/home/joo/Desktop
+	Stuff
+4
+D/home/joo/Desktop/Stuff
+	Biblio
+2
+D/home/joo/Desktop/Stuff/Biblio
+	Theses
+8
+D/home/joo/Desktop/Stuff/Biblio/Theses
+	These_pinte.pdf
+5
+D/home/joo/Desktop/Stuff/Biblio
+	Theses
+8
+D/home/joo/Desktop/Stuff
+	Bouquins
+4
+D/home/joo/Desktop/Stuff/Bouquins
+	Self-improvment
+7
+D/home/joo/Desktop/Stuff/Bouquins/Self-improvment
+	Grace, Annie - This Naked Mind - Control Alcohol, Find Freedom, Discover Happiness and Change Your Life.mobi
+4
+D/home/joo/Desktop/Stuff/Bouquins
+	Self-improvment
+7
+D/home/joo/Desktop/Stuff
+	Bouquins
+4
+D/home/joo/Desktop
+	Stuff
+4
+D/home/joo
+	SPHERE
+27
+D/home/joo/SPHERE
+	SPHERE-SAM
+31
+D/home/joo/SPHERE/SPHERE-SAM
+	DATA
+1
+D/home/joo/SPHERE/SPHERE-SAM/DATA
+	hd32297
+2
+D/home/joo/SPHERE/SPHERE-SAM/DATA/hd32297
+	
+2
+D/home/joo/SPHERE/SPHERE-SAM/DATA
+	..
+0
+D/home/joo/SPHERE/SPHERE-SAM
+	DATA
+1
+D/home/joo/SPHERE
+	SPHERE-SAM
+31
+D/home/joo
+	HD157.png
+39
 D
 
 # Command line history (oldest to newest):
 :bmark Desktop
 :bmark Chile
-:!mpv %c
 :mkdir Rebollido_2021
 :mkdir Circumstellar_disks
 :mkdir slides
 :mkdir Cartolas
 :mkdir reintegro
 :mkdir 2021-OPO
-:!gimp %c
 :mkdir Cartolas-observaciones
 :!ds9 %c
-:!evince %c
 :Apartment
 :mkdir Apartment
+:Objections1
+:mkdir Objectiones1
+:mkdir Results
+:mkdir Answer
+:mkdir Filipina Stuff
 :bmgo Chile
-:move
+:!gimp %c
+:trashes
+:!mpv %c
 :bmgo Desktop
 :q
+:mkdir Objectiones2
+:!evince %c
+:move
 
 # Search history (oldest to newest):
+/Codes
+/Cod
+/r
+/libre
+/Desk
+/Conc
+/Front
+/desk
 
 # Prompt history (oldest to newest):
-pEAS2021-Attendance.pdf
-pEAS2021-Invoice-2.pdf
-pEAS2021_Invoice-2.pdf
-pAllen Carr - The Easy Way to Stop Smoking.pdf
-pBoleta_76_2021_07.pdf
-pHD141569.png
-pHD141569_tb.png
-pframe1.png
-pp2_science.png
-pp2_cal.png
 pNPF-guidelines.pdf
 pCorvalan
 pCorvalan.pdf
@@ -756,11 +761,26 @@ pOlofsson-1180395-ETAPA2021.pdf
 pProcuration_Lorena.pdf
 pApartment ^ Auto
 pApartment & Auto
+pAudit_Lyot_2019
+pHD111520.png
+pHD111520_tb.png
+pDexter
+pHR4796_aggressive.png
+pHR4796_pc.png
+pHR4796_close.png
+pdeproj.png
+paddress.png
+pHD53143.png
+pHD53143_tb.png
+pTheresienstrasse29
+pSides.pdf
+pFront.pdf
+pAnexo_N3_signed.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_zoom_amd64.deb
+""/home/joo/.local/share/vifm/Trash/001_Figure_2.png
 
 # Directory stack (oldest to newest):
 
@@ -1331,6 +1351,614 @@ t/home/joo/.local/share/vifm/Trash/000_qrCode.jpg
 	/home/joo/Desktop/qrCode.jpg
 t/home/joo/.local/share/vifm/Trash/000_rdi.png
 	/home/joo/Desktop/rdi.png
+t/home/joo/.local/share/vifm/Trash/000_Bones - S12E05 - The Tutor in the Tussle HDTV-720p.mkv
+	/home/joo/Videos/Bones - S12E05 - The Tutor in the Tussle HDTV-720p.mkv
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_07.31.49.png
+	/home/joo/Pictures/screenshots/2022-04-26_07.31.49.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_07.35.20.png
+	/home/joo/Pictures/screenshots/2022-04-26_07.35.20.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_13.36.11.png
+	/home/joo/Pictures/screenshots/2022-04-26_13.36.11.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_13.36.33.png
+	/home/joo/Pictures/screenshots/2022-04-26_13.36.33.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_13.38.17.png
+	/home/joo/Pictures/screenshots/2022-04-26_13.38.17.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_13.38.22.png
+	/home/joo/Pictures/screenshots/2022-04-26_13.38.22.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-26_13.38.31.png
+	/home/joo/Pictures/screenshots/2022-04-26_13.38.31.png
+t/home/joo/.local/share/vifm/Trash/000_HD111520.png
+	/home/joo/Pictures/screenshots/HD111520.png
+t/home/joo/.local/share/vifm/Trash/000_HD111520_tb.png
+	/home/joo/Pictures/screenshots/HD111520_tb.png
+t/home/joo/.local/share/vifm/Trash/000_FRA - Health Declaration Form Feb 2022 (en)(1).docx
+	/home/joo/Desktop/FRA - Health Declaration Form Feb 2022 (en)(1).docx
+t/home/joo/.local/share/vifm/Trash/000_FRA - Health Declaration Form Feb 2022 (en)(1).pdf
+	/home/joo/Desktop/FRA - Health Declaration Form Feb 2022 (en)(1).pdf
+t/home/joo/.local/share/vifm/Trash/000_FRA - Health Declaration Form Feb 2022 (en).docx
+	/home/joo/Desktop/FRA - Health Declaration Form Feb 2022 (en).docx
+t/home/joo/.local/share/vifm/Trash/000_Declaracion_Olofsson.pdf
+	/home/joo/Desktop/Declaracion_Olofsson.pdf
+t/home/joo/.local/share/vifm/Trash/000_Danke — MediaMarkt.pdf
+	/home/joo/Desktop/Danke — MediaMarkt.pdf
+t/home/joo/.local/share/vifm/Trash/000_Cambio_numero.pdf
+	/home/joo/Desktop/Cambio_numero.pdf
+t/home/joo/.local/share/vifm/Trash/000_Air France.pdf
+	/home/joo/Desktop/Air France.pdf
+t/home/joo/.local/share/vifm/Trash/000_Place Your Order - Amazon.de Checkout.pdf
+	/home/joo/Desktop/Place Your Order - Amazon.de Checkout.pdf
+t/home/joo/.local/share/vifm/Trash/000_TravelDoc_JO.pdf
+	/home/joo/Desktop/TravelDoc_JO.pdf
+t/home/joo/.local/share/vifm/Trash/000_Télégrenoble - Coline Fordinois.mp4
+	/home/joo/Desktop/Télégrenoble - Coline Fordinois.mp4
+t/home/joo/.local/share/vifm/Trash/000_alma-proposal-template
+	/home/joo/Desktop/alma-proposal-template
+t/home/joo/.local/share/vifm/Trash/000_almaot.desktop
+	/home/joo/Desktop/almaot.desktop
+t/home/joo/.local/share/vifm/Trash/000_beta_disk_printer.pdf
+	/home/joo/Desktop/beta_disk_printer.pdf
+t/home/joo/.local/share/vifm/Trash/000_beta_disk_referee.pdf
+	/home/joo/Desktop/beta_disk_referee.pdf
+t/home/joo/.local/share/vifm/Trash/000_shakerato.zip
+	/home/joo/Desktop/shakerato.zip
+t/home/joo/.local/share/vifm/Trash/000_steam_latest.deb
+	/home/joo/Desktop/steam_latest.deb
+t/home/joo/.local/share/vifm/Trash/000_ttf-iosevka-15.1.0.zip
+	/home/joo/Desktop/ttf-iosevka-15.1.0.zip
+t/home/joo/.local/share/vifm/Trash/000_ubuntu-20.04.4-desktop-amd64.iso
+	/home/joo/Desktop/ubuntu-20.04.4-desktop-amd64.iso
+t/home/joo/.local/share/vifm/Trash/000_ENCE vs. FaZe - Map 4 [Dust2] - ESL Pro League Season 15 - Grand final [SEjOc695KaU].mp4
+	/home/joo/Videos/ENCE vs. FaZe - Map 4 [Dust2] - ESL Pro League Season 15 - Grand final [SEjOc695KaU].mp4
+t/home/joo/.local/share/vifm/Trash/000_The Winning Streak Continues - Murder Monday Baduk [lhR8NVtQKDM].mp4.part
+	/home/joo/Videos/The Winning Streak Continues - Murder Monday Baduk [lhR8NVtQKDM].mp4.part
+t/home/joo/.local/share/vifm/Trash/000_Why Can’t These Republicans Remember What They Did on January 6th _ The Daily Show [7Qlu9azUKho].mp4
+	/home/joo/Videos/Why Can’t These Republicans Remember What They Did on January 6th _ The Daily Show [7Qlu9azUKho].mp4
+t/home/joo/.local/share/vifm/Trash/000_Making 2 Cedar Strip Kayaks in 2 Weeks - Not Quite but that was the Plan [JnuF9PMrdb8].mp4
+	/home/joo/Videos/Making 2 Cedar Strip Kayaks in 2 Weeks - Not Quite but that was the Plan [JnuF9PMrdb8].mp4
+t/home/joo/.local/share/vifm/Trash/000_L'analyse du non-verbal des candidats Macron et Le Pen (débat du second tour) - Analyse #27 [ArBTyHagYys].mp4
+	/home/joo/Videos/L'analyse du non-verbal des candidats Macron et Le Pen (débat du second tour) - Analyse #27 [ArBTyHagYys].mp4
+t/home/joo/.local/share/vifm/Trash/000_The Most Brutal Aces In CS -GO History.. [KCJHOvP3lDY].mp4
+	/home/joo/Videos/The Most Brutal Aces In CS -GO History.. [KCJHOvP3lDY].mp4
+t/home/joo/.local/share/vifm/Trash/000_Dexter - New Blood - S01E02 - Storm of Fuck WEBDL-720p.mkv
+	/home/joo/Videos/Dexter/Dexter - New Blood - S01E02 - Storm of Fuck WEBDL-720p.mkv
+t/home/joo/.local/share/vifm/Trash/000_Dexter - New Blood - S01E01 - Cold Snap WEBDL-720p.mkv
+	/home/joo/Videos/Dexter/Dexter - New Blood - S01E01 - Cold Snap WEBDL-720p.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E01 - Pilot SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E01 - Pilot SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_steam.desktop
+	/home/joo/Desktop/steam.desktop
+t/home/joo/.local/share/vifm/Trash/000_House - S01E02 - Paternity SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E02 - Paternity SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E03 - Occam's Razor SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E03 - Occam's Razor SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E04 - Maternity SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E04 - Maternity SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E05 - Damned If You Do SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E05 - Damned If You Do SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_2022-05-04_14.46.28.png
+	/home/joo/Pictures/screenshots/2022-05-04_14.46.28.png
+t/home/joo/.local/share/vifm/Trash/000_House - S01E06 - The Socratic Method SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E06 - The Socratic Method SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E07 - Fidelity SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E07 - Fidelity SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E08 - Poison SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E08 - Poison SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E09 - DNR SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E09 - DNR SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E10 - Histories SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E10 - Histories SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E11 - Detox SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E11 - Detox SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E12 - Sports Medicine SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E12 - Sports Medicine SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_SpiderMan No Way Home 2021 1080p HD-TS V3 Line Audio x264 AAC.mkv
+	/home/joo/Videos/SpiderMan No Way Home 2021 1080p HD-TS V3 Line Audio x264 AAC.mkv
+t/home/joo/.local/share/vifm/Trash/000_jooh.png
+	/home/joo/Codes/HTML/hugo/testing/static/images/jooh.png
+t/home/joo/.local/share/vifm/Trash/000_House - S01E13 - Cursed SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E13 - Cursed SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E14 - Control SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E14 - Control SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E15 - Mob Rules SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E15 - Mob Rules SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E16 - Heavy SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E16 - Heavy SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E17 - Role Model SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E17 - Role Model SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E18 - Babies & Bathwater SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E18 - Babies & Bathwater SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E19 - Kids SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E19 - Kids SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Murderfest - Not so Basic Baduk [Pu_1QDUkSqM].mp4
+	/home/joo/Videos/Murderfest - Not so Basic Baduk [Pu_1QDUkSqM].mp4
+t/home/joo/.local/share/vifm/Trash/000_Objectiones1
+	/home/joo/Videos/Taxi (2004) [1080p]/Objectiones1
+t/home/joo/.local/share/vifm/Trash/000_Taxi (2004) [1080p]
+	/home/joo/Videos/Taxi (2004) [1080p]
+t/home/joo/.local/share/vifm/Trash/000_House - S01E20 - Love Hurts SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E20 - Love Hurts SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S01E21 - Three Stories SDTV.mkv
+	/home/joo/Videos/House/Season 1/House - S01E21 - Three Stories SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_[ Torrent911.com ] TAXI 1.2.3.4-By comodos
+	/home/joo/Videos/[ Torrent911.com ] TAXI 1.2.3.4-By comodos
+t/home/joo/.local/share/vifm/Trash/000_Season 1
+	/home/joo/Videos/House/Season 1
+t/home/joo/.local/share/vifm/Trash/000_Avengers Endgame (2019) Bluray-1080p.mp4
+	/home/joo/Videos/Avengers Endgame (2019) Bluray-1080p.mp4
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E01.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E01.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_[TGx]Downloaded from torrentgalaxy.to .txt
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt
+t/home/joo/.local/share/vifm/Trash/000_IMG_3501.jpg
+	/home/joo/Desktop/IMG_3501.jpg
+t/home/joo/.local/share/vifm/Trash/000_WhatsApp Image 2022-05-06 at 12.06.29 PM(1).jpeg
+	/home/joo/Desktop/WhatsApp Image 2022-05-06 at 12.06.29 PM(1).jpeg
+t/home/joo/.local/share/vifm/Trash/000_WhatsApp Image 2022-05-06 at 12.06.29 PM.jpeg
+	/home/joo/Desktop/WhatsApp Image 2022-05-06 at 12.06.29 PM.jpeg
+t/home/joo/.local/share/vifm/Trash/000_dPLF.pdf
+	/home/joo/Desktop/dPLF.pdf
+t/home/joo/.local/share/vifm/Trash/000_hugo_extended_0.99.0_Linux-64bit.deb
+	/home/joo/Desktop/hugo_extended_0.99.0_Linux-64bit.deb
+t/home/joo/.local/share/vifm/Trash/000_query(1).php
+	/home/joo/Desktop/query(1).php
+t/home/joo/.local/share/vifm/Trash/000_query.php
+	/home/joo/Desktop/query.php
+t/home/joo/.local/share/vifm/Trash/000_roberto.jpeg
+	/home/joo/Desktop/roberto.jpeg
+t/home/joo/.local/share/vifm/Trash/000_House - S02E01 - Acceptance SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E01 - Acceptance SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E02 - Autopsy SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E02 - Autopsy SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_carta_1-1.pdf
+	/home/joo/Desktop/carta_1-1.pdf
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E02.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E02.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E03.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E03.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Requisitos_de_aprobacion_de_informes_academicos_referido_a_publicaciones_por_GE.pdf
+	/home/joo/Desktop/Requisitos_de_aprobacion_de_informes_academicos_referido_a_publicaciones_por_GE.pdf
+t/home/joo/.local/share/vifm/Trash/000_John Carreyrou - Bad Blood_ Secrets and Lies in a Silicon Valley Startup-Knopf (2018).epub
+	/home/joo/Desktop/John Carreyrou - Bad Blood_ Secrets and Lies in a Silicon Valley Startup-Knopf (2018).epub
+t/home/joo/.local/share/vifm/Trash/000_Boarding_Amelia.pdf
+	/home/joo/Desktop/Boarding_Amelia.pdf
+t/home/joo/.local/share/vifm/Trash/000_House - S02E03 - Humpty Dumpty SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E03 - Humpty Dumpty SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E04 - TB or Not TB SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E04 - TB or Not TB SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E05 - Daddy's Boy SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E05 - Daddy's Boy SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E06 - Spin SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E06 - Spin SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E07 - Hunting SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E07 - Hunting SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E08 - The Mistake SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E08 - The Mistake SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E09 - Deception SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E09 - Deception SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E10 - Failure to Communicate SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E10 - Failure to Communicate SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E11 - Need to Know SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E11 - Need to Know SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_libre3medidas(1).html
+	/home/joo/Desktop/libre3medidas(1).html
+t/home/joo/.local/share/vifm/Trash/000_libre3medidas.html
+	/home/joo/Desktop/libre3medidas.html
+t/home/joo/.local/share/vifm/Trash/000_House - S02E12 - Distractions SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E12 - Distractions SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E04.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E04.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E05.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E05.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E06.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E06.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E13 - Skin Deep SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E13 - Skin Deep SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_master_libre3medidas(1).html
+	/home/joo/Desktop/master_libre3medidas(1).html
+t/home/joo/.local/share/vifm/Trash/000_master_libre3medidas.html
+	/home/joo/Desktop/master_libre3medidas.html
+t/home/joo/.local/share/vifm/Trash/000_Warenkorb - IKEA.pdf
+	/home/joo/Desktop/Warenkorb - IKEA.pdf
+t/home/joo/.local/share/vifm/Trash/000_ema.jpg
+	/home/joo/Desktop/ema.jpg
+t/home/joo/.local/share/vifm/Trash/000_2-6-2022libre3medidas.html
+	/home/joo/Desktop/2-6-2022libre3medidas.html
+t/home/joo/.local/share/vifm/Trash/000_House - S02E14 - Sex Kills SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E14 - Sex Kills SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E15 - Clueless SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E15 - Clueless SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E16 - Safe SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E16 - Safe SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E17 - All In SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E17 - All In SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_sb_all.png
+	/home/joo/sb_all.png
+t/home/joo/.local/share/vifm/Trash/000_beta0.3.png
+	/home/joo/beta0.3.png
+t/home/joo/.local/share/vifm/Trash/000_House - S02E18 - Sleeping Dogs Lie SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E18 - Sleeping Dogs Lie SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E19 - House vs. God SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E19 - House vs. God SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Dredd (2012) [1080p]
+	/home/joo/Videos/Dredd (2012) [1080p]
+t/home/joo/.local/share/vifm/Trash/000_House - S02E20 - Euphoria (1) SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E20 - Euphoria (1) SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E21 - Euphoria (2) SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E21 - Euphoria (2) SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Screenshot from 2022-01-27 11-00-41.png
+	/home/joo/Pictures/Screenshot from 2022-01-27 11-00-41.png
+t/home/joo/.local/share/vifm/Trash/000_Screenshot from 2022-01-27 11-00-46.png
+	/home/joo/Pictures/Screenshot from 2022-01-27 11-00-46.png
+t/home/joo/.local/share/vifm/Trash/000_2020-07-01_10.52.37.png
+	/home/joo/Pictures/screenshots/2020-07-01_10.52.37.png
+t/home/joo/.local/share/vifm/Trash/000_2021-04-24_20.03.30.png
+	/home/joo/Pictures/screenshots/2021-04-24_20.03.30.png
+t/home/joo/.local/share/vifm/Trash/000_2021-05-13_15.10.51.png
+	/home/joo/Pictures/screenshots/2021-05-13_15.10.51.png
+t/home/joo/.local/share/vifm/Trash/000_2021-06-24_17.48.38.png
+	/home/joo/Pictures/screenshots/2021-06-24_17.48.38.png
+t/home/joo/.local/share/vifm/Trash/000_2021-06-28_05.30.49.png
+	/home/joo/Pictures/screenshots/2021-06-28_05.30.49.png
+t/home/joo/.local/share/vifm/Trash/000_2021-06-29_11.57.39.png
+	/home/joo/Pictures/screenshots/2021-06-29_11.57.39.png
+t/home/joo/.local/share/vifm/Trash/000_2021-07-26_09.25.16.png
+	/home/joo/Pictures/screenshots/2021-07-26_09.25.16.png
+t/home/joo/.local/share/vifm/Trash/000_2021-09-08_13.56.33.png
+	/home/joo/Pictures/screenshots/2021-09-08_13.56.33.png
+t/home/joo/.local/share/vifm/Trash/000_2021-10-26_13.34.27.png
+	/home/joo/Pictures/screenshots/2021-10-26_13.34.27.png
+t/home/joo/.local/share/vifm/Trash/000_2021-10-26_13.34.41.png
+	/home/joo/Pictures/screenshots/2021-10-26_13.34.41.png
+t/home/joo/.local/share/vifm/Trash/000_2021-10-26_13.34.49.png
+	/home/joo/Pictures/screenshots/2021-10-26_13.34.49.png
+t/home/joo/.local/share/vifm/Trash/000_2021-11-30_15.20.15.png
+	/home/joo/Pictures/screenshots/2021-11-30_15.20.15.png
+t/home/joo/.local/share/vifm/Trash/000_2021-11-30_15.48.40.png
+	/home/joo/Pictures/screenshots/2021-11-30_15.48.40.png
+t/home/joo/.local/share/vifm/Trash/000_2021-12-18_19.08.36.png
+	/home/joo/Pictures/screenshots/2021-12-18_19.08.36.png
+t/home/joo/.local/share/vifm/Trash/000_2021-12-19_21.00.46.png
+	/home/joo/Pictures/screenshots/2021-12-19_21.00.46.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-01_14.38.37.png
+	/home/joo/Pictures/screenshots/2022-01-01_14.38.37.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-01_14.43.06.png
+	/home/joo/Pictures/screenshots/2022-01-01_14.43.06.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-04_19.30.23.png
+	/home/joo/Pictures/screenshots/2022-01-04_19.30.23.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-04_19.47.51.png
+	/home/joo/Pictures/screenshots/2022-01-04_19.47.51.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-17_11.37.42.png
+	/home/joo/Pictures/screenshots/2022-01-17_11.37.42.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-19_10.09.20.png
+	/home/joo/Pictures/screenshots/2022-01-19_10.09.20.png
+t/home/joo/.local/share/vifm/Trash/000_2022-02-11_09.41.13.png
+	/home/joo/Pictures/screenshots/2022-02-11_09.41.13.png
+t/home/joo/.local/share/vifm/Trash/000_2022-02-15_12.26.54.png
+	/home/joo/Pictures/screenshots/2022-02-15_12.26.54.png
+t/home/joo/.local/share/vifm/Trash/000_2022-02-28_12.25.06.png
+	/home/joo/Pictures/screenshots/2022-02-28_12.25.06.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-04_11.07.42.png
+	/home/joo/Pictures/screenshots/2022-03-04_11.07.42.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-08_09.24.09.png
+	/home/joo/Pictures/screenshots/2022-03-08_09.24.09.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-08_09.24.15.png
+	/home/joo/Pictures/screenshots/2022-03-08_09.24.15.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-08_09.25.00.png
+	/home/joo/Pictures/screenshots/2022-03-08_09.25.00.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-08_09.47.02.png
+	/home/joo/Pictures/screenshots/2022-03-08_09.47.02.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-08_09.48.17.png
+	/home/joo/Pictures/screenshots/2022-03-08_09.48.17.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-11_09.01.04.png
+	/home/joo/Pictures/screenshots/2022-03-11_09.01.04.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-11_09.52.52.png
+	/home/joo/Pictures/screenshots/2022-03-11_09.52.52.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-11_16.04.41.png
+	/home/joo/Pictures/screenshots/2022-03-11_16.04.41.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-13_11.41.53.png
+	/home/joo/Pictures/screenshots/2022-03-13_11.41.53.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-14_14.33.34.png
+	/home/joo/Pictures/screenshots/2022-03-14_14.33.34.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-16_09.54.45.png
+	/home/joo/Pictures/screenshots/2022-03-16_09.54.45.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-16_10.32.26.png
+	/home/joo/Pictures/screenshots/2022-03-16_10.32.26.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-16_10.34.31.png
+	/home/joo/Pictures/screenshots/2022-03-16_10.34.31.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-21_14.56.38.png
+	/home/joo/Pictures/screenshots/2022-03-21_14.56.38.png
+t/home/joo/.local/share/vifm/Trash/000_2022-04-27_16.20.19.png
+	/home/joo/Pictures/screenshots/2022-04-27_16.20.19.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_09.35.12.png
+	/home/joo/Pictures/screenshots/2022-05-03_09.35.12.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_09.37.08.png
+	/home/joo/Pictures/screenshots/2022-05-03_09.37.08.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_09.38.36.png
+	/home/joo/Pictures/screenshots/2022-05-03_09.38.36.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_09.40.39.png
+	/home/joo/Pictures/screenshots/2022-05-03_09.40.39.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_09.41.44.png
+	/home/joo/Pictures/screenshots/2022-05-03_09.41.44.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_09.42.41.png
+	/home/joo/Pictures/screenshots/2022-05-03_09.42.41.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_14.39.07.png
+	/home/joo/Pictures/screenshots/2022-05-03_14.39.07.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-03_15.05.36.png
+	/home/joo/Pictures/screenshots/2022-05-03_15.05.36.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-04_14.46.23.png
+	/home/joo/Pictures/screenshots/2022-05-04_14.46.23.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-04_16.17.15.png
+	/home/joo/Pictures/screenshots/2022-05-04_16.17.15.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-08_14.58.28.png
+	/home/joo/Pictures/screenshots/2022-05-08_14.58.28.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-08_15.00.34.png
+	/home/joo/Pictures/screenshots/2022-05-08_15.00.34.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-11_09.49.09.png
+	/home/joo/Pictures/screenshots/2022-05-11_09.49.09.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-19_20.16.33.png
+	/home/joo/Pictures/screenshots/2022-05-19_20.16.33.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-20_10.34.55.png
+	/home/joo/Pictures/screenshots/2022-05-20_10.34.55.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-20_21.25.32.png
+	/home/joo/Pictures/screenshots/2022-05-20_21.25.32.png
+t/home/joo/.local/share/vifm/Trash/000_2022-05-30_13.37.46.png
+	/home/joo/Pictures/screenshots/2022-05-30_13.37.46.png
+t/home/joo/.local/share/vifm/Trash/000_2022-06-06_07.37.06.png
+	/home/joo/Pictures/screenshots/2022-06-06_07.37.06.png
+t/home/joo/.local/share/vifm/Trash/000_Figure_1.png
+	/home/joo/Pictures/screenshots/Figure_1.png
+t/home/joo/.local/share/vifm/Trash/000_HR4796_aggressive.png
+	/home/joo/Pictures/screenshots/HR4796_aggressive.png
+t/home/joo/.local/share/vifm/Trash/000_HR4796_close.png
+	/home/joo/Pictures/screenshots/HR4796_close.png
+t/home/joo/.local/share/vifm/Trash/000_HR4796_pc.png
+	/home/joo/Pictures/screenshots/HR4796_pc.png
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E07.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E07.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01E08.720p.NF.WEBRip.x264-GalaxyTV.mkv
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]/Arcane.S01E08.720p.NF.WEBRip.x264-GalaxyTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E22 - Forever SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E22 - Forever SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S02E23 - Who's Your Daddy SDTV.mkv
+	/home/joo/Videos/House/Season 2/House - S02E23 - Who's Your Daddy SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_hihihihi.png
+	/home/joo/hihihihi.png
+t/home/joo/.local/share/vifm/Trash/000_v2_gp.png
+	/home/joo/SPHERE/SPHERE-SAM/pdf/v2_gp.png
+t/home/joo/.local/share/vifm/Trash/000_Season 2
+	/home/joo/Videos/House/Season 2
+t/home/joo/.local/share/vifm/Trash/000_House - S03E01 - Meaning SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E01 - Meaning SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E02 - Cane & Able SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E02 - Cane & Able SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E03 - Informed Consent SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E03 - Informed Consent SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E04 - Lines in the Sand SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E04 - Lines in the Sand SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E05 - Fools for Love SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E05 - Fools for Love SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E06 - Que Será Será SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E06 - Que Será Será SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_HD53143_tb.png
+	/home/joo/Pictures/screenshots/HD53143_tb.png
+t/home/joo/.local/share/vifm/Trash/000_HD53143.png
+	/home/joo/Pictures/screenshots/HD53143.png
+t/home/joo/.local/share/vifm/Trash/000_House - S03E07 - Son of Coma Guy SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E07 - Son of Coma Guy SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E08 - Whac-A-Mole SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E08 - Whac-A-Mole SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E09 - Finding Judas SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E09 - Finding Judas SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E10 - Merry Little Christmas SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E10 - Merry Little Christmas SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E11 - Words and Deeds SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E11 - Words and Deeds SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E12 - One Day, One Room SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E12 - One Day, One Room SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_db
+	/home/joo/Desktop/db
+t/home/joo/.local/share/vifm/Trash/000_gasdrag
+	/home/joo/Desktop/gasdrag
+t/home/joo/.local/share/vifm/Trash/000_image3020.png
+	/home/joo/Desktop/Ticha/darktable_exported/image3020.png
+t/home/joo/.local/share/vifm/Trash/000_AA202244226.pdf
+	/home/joo/Desktop/AA202244226.pdf
+t/home/joo/.local/share/vifm/Trash/000_ANEXO_N_5_InstruccionesPresentacionInformes_Postdoc_E2019.pdf
+	/home/joo/Desktop/ANEXO_N_5_InstruccionesPresentacionInformes_Postdoc_E2019.pdf
+t/home/joo/.local/share/vifm/Trash/000_Anexo_Instructivo_Concurso_Regular_2017-2018-2019.pdf
+	/home/joo/Desktop/Anexo_Instructivo_Concurso_Regular_2017-2018-2019.pdf
+t/home/joo/.local/share/vifm/Trash/000_ComprobanteContratacionDAP.pdf
+	/home/joo/Desktop/ComprobanteContratacionDAP.pdf
+t/home/joo/.local/share/vifm/Trash/000_HD114082_v3.pdf
+	/home/joo/Desktop/HD114082_v3.pdf
+t/home/joo/.local/share/vifm/Trash/000_HD121617_v1.pdf
+	/home/joo/Desktop/HD121617_v1.pdf
+t/home/joo/.local/share/vifm/Trash/000_Housing contract.zip
+	/home/joo/Desktop/Housing contract.zip
+t/home/joo/.local/share/vifm/Trash/000_SearchCal.desktop
+	/home/joo/Desktop/SearchCal.desktop
+t/home/joo/.local/share/vifm/Trash/000_SearchCal.jnlp
+	/home/joo/Desktop/SearchCal.jnlp
+t/home/joo/.local/share/vifm/Trash/000_Upcoming ERC Calls for Applications.pdf
+	/home/joo/Desktop/Upcoming ERC Calls for Applications.pdf
+t/home/joo/.local/share/vifm/Trash/000_bdisk_printer_v2.pdf
+	/home/joo/Desktop/bdisk_printer_v2.pdf
+t/home/joo/.local/share/vifm/Trash/000_bdisk_referee_v2.pdf
+	/home/joo/Desktop/bdisk_referee_v2.pdf
+t/home/joo/.local/share/vifm/Trash/000_conferences
+	/home/joo/Desktop/conferences
+t/home/joo/.local/share/vifm/Trash/000_emcee_combined.pdf
+	/home/joo/Desktop/emcee_combined.pdf
+t/home/joo/.local/share/vifm/Trash/000_pfi-mbcom.pdf
+	/home/joo/Desktop/pfi-mbcom.pdf
+t/home/joo/.local/share/vifm/Trash/000_alma.png
+	/home/joo/alma.png
+t/home/joo/.local/share/vifm/Trash/000_merged.gif
+	/home/joo/merged.gif
+t/home/joo/.local/share/vifm/Trash/000_sphere.png
+	/home/joo/sphere.png
+t/home/joo/.local/share/vifm/Trash/000_tmp
+	/home/joo/tmp
+t/home/joo/.local/share/vifm/Trash/000_House - S03E13 - Needle in a Haystack SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E13 - Needle in a Haystack SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E14 - Insensitive SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E14 - Insensitive SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E15 - Half-Wit SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E15 - Half-Wit SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E16 - Top Secret SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E16 - Top Secret SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E17 - Fetal Position SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E17 - Fetal Position SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E18 - Airborne SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E18 - Airborne SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_image_0000.png
+	/home/joo/Talks/Talks/Conferences/2022-ESO_Lunch/PNG/image_0000.png
+t/home/joo/.local/share/vifm/Trash/000_House - S03E19 - Act Your Age SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E19 - Act Your Age SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E20 - House Training SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E20 - House Training SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E21 - Family SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E21 - Family SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E22 - Resignation SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E22 - Resignation SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E23 - The Jerk SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E23 - The Jerk SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S03E24 - Human Error SDTV.mkv
+	/home/joo/Videos/House/Season 3/House - S03E24 - Human Error SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Season 3
+	/home/joo/Videos/House/Season 3
+t/home/joo/.local/share/vifm/Trash/000_House - S04E01 - Alone SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E01 - Alone SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E02 - The Right Stuff SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E02 - The Right Stuff SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E03 - 97 Seconds SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E03 - 97 Seconds SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E04 - Guardian Angels SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E04 - Guardian Angels SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E05 - Mirror, Mirror SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E05 - Mirror, Mirror SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E06 - Whatever It Takes SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E06 - Whatever It Takes SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E07 - Ugly SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E07 - Ugly SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E08 - You Don't Want to Know SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E08 - You Don't Want to Know SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E09 - Games SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E09 - Games SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E10 - It's A Wonderful Lie SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E10 - It's A Wonderful Lie SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E11 - Frozen SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E11 - Frozen SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E12 - Don't Ever Change SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E12 - Don't Ever Change SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E13 - No More Mr. Nice Guy SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E13 - No More Mr. Nice Guy SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E14 - Living the Dream SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E14 - Living the Dream SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Band Of Brothers Documentry 2001 (1080p x265 Joy).mkv
+	/home/joo/Videos/Band of Brothers (1080p x265 HQ Joy)/Band Of Brothers Documentry 2001 (1080p x265 Joy).mkv
+t/home/joo/.local/share/vifm/Trash/000_Band Of Brothers Part 1 Currahee (1080p x265 Joy).mkv
+	/home/joo/Videos/Band of Brothers (1080p x265 HQ Joy)/Band Of Brothers Part 1 Currahee (1080p x265 Joy).mkv
+t/home/joo/.local/share/vifm/Trash/000_Band Of Brothers Part 2 Day Of Days (1080p x265 Joy).mkv
+	/home/joo/Videos/Band of Brothers (1080p x265 HQ Joy)/Band Of Brothers Part 2 Day Of Days (1080p x265 Joy).mkv
+t/home/joo/.local/share/vifm/Trash/000_Band Of Brothers Part 3 Carentan (1080p x265 Joy).mkv
+	/home/joo/Videos/Band of Brothers (1080p x265 HQ Joy)/Band Of Brothers Part 3 Carentan (1080p x265 Joy).mkv
+t/home/joo/.local/share/vifm/Trash/000_simplescreenrecorder.mkv
+	/home/joo/Videos/simplescreenrecorder.mkv
+t/home/joo/.local/share/vifm/Trash/000_Doctor Strange In The Multiverse Of Madness (2022) [1080p] [WEBRip] [5.1] [YTS.MX]
+	/home/joo/Videos/Doctor Strange In The Multiverse Of Madness (2022) [1080p] [WEBRip] [5.1] [YTS.MX]
+t/home/joo/.local/share/vifm/Trash/000_simplescreenrecorder-(2).mkv
+	/home/joo/Videos/simplescreenrecorder-(2).mkv
+t/home/joo/.local/share/vifm/Trash/000_pynotes_example.gif
+	/home/joo/Videos/pynotes_example.gif
+t/home/joo/.local/share/vifm/Trash/000_The Batman (2022) 1080p HDRip x264 - ProLover
+	/home/joo/Videos/The Batman (2022) 1080p HDRip x264 - ProLover
+t/home/joo/.local/share/vifm/Trash/000_Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]
+	/home/joo/Videos/Arcane.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]
+t/home/joo/.local/share/vifm/Trash/000_John.Wick.3.2019.HDRip.XviD.AC3-EVO
+	/home/joo/Videos/John.Wick.3.2019.HDRip.XviD.AC3-EVO
+t/home/joo/.local/share/vifm/Trash/000_House - S04E15 - House's Head (1) SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E15 - House's Head (1) SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S04E16 - Wilson's Heart (2) SDTV.mkv
+	/home/joo/Videos/House/Season 4/House - S04E16 - Wilson's Heart (2) SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Season 4
+	/home/joo/Videos/House/Season 4
+t/home/joo/.local/share/vifm/Trash/000_House - S05E01 - Dying Changes Everything SDTV.mkv
+	/home/joo/Videos/House/Season 5/House - S05E01 - Dying Changes Everything SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_ADI_H2H3
+	/home/joo/Desktop/ADI_H2H3
+t/home/joo/.local/share/vifm/Trash/000_House - S05E02 - Not Cancer SDTV.mkv
+	/home/joo/Videos/House/Season 5/House - S05E02 - Not Cancer SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S05E03 - Adverse Events SDTV.mkv
+	/home/joo/Videos/House/Season 5/House - S05E03 - Adverse Events SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S05E04 - Birthmarks SDTV.mkv
+	/home/joo/Videos/House/Season 5/House - S05E04 - Birthmarks SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_House - S05E05 - Lucky Thirteen SDTV.mkv
+	/home/joo/Videos/House/Season 5/House - S05E05 - Lucky Thirteen SDTV.mkv
+t/home/joo/.local/share/vifm/Trash/000_Max Payne (2008)
+	/home/joo/Videos/Max Payne (2008)
+t/home/joo/.local/share/vifm/Trash/000_M83XUV_CO32_cube.mom8.fits
+	/home/joo/Desktop/M83XUV_CO32_cube.mom8.fits
+t/home/joo/.local/share/vifm/Trash/000_M83XUV_CO32_cube.mom8_nodeg.fits
+	/home/joo/Desktop/M83XUV_CO32_cube.mom8_nodeg.fits
+t/home/joo/.local/share/vifm/Trash/000_casa-20220801-075848.log
+	/home/joo/Desktop/casa-20220801-075848.log
+t/home/joo/.local/share/vifm/Trash/000_cuentas.txt
+	/home/joo/Desktop/cuentas.txt
+t/home/joo/.local/share/vifm/Trash/000_ifs_wave_YJ.fits
+	/home/joo/Desktop/ifs_wave_YJ.fits
+t/home/joo/.local/share/vifm/Trash/000_intro_awk.tar
+	/home/joo/Desktop/intro_awk.tar
+t/home/joo/.local/share/vifm/Trash/000_Guidance-Faculty-Science-Assessment_2022.docx
+	/home/joo/Desktop/Guidance-Faculty-Science-Assessment_2022.docx
+t/home/joo/.local/share/vifm/Trash/000_ori.png
+	/home/joo/Desktop/ori.png
+t/home/joo/.local/share/vifm/Trash/000_Better Call Saul (2015) - S01E01 - Uno (1080p BluRay x265 RZeroX).mkv
+	/home/joo/Videos/Better Call Saul (2015) Season 1 S01 + Extras (1080p BluRay x265 HEVC 10bit AAC 5.1 RZeroX)/Better Call Saul (2015) - S01E01 - Uno (1080p BluRay x265 RZeroX).mkv
+t/home/joo/.local/share/vifm/Trash/000_2022-08-30_12.35.07.png
+	/home/joo/Pictures/screenshots/2022-08-30_12.35.07.png
+t/home/joo/.local/share/vifm/Trash/000_2022-08-30_12.43.47.png
+	/home/joo/Pictures/screenshots/2022-08-30_12.43.47.png
+t/home/joo/.local/share/vifm/Trash/000_2022-08-30_12.48.56.png
+	/home/joo/Pictures/screenshots/2022-08-30_12.48.56.png
+t/home/joo/.local/share/vifm/Trash/000_1.png
+	/home/joo/1.png
+t/home/joo/.local/share/vifm/Trash/000_2.png
+	/home/joo/2.png
+t/home/joo/.local/share/vifm/Trash/000_2022-09-15_17.04.24.png
+	/home/joo/Pictures/screenshots/2022-09-15_17.04.24.png
+t/home/joo/.local/share/vifm/Trash/000_The Handmaid's Tale by Margaret Atwood epub RtR.zip
+	/home/joo/Desktop/The Handmaid's Tale by Margaret Atwood epub RtR.zip
+t/home/joo/.local/share/vifm/Trash/000_a99278ea4c248308
+	/home/joo/Desktop/a99278ea4c248308
+t/home/joo/.local/share/vifm/Trash/000_book2.pdf
+	/home/joo/Desktop/book2.pdf
+t/home/joo/.local/share/vifm/Trash/000_container3085824.zip
+	/home/joo/Desktop/container3085824.zip
+t/home/joo/.local/share/vifm/Trash/000_figteff.html
+	/home/joo/Desktop/figteff.html
+t/home/joo/.local/share/vifm/Trash/000_Luke Rhinehart - The Dice Man.mobi
+	/home/joo/Desktop/Luke Rhinehart - The Dice Man.mobi
+t/home/joo/.local/share/vifm/Trash/000_uh.png
+	/home/joo/uh.png
+t/home/joo/.local/share/vifm/Trash/000_stability.png
+	/home/joo/stability.png
+t/home/joo/.local/share/vifm/Trash/000_AnexoN3.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/ETAPA_2021/Objectiones2/AnexoN3.pdf
+t/home/joo/.local/share/vifm/Trash/000_AnexoN3_signed.pdf
+	/home/joo/Desktop/AnexoN3_signed.pdf
+t/home/joo/.local/share/vifm/Trash/000_Godoy_Olofsson.pdf
+	/home/joo/Desktop/Godoy_Olofsson.pdf
+t/home/joo/.local/share/vifm/Trash/000_Godoy_Olofsson_Vienna.pdf
+	/home/joo/Desktop/Godoy_Olofsson_Vienna.pdf
+t/home/joo/.local/share/vifm/Trash/000_Garching_ ISA Summer Party — Friday 9 September.pdf
+	/home/joo/Desktop/Garching_ ISA Summer Party — Friday 9 September.pdf
+t/home/joo/.local/share/vifm/Trash/000_10.png
+	/home/joo/10.png
+t/home/joo/.local/share/vifm/Trash/000_1000.png
+	/home/joo/1000.png
+t/home/joo/.local/share/vifm/Trash/000_Figure_2.png
+	/home/joo/Figure_2.png
 
 # State:
 f

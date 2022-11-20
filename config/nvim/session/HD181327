@@ -8,8 +8,6 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +851 ~/SPHERE/HD181327/FitSphere.py
-badd +1 ~/SPHERE/HD181327/print_results.py
 argglobal
 %argdel
 edit ~/SPHERE/HD181327/FitSphere.py
@@ -29,8 +27,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 115 + 115) / 230)
-exe 'vert 2resize ' . ((&columns * 114 + 115) / 230)
+exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
+exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
 balt ~/SPHERE/HD181327/print_results.py
 setlocal fdm=manual
@@ -43,11 +41,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 851 - ((44 * winheight(0) + 24) / 48)
+let s:l = 803 - ((13 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 851
+keepjumps 803
 normal! 0
 wincmd w
 argglobal
@@ -66,18 +64,20 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 24) / 48)
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 1
 normal! 0
 wincmd w
-2wincmd w
-exe 'vert 1resize ' . ((&columns * 115 + 115) / 230)
-exe 'vert 2resize ' . ((&columns * 114 + 115) / 230)
+exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
+exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+if exists(':tcd') == 2 | tcd ~/SPHERE/HD181327 | endif
 tabnext 1
-if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0&& getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+badd +803 ~/SPHERE/HD181327/FitSphere.py
+badd +1 ~/SPHERE/HD181327/print_results.py
+if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
 unlet! s:wipebuf
@@ -89,6 +89,7 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

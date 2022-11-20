@@ -3,14 +3,14 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/Codes/Python/Projects/sedd
+cd ~/Codes/Python/Projects/swept
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
 argglobal
 %argdel
-edit ~/Codes/Python/Projects/sedd/sedd.py
+edit ~/Codes/Python/Projects/swept/swept.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -30,7 +30,7 @@ set winwidth=1
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
-balt ~/DatabaseDebris/SPHERE/pynest.py
+balt ~/Codes/Python/Projects/swept/frame.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -41,19 +41,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 27 - ((26 * winheight(0) + 24) / 49)
+let s:l = 139 - ((18 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 27
-normal! 02|
+keepjumps 139
+normal! 056|
 wincmd w
 argglobal
-if bufexists("~/Codes/Python/Projects/sedd/filters/catalogs.ini") | buffer ~/Codes/Python/Projects/sedd/filters/catalogs.ini | else | edit ~/Codes/Python/Projects/sedd/filters/catalogs.ini | endif
+if bufexists("~/Codes/Python/Projects/swept/frame.py") | buffer ~/Codes/Python/Projects/swept/frame.py | else | edit ~/Codes/Python/Projects/swept/frame.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/Codes/Python/Projects/sedd/filters/catalogs.ini
+  silent file ~/Codes/Python/Projects/swept/frame.py
 endif
-balt ~/Codes/Python/Projects/stellar/Stellar.py
+balt ~/Codes/Python/Projects/swept/swept.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -64,22 +64,20 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 2 - ((1 * winheight(0) + 24) / 49)
+let s:l = 190 - ((35 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 2
-normal! 05|
+keepjumps 190
+normal! 0
 wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+if exists(':tcd') == 2 | tcd ~/Codes/Python/Projects/swept | endif
 tabnext 1
-badd +312 ~/Codes/Python/Projects/sedd/sedd.py
-badd +31 ~/DatabaseDebris/SPHERE/pynest.py
-badd +1 ~/Codes/Python/Projects/sedd/filters/catalogs.ini
-badd +1 ~/DatabaseDebris/SPHERE/ori.dat
-badd +164 ~/DatabaseDebris/SPHERE/all.dat
-badd +40 ~/Codes/Python/Projects/stellar/Stellar.py
+badd +139 ~/Codes/Python/Projects/swept/swept.py
+badd +189 ~/Codes/Python/Projects/swept/frame.py
+badd +11 ~/Codes/Python/Projects/swept/plot_ghg.py
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif

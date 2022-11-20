@@ -8,6 +8,16 @@ import matplotlib.pyplot as plt
 endsnippet
 
 
+snippet cbar "Figure" bA
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+cbaxes = inset_axes(ax1, width="80%", height="5%", loc=8)
+cb = plt.colorbar(cb, cax=cbaxes, orientation='horizontal')
+cb.ax.xaxis.set_ticks_position('top')
+cb.ax.xaxis.set_label_position('top')
+cb.ax.tick_params(labelsize=10, color = 'w', labelcolor='w', pad = 1.)
+endsnippet
+
 snippet fig "Figure" bA
 fig = plt.figure(figsize=(7,6))
 ax1 = fig.add_axes([0.16, 0.14, 0.8, 0.79])

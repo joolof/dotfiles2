@@ -53,6 +53,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " vifm
     Plug 'vifm/vifm.vim'
 
+    Plug 'erietz/vim-terminator', { 'branch': 'main'}
+
+    " Plug 'nvim-lua/plenary.nvim'
+    " Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }"
+
     " Coc
     " Plug 'neoclide/coc.nvim', {'branch': 'release'} 
 

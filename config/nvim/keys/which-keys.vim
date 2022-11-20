@@ -28,7 +28,7 @@ let g:which_key_map.t = {
       \ 'name' : 'terminal' ,
       \ 't' : [':FloatermToggle', 'Toggle'],
       \ 'o' : [':Vifm', 'Vifm'],
-      \ 'p' : [':w | FloatermNew python3 %', 'Python'],
+      \ 'p' : [':w | FloatermNew --autoclose=0 python3 %', 'Python'],
       \ 'i' : [':FloatermNew ipython', 'IPython'],
       \ 'l' : [':w | FloatermNew latexmk -pdf %', 'Latex'],
       \ 'g' : [':FloatermNew lazygit', 'Lazygit'],

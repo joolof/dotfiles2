@@ -8,20 +8,22 @@ super + Return
 super + t
     tdrop -ma -w 94% -x 3% -y 0% -h 50% kitty
 
-super + o
-    $HOME/.scripts/rofi_favorite.py
+# super + o
+#     $HOME/.scripts/rofi_favorite.py
 
 # Taskwarrior
-super + p
-    $HOME/.scripts/rofi_taskwarrior.py
+super + @p
+    scrot -s '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+
+# $HOME/.scripts/rofi_taskwarrior.py
 
 # MPV from clipboard
 #super + y
     #$HOME/.dotfiles/scripts/mpv-play.py >/home/joo/tmp
 
 # Lock screen
-# super + shift + x
-    # $HOME/.scripts/lock.sh
+super + shift + x
+    betterlockscreen -l
 
 super + @space
     killall mpv
@@ -68,11 +70,11 @@ super + d
 	rofi -show drun -width 40 -eh 1
 
 #Screenshots
-Print
-    scrot '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+# Print
+#     scrot '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
-shift + @Print
-    scrot -s '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+# shift + @Print
+#     scrot -s '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # make sxhkd reload its configuration files:
 super + Escape
