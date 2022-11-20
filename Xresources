@@ -9,7 +9,7 @@ Xft.rgba: rgb
 !-------------------------------------------------------------------------------
 ! ROFI Color theme - Alley
 !-------------------------------------------------------------------------------
-rofi.font: JetBrains Mono 12
+rofi.font: JetBrains Mono 10
 rofi.color-enabled: true
 rofi.fullscreen: false
 
