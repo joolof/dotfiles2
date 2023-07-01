@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/SPHERE/HD129590/VERSIONS
+cd ~/Codes/Python/Projects/SPHEREQuery
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,20 +13,18 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +78 ~/SPHERE/HD129590/wavy.py
-badd +137 ~/SPHERE/HD129590/pfunc_annulii_obs.py
-badd +100 ~/SPHERE/HD129590/pretty.py
-badd +48 ~/SPHERE/HD129590/plot_adi_dpi.py
-badd +48 ~/SPHERE/HD129590/mayo_greeds.py
-badd +215 ~/SPHERE/HD129590/FitPL.py
-badd +304 ~/SPHERE/HD129590/DUST/diagnostics.py
-badd +229 ~/SPHERE/HD129590/DUST/pfunc_beta_radius.py
-badd +130 ~/SPHERE/HD129590/bdisk.py
-badd +130 ~/SPHERE/HD129590/pfunc_beta_radius.py
-badd +88 ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+badd +1 ~/Codes/Python/Projects/SPHEREQuery/dl_window.py
+badd +1 ~/Codes/Python/Projects/SPHEREQuery/pref_window.py
+badd +22 ~/Codes/Python/Projects/SPHEREQuery/do_query.py
+badd +6 ~/Codes/Python/Projects/SPHEREQuery/data_reduction.py
+badd +1 ~/Codes/Python/Projects/SPHEREQuery/cm_window.py
+badd +1 ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
+badd +41 ~/Codes/Python/Projects/SPHEREQuery/style.qss
+badd +38 ~/Codes/Python/Projects/SPHEREQuery/README.md
+badd +1 ~/Codes/Python/Projects/SPHEREQuery/requirements.txt
 argglobal
 %argdel
-edit ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+edit ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -46,7 +44,7 @@ set winwidth=1
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
-balt ~/SPHERE/HD129590/pfunc_beta_radius.py
+balt ~/Codes/Python/Projects/SPHEREQuery/style.qss
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -57,19 +55,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 88 - ((0 * winheight(0) + 24) / 49)
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 88
+keepjumps 1
 normal! 0
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/SPHERE/HD129590/pretty.py", ":p")) | buffer ~/SPHERE/HD129590/pretty.py | else | edit ~/SPHERE/HD129590/pretty.py | endif
+if bufexists(fnamemodify("~/Codes/Python/Projects/SPHEREQuery/style.qss", ":p")) | buffer ~/Codes/Python/Projects/SPHEREQuery/style.qss | else | edit ~/Codes/Python/Projects/SPHEREQuery/style.qss | endif
 if &buftype ==# 'terminal'
-  silent file ~/SPHERE/HD129590/pretty.py
+  silent file ~/Codes/Python/Projects/SPHEREQuery/style.qss
 endif
-balt ~/SPHERE/HD129590/plot_adi_dpi.py
+balt ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -80,12 +78,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 45 - ((44 * winheight(0) + 24) / 49)
+let s:l = 41 - ((33 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 45
-normal! 0
+keepjumps 41
+normal! 024|
 wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
@@ -104,6 +102,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

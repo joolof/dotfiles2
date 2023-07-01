@@ -7,7 +7,14 @@ cd ~/Codes/Python/Projects/ddit_rt
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
-set shortmess=aoO
+let s:shortmess_save = &shortmess
+if &shortmess =~ 'A'
+  set shortmess=aoOA
+else
+  set shortmess=aoO
+endif
+badd +18 ~/Codes/Python/Projects/ddit_rt/DDiT.py
+badd +1 ~/Codes/Python/Projects/ddit_rt/README.md
 argglobal
 %argdel
 edit ~/Codes/Python/Projects/ddit_rt/DDiT.py
@@ -27,8 +34,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 111 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 115 + 113) / 227)
+exe 'vert 1resize ' . ((&columns * 112 + 113) / 227)
+exe 'vert 2resize ' . ((&columns * 114 + 113) / 227)
 argglobal
 balt ~/Codes/Python/Projects/ddit_rt/README.md
 setlocal fdm=manual
@@ -46,14 +53,14 @@ if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 18
-normal! 065|
+normal! 063|
 wincmd w
 argglobal
-if bufexists("~/Codes/Python/Projects/ddit_rt/README.md") | buffer ~/Codes/Python/Projects/ddit_rt/README.md | else | edit ~/Codes/Python/Projects/ddit_rt/README.md | endif
+if bufexists(fnamemodify("~/Codes/Python/Projects/ddit_rt/DDiT.py", ":p")) | buffer ~/Codes/Python/Projects/ddit_rt/DDiT.py | else | edit ~/Codes/Python/Projects/ddit_rt/DDiT.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/Codes/Python/Projects/ddit_rt/README.md
+  silent file ~/Codes/Python/Projects/ddit_rt/DDiT.py
 endif
-balt ~/Codes/Python/Projects/ddit_rt/DDiT.py
+balt ~/Codes/Python/Projects/ddit_rt/README.md
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -64,24 +71,23 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+let s:l = 274 - ((23 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
-normal! 0
+keepjumps 274
+normal! 066|
 wincmd w
-exe 'vert 1resize ' . ((&columns * 111 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 115 + 113) / 227)
+exe 'vert 1resize ' . ((&columns * 112 + 113) / 227)
+exe 'vert 2resize ' . ((&columns * 114 + 113) / 227)
 if exists(':tcd') == 2 | tcd ~/Codes/Python/Projects/ddit_rt | endif
 tabnext 1
-badd +18 ~/Codes/Python/Projects/ddit_rt/DDiT.py
-badd +1 ~/Codes/Python/Projects/ddit_rt/README.md
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
 unlet! s:wipebuf
-set winheight=1 winwidth=20 shortmess=filnxtToOFAI
+set winheight=1 winwidth=20
+let &shortmess = s:shortmess_save
 let &winminheight = s:save_winminheight
 let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
@@ -89,6 +95,7 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
+set hlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

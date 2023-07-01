@@ -4,12 +4,12 @@
 pseudo-transparency = true
 
 [colors]
-fg = ${xrdb:color1}
+fg = ${xrdb:color2}
 bg = ${xrdb:color0}
 colspot = ${xrdb:color2}
 coldate = ${xrdb:color5}
 icon-bg = ${xrdb:color2}
-icon-fg = ${xrdb:color4}
+icon-fg = ${xrdb:color3}
 underline = ${xrdb:color8}
 
 [global/wm]
@@ -17,6 +17,7 @@ margin-top = 0
 margin-bottom = 0
 
 [bar/mainbar]
+monitor = ${env:MONITOR:}
 width = 98%
 height = 2%
 offset-x = 1%
@@ -29,7 +30,6 @@ overline-color = #ff0000
 underline-size = 0
 underline-color = ${colors.fg}
 
-;border-size = 0
 border-color = #00000000
 border-top-size = 0.%
 border-left-size = 0%
@@ -38,18 +38,15 @@ border-bottom-size = 0.%
 radius = 5
 
 padding = 1
-; padding-left = 1%
-; padding-right = 3%
 module-margin-left = 1
 module-margin-right = 1
 
-; font_family        JetBrains Mono Regular
 font-0 = JetBrains Mono:style=Bold:pixelsize=10;3
 font-1 = FontAwesome:pixelsize=12;3
 font-2 = JetBrains Mono:size=12;2
 
 ; >> Modules
-modules-left = spotify 
+modules-left = spotify spotify-prev spotify-play-pause spotify-next
 modules-right = volume battery date 
 ;fixed-center = true
 ;
@@ -119,6 +116,27 @@ format =<label>
 icon-play =  
 exec = /home/joo/.scripts/spotify_status.py -f '{artist}: {song}' -t 150
 format-underline = ${colors.colspot}
+
+[module/spotify-prev]
+type = custom/script
+exec = echo ""
+format = <label>
+click-left = playerctl previous -p spotify
+format-foreground = ${colors.icon-fg}
+
+[module/spotify-play-pause]
+type = custom/script
+exec = echo ""
+click-left = playerctl play-pause -p spotify
+format-foreground = ${colors.icon-fg}
+
+[module/spotify-next]
+type = custom/script
+exec = echo ""
+format = <label>
+click-left = playerctl next -p spotify
+format-foreground = ${colors.icon-fg}
+
 
 [module/system-usb-udev]
 type = custom/script

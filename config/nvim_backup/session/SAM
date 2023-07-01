@@ -3,30 +3,14 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/SPHERE/HD129590/VERSIONS
+cd ~/SPHERE/SPHERE-SAM
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
-let s:shortmess_save = &shortmess
-if &shortmess =~ 'A'
-  set shortmess=aoOA
-else
-  set shortmess=aoO
-endif
-badd +78 ~/SPHERE/HD129590/wavy.py
-badd +137 ~/SPHERE/HD129590/pfunc_annulii_obs.py
-badd +100 ~/SPHERE/HD129590/pretty.py
-badd +48 ~/SPHERE/HD129590/plot_adi_dpi.py
-badd +48 ~/SPHERE/HD129590/mayo_greeds.py
-badd +215 ~/SPHERE/HD129590/FitPL.py
-badd +304 ~/SPHERE/HD129590/DUST/diagnostics.py
-badd +229 ~/SPHERE/HD129590/DUST/pfunc_beta_radius.py
-badd +130 ~/SPHERE/HD129590/bdisk.py
-badd +130 ~/SPHERE/HD129590/pfunc_beta_radius.py
-badd +88 ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+set shortmess=aoO
 argglobal
 %argdel
-edit ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+edit ~/SPHERE/SPHERE-SAM/gp_map.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -46,7 +30,7 @@ set winwidth=1
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
-balt ~/SPHERE/HD129590/pfunc_beta_radius.py
+balt ~/SPHERE/SPHERE-SAM/DATA/reformat_data.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -57,45 +41,49 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 88 - ((0 * winheight(0) + 24) / 49)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 88
-normal! 0
-wincmd w
-argglobal
-if bufexists(fnamemodify("~/SPHERE/HD129590/pretty.py", ":p")) | buffer ~/SPHERE/HD129590/pretty.py | else | edit ~/SPHERE/HD129590/pretty.py | endif
-if &buftype ==# 'terminal'
-  silent file ~/SPHERE/HD129590/pretty.py
-endif
-balt ~/SPHERE/HD129590/plot_adi_dpi.py
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 45 - ((44 * winheight(0) + 24) / 49)
+let s:l = 45 - ((14 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 45
+normal! 069|
+wincmd w
+argglobal
+if bufexists("~/SPHERE/SPHERE-SAM/interfero.py") | buffer ~/SPHERE/SPHERE-SAM/interfero.py | else | edit ~/SPHERE/SPHERE-SAM/interfero.py | endif
+if &buftype ==# 'terminal'
+  silent file ~/SPHERE/SPHERE-SAM/interfero.py
+endif
+balt ~/SPHERE/SPHERE-SAM/modeling.py
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 154 - ((11 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 154
 normal! 0
 wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+if exists(':tcd') == 2 | tcd ~/SPHERE/SPHERE-SAM | endif
 tabnext 1
+badd +323 ~/SPHERE/SPHERE-SAM/modeling.py
+badd +9 ~/SPHERE/SPHERE-SAM/interfero.py
+badd +45 ~/SPHERE/SPHERE-SAM/gp_map.py
+badd +193 ~/SPHERE/SPHERE-SAM/DATA/reformat_data.py
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
 unlet! s:wipebuf
-set winheight=1 winwidth=20
-let &shortmess = s:shortmess_save
+set winheight=1 winwidth=20 shortmess=filnxtToOFAI
 let &winminheight = s:save_winminheight
 let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
@@ -103,7 +91,6 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
-set hlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

@@ -5,9 +5,9 @@
 
 [global]
     # Make the width 3740 (3840 - 100), have 50 left margin and 95 above
-    geometry = "300-20+35"
+    geometry = "400-20+32"
     shrink = no
-    corner_radius = 5
+    corner_radius = 0
 
     indicate_hidden = yes
     show_indicators = no
@@ -15,20 +15,20 @@
     separator_height = 2
 
     # Add vertical padding to the inside of the notification
-    padding = 8
+    padding = 4
 
     # Add horizontal padding for when the text gets long enough
     horizontal_padding = 8
 
     # The frame color and width of the notification
     frame_color = "{color4}"
-    frame_width = 2
+    frame_width = 0
 
     # How long a user needs to be idle for sticky notifications
     idle_threshold = 120
 
     # Font and typography settings
-    font = JetBrains Mono Bold 10
+    font = JetBrains Mono Bold 8
     alignment = "left" 
     word_wrap = no
 
@@ -52,8 +52,8 @@
     foreground = "{color4}"
 
 [urgency_normal]
-    # background = "{color2}"
-    background = "{background}"
+    # background = "{background}"
+    background = "{color8}"
     foreground = "{color4}"
 
 [urgency_critical]

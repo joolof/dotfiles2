@@ -3,30 +3,14 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/SPHERE/HD129590/VERSIONS
+cd ~/SPHERE/HD129590
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
-let s:shortmess_save = &shortmess
-if &shortmess =~ 'A'
-  set shortmess=aoOA
-else
-  set shortmess=aoO
-endif
-badd +78 ~/SPHERE/HD129590/wavy.py
-badd +137 ~/SPHERE/HD129590/pfunc_annulii_obs.py
-badd +100 ~/SPHERE/HD129590/pretty.py
-badd +48 ~/SPHERE/HD129590/plot_adi_dpi.py
-badd +48 ~/SPHERE/HD129590/mayo_greeds.py
-badd +215 ~/SPHERE/HD129590/FitPL.py
-badd +304 ~/SPHERE/HD129590/DUST/diagnostics.py
-badd +229 ~/SPHERE/HD129590/DUST/pfunc_beta_radius.py
-badd +130 ~/SPHERE/HD129590/bdisk.py
-badd +130 ~/SPHERE/HD129590/pfunc_beta_radius.py
-badd +88 ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+set shortmess=aoO
 argglobal
 %argdel
-edit ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+edit ~/SPHERE/HD129590/PSF/get_fwhm.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -46,7 +30,7 @@ set winwidth=1
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
-balt ~/SPHERE/HD129590/pfunc_beta_radius.py
+balt ~/SPHERE/HD129590/FitPfunc.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -57,19 +41,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 88 - ((0 * winheight(0) + 24) / 49)
+let s:l = 29 - ((24 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 88
+keepjumps 29
 normal! 0
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/SPHERE/HD129590/pretty.py", ":p")) | buffer ~/SPHERE/HD129590/pretty.py | else | edit ~/SPHERE/HD129590/pretty.py | endif
+if bufexists("~/SPHERE/HD129590/DUST/pfunc.py") | buffer ~/SPHERE/HD129590/DUST/pfunc.py | else | edit ~/SPHERE/HD129590/DUST/pfunc.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/SPHERE/HD129590/pretty.py
+  silent file ~/SPHERE/HD129590/DUST/pfunc.py
 endif
-balt ~/SPHERE/HD129590/plot_adi_dpi.py
+balt ~/SPHERE/HD129590/bdisk.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -80,22 +64,36 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 45 - ((44 * winheight(0) + 24) / 49)
+let s:l = 98 - ((38 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 45
-normal! 0
+keepjumps 98
+normal! 027|
 wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+if exists(':tcd') == 2 | tcd ~/SPHERE/HD129590/DUST | endif
 tabnext 1
+badd +29 ~/SPHERE/HD129590/PSF/get_fwhm.py
+badd +391 ~/SPHERE/HD129590/FitPfunc.py
+badd +103 ~/SPHERE/HD129590/pfunc_annulii_obs.py
+badd +435 ~/SPHERE/HD129590/FitHG.py
+badd +104 ~/SPHERE/HD129590/pfunc_beta_radius.py
+badd +410 ~/SPHERE/HD129590/FitPL.py
+badd +71 ~/SPHERE/HD129590/pretty.py
+badd +480 ~/SPHERE/HD129590/FitSphere.py
+badd +98 ~/SPHERE/HD129590/DUST/pfunc.py
+badd +66 ~/SPHERE/HD129590/bdisk.py
+badd +24 ~/SPHERE/HD129590/optool_disk.py
+badd +45 ~/SPHERE/HD129590/plot_adi_dpi.py
+badd +24 ~/SPHERE/HD129590/spline.py
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
 unlet! s:wipebuf
-set winheight=1 winwidth=20
-let &shortmess = s:shortmess_save
+set winheight=1 winwidth=20 shortmess=filnxtToOFAI
 let &winminheight = s:save_winminheight
 let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
@@ -103,7 +101,6 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
-set hlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

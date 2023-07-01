@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/SPHERE/HD129590/VERSIONS
+cd ~/SPHERE/star-hopping
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,20 +13,13 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +78 ~/SPHERE/HD129590/wavy.py
-badd +137 ~/SPHERE/HD129590/pfunc_annulii_obs.py
-badd +100 ~/SPHERE/HD129590/pretty.py
-badd +48 ~/SPHERE/HD129590/plot_adi_dpi.py
-badd +48 ~/SPHERE/HD129590/mayo_greeds.py
-badd +215 ~/SPHERE/HD129590/FitPL.py
-badd +304 ~/SPHERE/HD129590/DUST/diagnostics.py
-badd +229 ~/SPHERE/HD129590/DUST/pfunc_beta_radius.py
-badd +130 ~/SPHERE/HD129590/bdisk.py
-badd +130 ~/SPHERE/HD129590/pfunc_beta_radius.py
-badd +88 ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+badd +20 ~/SPHERE/star-hopping/get_master_cal.py
+badd +73 ~/SPHERE/star-hopping/do_nmf.py
+badd +66 ~/SPHERE/star-hopping/reformat.py
+badd +16 ~/SPHERE/star-hopping/merge_qphi.py
 argglobal
 %argdel
-edit ~/SPHERE/HD129590/VERSIONS/pfunc_beta_face-on.py
+edit ~/SPHERE/star-hopping/reformat.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -46,30 +39,19 @@ set winwidth=1
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
-balt ~/SPHERE/HD129590/pfunc_beta_radius.py
+enew
+file ~/SPHERE/star-hopping/Starter_5
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
 setlocal fdi=#
-setlocal fdl=0
+setlocal fdl=999
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 88 - ((0 * winheight(0) + 24) / 49)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 88
-normal! 0
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/SPHERE/HD129590/pretty.py", ":p")) | buffer ~/SPHERE/HD129590/pretty.py | else | edit ~/SPHERE/HD129590/pretty.py | endif
-if &buftype ==# 'terminal'
-  silent file ~/SPHERE/HD129590/pretty.py
-endif
-balt ~/SPHERE/HD129590/plot_adi_dpi.py
+balt ~/SPHERE/star-hopping/merge_qphi.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -80,15 +62,16 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 45 - ((44 * winheight(0) + 24) / 49)
+let s:l = 133 - ((21 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 45
-normal! 0
+keepjumps 133
+normal! 056|
 wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+if exists(':tcd') == 2 | tcd ~/SPHERE/star-hopping | endif
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
