@@ -57,10 +57,10 @@ bspc rule -a matplotlib state=floating layer=above
 bspc rule -a herschel-ia-gui-apps-HipeStarter state=floating
 bspc rule -a " " state=floating
 
-bspc rule -a Firefox desktop='^1'
-bspc rule -a Thunderbird desktop='^2'
+bspc rule -a Firefox desktop='1'
+bspc rule -a thunderbird desktop='2' follow=on
 bspc rule -a GoPanda2 desktop='8'
-bspc rule -a Sabaki desktop='^7'
-bspc rule -a mpv desktop='^8'
-bspc rule -a Gimp desktop='^9' state=floating follow=on
-bspc rule -a spotify desktop='^10'
+bspc rule -a Sabaki desktop='7'
+bspc rule -a mpv desktop='8'
+bspc rule -a Gimp desktop='9' state=floating follow=on
+bspc rule -a spotify desktop='10'

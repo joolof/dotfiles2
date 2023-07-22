@@ -45,10 +45,13 @@ return packer.startup(function(use)
     use("szw/vim-maximizer") -- maximizes and restores current window
 
     -- essential plugins
-    use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
+    use("tpope/vim-surround") -- add, delete, change surroundings
 
     -- zen mode
     use("folke/zen-mode.nvim")
+
+    -- todo-comments
+    use("folke/todo-comments.nvim")
 
     -- file explorer
     use("nvim-tree/nvim-tree.lua")
@@ -66,7 +69,8 @@ return packer.startup(function(use)
     use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 
     -- Buffer line
-    use("noib3/nvim-cokeline")
+    use("willothy/nvim-cokeline")
+    -- use("noib3/nvim-cokeline")
 
     -- Fterm (for ytop and lazygit and such)
     use("numToStr/FTerm.nvim")
@@ -119,7 +123,6 @@ return packer.startup(function(use)
 
     -- git integration
     use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
-
 
     if packer_bootstrap then
         require("packer").sync()

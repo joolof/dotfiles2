@@ -14,4 +14,5 @@ require("joo.plugins.mini")
 require("joo.plugins.treesitter")
 require("joo.plugins.nvim-cmp")
 require("joo.plugins.luasnip")
+require("joo.plugins.todo-comments")
 

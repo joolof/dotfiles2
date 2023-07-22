@@ -132,7 +132,7 @@ _G.packer_plugins = {
   ["nvim-cokeline"] = {
     loaded = true,
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/nvim-cokeline",
-    url = "https://github.com/noib3/nvim-cokeline"
+    url = "https://github.com/willothy/nvim-cokeline"
   },
   ["nvim-lastplace"] = {
     loaded = true,
@@ -168,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/pywal",
     url = "https://github.com/AlphaTechnolog/pywal.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/home/joo/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   },
   ["vim-maximizer"] = {
     loaded = true,

@@ -23,7 +23,7 @@ treesitter.setup({
 		"typescript",
 		"html",
 		"css",
-		"markdown",
+		-- "markdown",
 		"bash",
 		"lua",
 		"vim",

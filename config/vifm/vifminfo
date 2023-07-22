@@ -27,7 +27,7 @@ b/home/joo/Desktop/Stuff/Papers_admin/Chile/
 	1626562631
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -36,84 +36,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Desktop/test
-	2MASS_J05065551-0321132
-1
-d/home/joo/Desktop
-	2021.1.01477.S
-1
-d/home/joo/Desktop/2021.1.01477.S
-	science_goal.uid___A001_X158f_X1a1
-1
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1
-	group.uid___A001_X158f_X1a2
-1
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2
-	member.uid___A001_X158f_X1a3
-1
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2/member.uid___A001_X158f_X1a3
-	product
-1
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2/member.uid___A001_X158f_X1a3/product
-	..
-0
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2/member.uid___A001_X158f_X1a3
-	product
-1
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2
-	member.uid___A001_X158f_X1a3
-1
-d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1
-	group.uid___A001_X158f_X1a2
-1
-d/home/joo/Desktop/2021.1.01477.S
-	science_goal.uid___A001_X158f_X1a1
-1
-d/home/joo/Desktop
-	GoPro
-2
-d/home/joo/Desktop/GoPro
-	Lasers
-2
-d/home/joo/Desktop
-	Photos to be sorted
-3
-d/home/joo/Desktop/Photos to be sorted
-	101NCD80
-1
-d/home/joo/Desktop/Photos to be sorted/101NCD80
-	..
-0
-d/home/joo/Desktop/Photos to be sorted
-	101NCD80
-1
-d/home/joo/Desktop
-	Stuff
-4
-d/home/joo/Desktop/Stuff
-	whatsapp
-20
-d/home/joo/Desktop/Stuff/whatsapp
-	chat.txt
-2
-d/home/joo/Desktop/Stuff
-	Synology
-16
-d/home/joo/Desktop/Stuff/Synology
-	..
-0
-d/home/joo/Desktop/Stuff
-	Photos_hirez
-15
-d/home/joo/Desktop/Stuff/Photos_hirez
-	2019 - Nikko
-1
-d/home/joo/Desktop/Stuff/Photos_hirez/2019 - Nikko
-	DSC_0636.jpg
-46
-d/home/joo/Desktop/Stuff/Photos_hirez
-	Chile
-2
 d/home/joo/Desktop/Stuff/Photos_hirez/Chile
 	..
 0
@@ -334,206 +256,89 @@ d/home/joo/Desktop/Stuff
 	Synology
 16
 d/home/joo/Desktop
-	Star-hopping.pdf
-43
+	test
+6
+d/home/joo/Desktop/test
+	esoquery_HD129590_phase3.csv
+3
+d/home/joo/Desktop
+	2021.1.01477.S
+1
+d/home/joo/Desktop/2021.1.01477.S
+	science_goal.uid___A001_X158f_X1a1
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1
+	group.uid___A001_X158f_X1a2
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2
+	member.uid___A001_X158f_X1a3
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2/member.uid___A001_X158f_X1a3
+	product
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2/member.uid___A001_X158f_X1a3/product
+	member.uid___A001_X158f_X1a3.HD32297_sci.spw17_23_25_27.cont.I.pbcor.fits
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2/member.uid___A001_X158f_X1a3
+	product
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1/group.uid___A001_X158f_X1a2
+	member.uid___A001_X158f_X1a3
+1
+d/home/joo/Desktop/2021.1.01477.S/science_goal.uid___A001_X158f_X1a1
+	group.uid___A001_X158f_X1a2
+1
+d/home/joo/Desktop/2021.1.01477.S
+	science_goal.uid___A001_X158f_X1a1
+1
+d/home/joo/Desktop
+	Photos to be sorted
+3
+d/home/joo/Desktop/Photos to be sorted
+	147___10
+2
+d/home/joo/Desktop/Photos to be sorted/147___10
+	IMG_8536.JPG
+3
+d/home/joo/Desktop/Photos to be sorted
+	147___10
+2
+d/home/joo/Desktop
+	Photos to be sorted
+3
+d/home/joo
+	Desktop
+9
+d/home/joo/Desktop
+	Stuff
+4
+d/home/joo/Desktop/Stuff
+	Go
+9
+d/home/joo/Desktop
+	AA202347353.pdf
+11
+d/home/joo
+	Documents
+10
+d/home/joo/Documents
+	Passport
+9
+d/home/joo/Documents/Passport
+	Passport_AB.jpeg
+3
+d/home/joo/Documents
+	Passport
+9
+d/home/joo
+	Desktop
+9
+d/home/joo/Desktop
+	debris_lmu.png
+39
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Desktop/Stuff/Draw/inspi/viking
-	vinking-air-21310838d7.jpeg
-2
-D/home/joo/Desktop/Stuff/Draw/inspi
-	Anthony-Shea3.jpeg
-7
-D/home/joo/Desktop/Stuff/Draw
-	xwing.jpg
-22
-D/home/joo/Desktop/Stuff
-	Inspiration
-12
-D/home/joo/Desktop/Stuff/Inspiration
-	terrain.pdf
-11
-D/home/joo/Desktop/Stuff
-	Biblio
-2
-D/home/joo/Desktop/Stuff/Biblio
-	chi2.pdf
-15
-D/home/joo/Desktop/Stuff
-	Biblio
-2
-D/home/joo/Desktop
-	GoPro
-2
-D/home/joo/Desktop/GoPro
-	..
-0
-D/home/joo/Desktop
-	2021.1.01477.S
-1
-D/home/joo/Desktop/2021.1.01477.S
-	science_goal.uid___A001_X158f_X1a1
-1
-D/home/joo/Desktop
-	Ticha
-5
-D/home/joo/Desktop/Ticha
-	..
-0
-D/home/joo/Desktop
-	halo
-6
-D/home/joo/Desktop/halo
-	..
-0
-D/home/joo/Desktop
-	Medina_acceptance.pdf
-39
-D/home/joo
-	PROPOSALS
-22
-D/home/joo/PROPOSALS
-	ESO
-3
-D/home/joo/PROPOSALS/ESO
-	ALMA
-1
-D/home/joo/PROPOSALS/ESO/ALMA
-	Cycle8
-7
-D/home/joo/PROPOSALS/ESO/ALMA/Cycle8
-	HD32297
-1
-D/home/joo/PROPOSALS/ESO/ALMA/Cycle8/HD32297
-	HD32297.pdf
-6
-D/home/joo/PROPOSALS/ESO/ALMA/Cycle8
-	HD32297
-1
-D/home/joo/PROPOSALS/ESO/ALMA
-	Cycle10
-9
-D/home/joo/PROPOSALS/ESO/ALMA/Cycle10
-	ARKS.png
-3
-D/home/joo/PROPOSALS/ESO/ALMA
-	Cycle10
-9
-D/home/joo/PROPOSALS/ESO
-	ALMA
-1
-D/home/joo/PROPOSALS
-	ESO
-3
-D/home/joo
-	Documents
-10
-D/home/joo/Documents
-	PhD
-10
-D/home/joo/Documents/PhD
-	DiplomaUdeChile.pdf
-2
-D/home/joo/Documents
-	PhD
-10
-D/home/joo
-	Papers
-23
-D/home/joo/Papers
-	PhD
-29
-D/home/joo/Papers/PhD
-	These_Olofsson.pdf
-9
-D/home/joo/Papers
-	PhD
-29
-D/home/joo
-	Desktop
-9
-D/home/joo/Desktop
-	ESO_address.png
-16
-D/home/joo
-	Downloads
-11
-D/home/joo/Downloads
-	Formdata_Johan_Olofsson.pdf
-12
-D/home/joo
-	Pictures
-24
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo/Pictures/screenshots
-	2023-05-03_15.33.26.png
-47
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo
-	DatabaseDebris
-8
-D/home/joo/DatabaseDebris
-	Targets
-8
-D/home/joo/DatabaseDebris/Targets
-	pdf
-6
-D/home/joo/DatabaseDebris/Targets/pdf
-	SED_HD120326.pdf
-2
-D/home/joo/DatabaseDebris/Targets
-	pdf
-6
-D/home/joo/DatabaseDebris
-	Targets
-8
-D/home/joo
-	Pictures
-24
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo/Pictures/screenshots
-	2023-05-03_15.33.26.png
-47
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo
-	Games
-13
-D/home/joo/Games
-	Switch
-2
-D/home/joo/Games/Switch
-	..
-0
-D/home/joo/Games
-	Switch
-2
-D/home/joo
-	Pictures
-24
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo/Pictures/screenshots
-	2023-05-09_19.06.37.png
-47
-D/home/joo/Pictures
-	wallpapers
-18
-D/home/joo
-	snap
-36
-D/home/joo/snap
-	yuzu
-6
 D/home/joo
 	Pictures
 24
@@ -639,6 +444,201 @@ D/home/joo/Pictures
 D/home/joo/Pictures/screenshots
 	..
 0
+D/home/joo/Pictures
+	screenshots
+16
+D/home/joo
+	Desktop
+9
+D/home/joo/Desktop
+	Stuff
+4
+D/home/joo/Desktop/Stuff
+	Papers_admin
+14
+D/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Registration
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Registration
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Reclamation
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Reclamation
+	2023-07-Vilnius
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Reclamation/2023-07-Vilnius
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Reclamation
+	2023-07-Vilnius
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Reclamation
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+D/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+D/home/joo/Desktop/Stuff
+	Papers_admin
+14
+D/home/joo/Desktop
+	Stuff
+4
+D/home/joo
+	Fundings
+12
+D/home/joo/Fundings
+	2023-Heisenberg
+1
+D/home/joo/Fundings/2023-Heisenberg
+	proposal_dfg
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin
+	Chile
+1
+D/home/joo/Desktop/Stuff
+	Papers_admin
+14
+D/home/joo/Desktop
+	Stuff
+4
+D/home/joo
+	Fundings
+12
+D/home/joo/Fundings
+	2023-Heisenberg
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	MPIA
+2
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/MPIA
+	Scan_02-03-2023-124451-signed.pdf
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Ticha
+6
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+D/home/joo/Desktop/Stuff/Papers_admin
+	Chile
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	GnuCash
+10
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/GnuCash
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	MPTG
+15
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG
+	Clement
+3
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG/Clement
+	..
+0
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/MPTG
+	Daniela
+5
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	Informe_final
+6
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018/Informe_final
+	Acceptance_MNRAS.pdf
+6
+D/home/joo/Desktop/Stuff/Papers_admin/Chile/FONDECYT_Regular - 2018
+	Approval-informe.pdf
+7
+D/home/joo/Desktop/Stuff/Papers_admin/Chile
+	FONDECYT_Regular - 2018
+7
+D/home/joo/Desktop/Stuff/Papers_admin
+	Chile
+1
+D/home/joo/Desktop/Stuff
+	Papers_admin
+14
+D/home/joo/Desktop
+	Stuff
+4
+D/home/joo
+	Codes
+5
+D/home/joo/Codes
+	Python
+5
+D/home/joo/Codes/Python
+	Debris
+2
+D/home/joo/Codes/Python/Debris
+	MPTG_Logo
+11
+D/home/joo/Codes/Python/Debris/MPTG_Logo
+	logo.png
+9
+D/home/joo/Codes/Python/Debris
+	MPTG_Logo
+11
+D/home/joo/Codes/Python
+	Debris
+2
+D/home/joo/Codes
+	Python
+5
+D/home/joo
+	Talks
+31
+D/home/joo/Talks
+	Talks
+1
+D/home/joo/Talks/Talks
+	MPIA
+6
+D/home/joo/Talks/Talks/MPIA
+	..
+0
+D/home/joo/Talks/Talks
+	Logos
+5
+D/home/joo/Talks/Talks/Logos
+	UV-IFA-all
+2
+D/home/joo/Talks/Talks/Logos/UV-IFA-all
+	Logo_NPF-apaisado_fondooscuro.png
+4
 D
 
 # Command line history (oldest to newest):
@@ -651,7 +651,6 @@ D
 :mkdir reintegro
 :mkdir 2021-OPO
 :mkdir Cartolas-observaciones
-:!ds9 %c
 :Apartment
 :mkdir Apartment
 :Objections1
@@ -672,8 +671,11 @@ D
 :mkdir screenshots
 :!gimp %c
 :mkdir 2023-USD
-:move
+:mkdir 2023-07-Vilnius
 :bmgo Chile
+:mkdir MPIA
+:move
+:!ds9 %c
 :q
 
 # Search history (oldest to newest):
@@ -698,10 +700,9 @@ D
 /test.p
 /Perro
 /Olofsson
+/debr
 
 # Prompt history (oldest to newest):
-pCartola-06-2020.pdf
-pCartola-03-2020.pdf
 pCartola-08-2020.pdf
 pCartola-09-2020.pdf
 pCartola-10-2020.pdf
@@ -800,11 +801,13 @@ pHeisenberg_Kuiper.pdf
 pnmf.png
 ppca.png
 pUSD-2023 CV_Olofsson.pdf
+p2023-02-Deutsche Bahn
+pApproval-informe.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_Johan-letter-ESO2023.docx
+""/home/joo/.local/share/vifm/Trash/000_test
 
 # Directory stack (oldest to newest):
 
@@ -1063,6 +1066,40 @@ t/home/joo/.local/share/vifm/Trash/000_Garching_ Self-Defence Course for Women a
 	/home/joo/Desktop/Garching_ Self-Defence Course for Women at ESO.pdf
 t/home/joo/.local/share/vifm/Trash/000_Johan-letter-ESO2023.docx
 	/home/joo/Desktop/Johan-letter-ESO2023.docx
+t/home/joo/.local/share/vifm/Trash/000_53_200_en_elan.rtf
+	/home/joo/Desktop/53_200_en_elan.rtf
+t/home/joo/.local/share/vifm/Trash/000_20230505_102243.jpg
+	/home/joo/Desktop/20230505_102243.jpg
+t/home/joo/.local/share/vifm/Trash/000_DHL shipment tracking - track the status of your parcels DHL.pdf
+	/home/joo/Desktop/DHL shipment tracking - track the status of your parcels DHL.pdf
+t/home/joo/.local/share/vifm/Trash/000_Grady_AUMic.pdf
+	/home/joo/Desktop/Grady_AUMic.pdf
+t/home/joo/.local/share/vifm/Trash/000_Guidance-Faculty-Science-Assessment_2022.docx
+	/home/joo/Desktop/Guidance-Faculty-Science-Assessment_2022.docx
+t/home/joo/.local/share/vifm/Trash/000_KeplerLaw.png
+	/home/joo/Desktop/KeplerLaw.png
+t/home/joo/.local/share/vifm/Trash/000_RES_1808_2023_ADJUDICACION_E2100_2023.pdf
+	/home/joo/Desktop/RES_1808_2023_ADJUDICACION_E2100_2023.pdf
+t/home/joo/.local/share/vifm/Trash/000_Saldo_y_Mov_No_Facturado.pdf
+	/home/joo/Desktop/Saldo_y_Mov_No_Facturado.pdf
+t/home/joo/.local/share/vifm/Trash/000_Scan_02-03-2023-124451-signed.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Scan_02-03-2023-124451-signed.pdf
+t/home/joo/.local/share/vifm/Trash/000_Star-hopping.pdf
+	/home/joo/Desktop/Star-hopping.pdf
+t/home/joo/.local/share/vifm/Trash/000_all_inclinations_v3.pdf
+	/home/joo/Desktop/all_inclinations_v3.pdf
+t/home/joo/.local/share/vifm/Trash/000_all_particles.png
+	/home/joo/Desktop/all_particles.png
+t/home/joo/.local/share/vifm/Trash/000_aumic_full.mp4
+	/home/joo/Desktop/aumic_full.mp4
+t/home/joo/.local/share/vifm/Trash/000_beta_3p.png
+	/home/joo/Desktop/beta_3p.png
+t/home/joo/.local/share/vifm/Trash/000_beta_e.png
+	/home/joo/Desktop/beta_e.png
+t/home/joo/.local/share/vifm/Trash/000_pngwing.com.png
+	/home/joo/Desktop/pngwing.com.png
+t/home/joo/.local/share/vifm/Trash/000_test
+	/home/joo/Desktop/test
 
 # State:
 f
