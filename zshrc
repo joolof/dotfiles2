@@ -8,9 +8,10 @@ export ZSH="/home/joo/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="wedisagree"
-ZSH_THEME="typewritten"
-#ZSH_THEME="joo"
+
+ZSH_THEME="wedisagree"
+# ZSH_THEME="typewritten"
+# ZSH_THEME="bureau"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -134,7 +135,7 @@ export MCFOST_UTILS=/home/joo/IRS/mcfost/utils
 
 export READER='zathura'
 
-TZ='America/Santiago'; 
+TZ='Europe/Berlin'; 
 export TZ
 export FZF_DEFAULT_COMMAND='fd --type f'
 
@@ -156,11 +157,11 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 
 
-case $TERM in
-  rxvt*)
-    precmd () {print -Pn "\e]0;%~\a"}
-    ;;
-esac
+# case $TERM in
+#   rxvt*)
+#     precmd () {print -Pn "\e]0;%~\a"}
+#     ;;
+# esac
 
 ## vi mode
 #bindkey -v # already defined in the vi-mode plugins
@@ -178,3 +179,5 @@ esac
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+autoload -Uz compinit
+compinit -u
