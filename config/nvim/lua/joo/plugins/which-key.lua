@@ -19,7 +19,4 @@ require("which-key").setup{
       operators = false,
     },
   },
---  key_labels = {
---    ["s"] = "Splits",
---  },
 }

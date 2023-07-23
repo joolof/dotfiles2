@@ -47,6 +47,7 @@ keymap.set("n", "<leader>h", ":lua MiniStarter.open()<CR>", {desc = "Home screen
 keymap.set("n", "<C-j>", ":bp<CR>", {desc = "Previous buffer"}) -- previous buffer
 keymap.set("n", "<C-k>", ":bn<CR>", {desc = "Next buffer"}) -- next buffer
 keymap.set("n", "<leader>q", ":bp<cr>:bd #<cr>", {desc = "Close buffer"})
+keymap.set("n", "<leader>c", ":ccl<cr>", {desc = "Quickfix close"})
 
 ----------------------
 -- Language
@@ -59,7 +60,10 @@ keymap.set("n", "<F5>", ":setlocal spell! spelllang=fr<CR>")
 ----------------------
 
 -- nvim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", {desc = "nvim-tree"}) -- toggle file explorer
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", {desc = "Nvim-tree"}) -- toggle file explorer
+
+-- todo-comments
+keymap.set("n", "<leader>l", ":TodoQuickFix<CR>", {desc = "Todo List"}) -- toggle file explorer
 
 -- fterm
 keymap.set("n", "<leader>p", ":!opout %<CR>", {desc = "Open pdf"})
