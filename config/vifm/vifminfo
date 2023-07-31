@@ -36,9 +36,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Desktop/Stuff/Photos_hirez/Chile
-	..
-0
 d/home/joo/Desktop/Stuff/Photos_hirez
 	Greece
 3
@@ -334,44 +331,14 @@ d/home/joo
 	Desktop
 9
 d/home/joo/Desktop
-	debris_lmu.png
-39
+	Stuff
+4
+d/home/joo
+	HD129.png
+38
 d
 
 # Right window history (oldest to newest):
-D/home/joo
-	Pictures
-24
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo/Pictures/screenshots
-	address.png
-48
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo
-	Fundings
-12
-D/home/joo/Fundings
-	2023-Heisenberg
-1
-D/home/joo/Fundings/2023-Heisenberg
-	proposal_dfg
-2
-D/home/joo/Fundings/2023-Heisenberg/proposal_dfg
-	UploadedFiles
-2
-D/home/joo/Fundings/2023-Heisenberg/proposal_dfg/UploadedFiles
-	Revised_1
-1
-D/home/joo/Fundings/2023-Heisenberg/proposal_dfg/UploadedFiles/Revised_1
-	CV_PubList_Olofsson.pdf
-2
-D/home/joo/Fundings/2023-Heisenberg/proposal_dfg/UploadedFiles
-	CV_PubList_Olofsson.pdf
-7
 D/home/joo/Fundings/2023-Heisenberg/proposal_dfg
 	UploadedFiles
 2
@@ -639,6 +606,39 @@ D/home/joo/Talks/Talks/Logos
 D/home/joo/Talks/Talks/Logos/UV-IFA-all
 	Logo_NPF-apaisado_fondooscuro.png
 4
+D/home/joo/Talks/Talks/Logos
+	UV-IFA-all
+2
+D/home/joo/Talks/Talks
+	Logos
+5
+D/home/joo/Talks
+	Talks
+1
+D/home/joo
+	Documents
+10
+D/home/joo/Documents
+	Passport
+9
+D/home/joo/Documents/Passport
+	..
+0
+D/home/joo/Documents
+	PhD
+10
+D/home/joo
+	Desktop
+6
+D/home/joo/Desktop
+	HD106906_ALMA_cont.pbcor_Hughes.fits
+21
+D/home/joo
+	Desktop
+6
+D/home/joo/Desktop
+	Notes.pdf
+12
 D
 
 # Command line history (oldest to newest):
@@ -669,14 +669,15 @@ D
 :!evince %c
 :bmgo Desktop
 :mkdir screenshots
-:!gimp %c
 :mkdir 2023-USD
 :mkdir 2023-07-Vilnius
 :bmgo Chile
 :mkdir MPIA
-:move
 :!ds9 %c
 :q
+:move
+:!gimp %c
+:nohl
 
 # Search history (oldest to newest):
 /Codes
@@ -701,9 +702,14 @@ D
 /Perro
 /Olofsson
 /debr
+/Black
+/Des
+/Olofss
+/Ins
+///[29~[29~[29
+/Notes
 
 # Prompt history (oldest to newest):
-pCartola-08-2020.pdf
 pCartola-09-2020.pdf
 pCartola-10-2020.pdf
 pCartola-11-2020.pdf
@@ -803,11 +809,12 @@ ppca.png
 pUSD-2023 CV_Olofsson.pdf
 p2023-02-Deutsche Bahn
 pApproval-informe.pdf
+pGuardians of the Galaxy Vol. 5 - Through the Looking Glass.cbr
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_test
+""/home/joo/.local/share/vifm/Trash/000_compile_Millour_Intro.pdf
 
 # Directory stack (oldest to newest):
 
@@ -1100,6 +1107,52 @@ t/home/joo/.local/share/vifm/Trash/000_pngwing.com.png
 	/home/joo/Desktop/pngwing.com.png
 t/home/joo/.local/share/vifm/Trash/000_test
 	/home/joo/Desktop/test
+t/home/joo/.local/share/vifm/Trash/000_Black Magick 012 (2020) (Digital) (Zone-Empire).cbr
+	/home/joo/Desktop/Black Magick 012 (2020) (Digital) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_Black Magick 013 (2020) (Digital) (Zone-Empire).cbr
+	/home/joo/Desktop/Black Magick 013 (2020) (Digital) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_Black Magick 014 (2020) (Digital) (Zone-Empire).cbr
+	/home/joo/Desktop/Black Magick 014 (2020) (Digital) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_Black Magick 015 (2020) (Digital) (Zone-Empire).cbr
+	/home/joo/Desktop/Black Magick 015 (2020) (Digital) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_Black Magick 016 (2020) (Digital) (Zone-Empire).cbr
+	/home/joo/Desktop/Black Magick 016 (2020) (Digital) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_AA202347353.pdf
+	/home/joo/Desktop/AA202347353.pdf
+t/home/joo/.local/share/vifm/Trash/000_AA202347353-2.pdf
+	/home/joo/Desktop/AA202347353-2.pdf
+t/home/joo/.local/share/vifm/Trash/000_978-3-642-11274-4_1088.html
+	/home/joo/Desktop/978-3-642-11274-4_1088.html
+t/home/joo/.local/share/vifm/Trash/000_Eisvogel-2.4.0.zip
+	/home/joo/Desktop/Eisvogel-2.4.0.zip
+t/home/joo/.local/share/vifm/Trash/000_Ren+2023.pdf
+	/home/joo/Desktop/Ren+2023.pdf
+t/home/joo/.local/share/vifm/Trash/000_html2pdf1191529-0.html
+	/home/joo/Desktop/html2pdf1191529-0.html
+t/home/joo/.local/share/vifm/Trash/000_html2pdf1191825-0.html
+	/home/joo/Desktop/html2pdf1191825-0.html
+t/home/joo/.local/share/vifm/Trash/000_test.pdf
+	/home/joo/Desktop/test.pdf
+t/home/joo/.local/share/vifm/Trash/000_test.md
+	/home/joo/test.md
+t/home/joo/.local/share/vifm/Trash/001_test.pdf
+	/home/joo/test.pdf
+t/home/joo/.local/share/vifm/Trash/000_Instruments.pdf
+	/home/joo/Instruments.pdf
+t/home/joo/.local/share/vifm/Trash/000_Notes.pdf
+	/home/joo/Notes.pdf
+t/home/joo/.local/share/vifm/Trash/000_Instruments.md
+	/home/joo/Desktop/Instruments.md
+t/home/joo/.local/share/vifm/Trash/000_Guardians of the Galaxy 003 (2013) (Digital) (Zone-Empire).cbr
+	/home/joo/Desktop/Guardians of the Galaxy 003 (2013) (Digital) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_Guardians of the Galaxy v03 - Guardians Disassembled (2014) (Digital) (F) (BroadCast-Empire).cbz
+	/home/joo/Desktop/Guardians of the Galaxy v03 - Guardians Disassembled (2014) (Digital) (F) (BroadCast-Empire).cbz
+t/home/joo/.local/share/vifm/Trash/000_Guardians of the Galaxy v04 - Original Sin (2015) (Digital) (F) (Zone-Empire).cbr
+	/home/joo/Desktop/Guardians of the Galaxy v04 - Original Sin (2015) (Digital) (F) (Zone-Empire).cbr
+t/home/joo/.local/share/vifm/Trash/000_Guardians of the Galaxy Vol. 05 - Through the Looking Glass (2015) GetComics.INFO.cbr
+	/home/joo/Desktop/Guardians of the Galaxy Vol. 05 - Through the Looking Glass (2015) GetComics.INFO.cbr
+t/home/joo/.local/share/vifm/Trash/000_compile_Millour_Intro.pdf
+	/home/joo/Desktop/compile_Millour_Intro.pdf
 
 # State:
 f

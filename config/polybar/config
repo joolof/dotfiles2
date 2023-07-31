@@ -47,6 +47,7 @@ font-2 = JetBrains Mono:size=12;2
 
 ; >> Modules
 modules-left = spotify spotify-prev spotify-play-pause spotify-next
+modules-center = taskwarrior_i taskwarrior
 modules-right = volume battery date 
 ;fixed-center = true
 ;

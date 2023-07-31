@@ -13,9 +13,8 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +177 ~/Codes/Python/Projects/CuDDiT/CuDDiT.py
-badd +88 ~/Codes/Python/Projects/CuDDiT/kernel.py
-badd +69 ~/Codes/Python/Projects/betadisk/frame.py
+badd +4 ~/Codes/Python/Projects/CuDDiT/CuDDiT.py
+badd +1 ~/Codes/Python/Projects/CuDDiT/kernel.py
 argglobal
 %argdel
 edit ~/Codes/Python/Projects/CuDDiT/CuDDiT.py
@@ -49,19 +48,18 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 177 - ((25 * winheight(0) + 24) / 49)
+let s:l = 4 - ((3 * winheight(0) + 21) / 43)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 177
+keepjumps 4
 normal! 017|
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/Codes/Python/Projects/betadisk/frame.py", ":p")) | buffer ~/Codes/Python/Projects/betadisk/frame.py | else | edit ~/Codes/Python/Projects/betadisk/frame.py | endif
+if bufexists(fnamemodify("~/Codes/Python/Projects/CuDDiT/kernel.py", ":p")) | buffer ~/Codes/Python/Projects/CuDDiT/kernel.py | else | edit ~/Codes/Python/Projects/CuDDiT/kernel.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/Codes/Python/Projects/betadisk/frame.py
+  silent file ~/Codes/Python/Projects/CuDDiT/kernel.py
 endif
-balt ~/Codes/Python/Projects/CuDDiT/kernel.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -72,13 +70,14 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 69 - ((23 * winheight(0) + 24) / 49)
+let s:l = 1 - ((0 * winheight(0) + 21) / 43)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 69
+keepjumps 1
 normal! 0
 wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 tabnext 1

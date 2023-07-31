@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +349 ~/SPHERE/dpol/hexabin.py
+badd +348 ~/SPHERE/dpol/hexabin.py
 badd +32 ~/SPHERE/dpol/get_dust.py
 badd +38 ~/SPHERE/dpol/get_dpol.py
 badd +49 ~/SPHERE/dpol/obslog.py

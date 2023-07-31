@@ -78,7 +78,10 @@ return packer.startup(function(use)
     -- Start page
     use 'echasnovski/mini.nvim'
 
-
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.2',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
     -- fuzzy finding w/ telescope
     --use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
     --use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
