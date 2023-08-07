@@ -16,15 +16,8 @@ data.location=~/.task
 # Color theme (uncomment one to use)
 # include /home/joo/.task/themes/dark-256.theme
 # include /home/joo/.task/themes/dark-red-256.theme
-include /home/joo/.task/themes/dark-blue-256.theme
+# include /home/joo/.task/themes/dark-blue-256.theme
 include /home/joo/.task/themes/nord.theme
-
-#taskd.certificate=/home/joo/.task/private.certificate.pem
-#taskd.key=/home/joo/.task/private.key.pem
-#taskd.ca=/home/joo/.task/ca.cert.pem
-#taskd.server=taskwarrior.inthe.am:53589
-#taskd.credentials=inthe_am/joh.olofsson/a467a746-3b8f-49f9-9dcf-7a7b79161260
-#taskd.trust=ignore hostname
 
 nag=
 
