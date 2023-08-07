@@ -15,7 +15,7 @@ keymap.set("n", "0", "g0")
 keymap.set("n", "$", "g$")
 
 -- clear search highlights
-keymap.set("n", "<C-/>", ":nohl<CR>", {desc = "Clear search HL"})
+keymap.set("n", "<C-n>", ":nohl<CR>", {desc = "Clear search HL"})
 
 -- delete single character without copying into register
 keymap.set("n", "x", '"_x', {desc = "Delete w/o copying"})
@@ -69,7 +69,8 @@ keymap.set("n", "<leader>l", ":TodoTelescope theme=dropdown<CR>", {desc = "Todo 
 keymap.set("n", "<leader>p", ":!opout %<CR>", {desc = "Open pdf"})
 local ytop = fterm:new({
     ft = 'fterm_ytop',
-    cmd = "ytop"
+    cmd = "bpytop"
+    -- cmd = "ytop"
 })
 local lazygit = fterm:new({
     ft = 'fterm_git',
@@ -96,6 +97,15 @@ wk.register({
         r = {":w! | RunFile float<CR>", "Run" },
         g = { function() lazygit:toggle() end, "Lazygit" },
         y = { function() ytop:toggle() end, "Ytop" }
+    },
+}, { prefix = "<leader>" })
+
+-- Telescope things
+wk.register({
+    f = {
+        name = "telescope", -- optional group name
+        f = {":Telescope find_files<CR>", "Files" },
+        w = {":Telescope live_grep<CR>", "Word"}
     },
 }, { prefix = "<leader>" })
 
