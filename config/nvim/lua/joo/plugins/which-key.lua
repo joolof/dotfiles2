@@ -9,14 +9,22 @@
 -- })
 --
 require("which-key").setup{
-  plugins = {
-    marks = false,
-    spelling = {
-      enabled = true,
-      suggestions = 20,
+    plugins = {
+        marks = false,
+        spelling = {
+            enabled = true,
+            suggestions = 20,
+        },
+        presets = {
+            operators = false,
+            motions = false,
+            windwows = false,
+            nav = false,
+            z = false,
+            g = false
+        },
     },
-    presets = {
-      operators = false,
+    window = {
+        border = "single"
     },
-  },
 }
