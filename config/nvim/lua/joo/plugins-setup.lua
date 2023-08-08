@@ -36,6 +36,9 @@ return packer.startup(function(use)
     -- Last place
     use("ethanholz/nvim-lastplace")
 
+    -- nvim-notify
+    use 'rcarriga/nvim-notify'
+
     -- Colorscheme using pywal
     use({ "AlphaTechnolog/pywal.nvim", as = "pywal" })
 
@@ -69,7 +72,8 @@ return packer.startup(function(use)
     use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 
     -- Buffer line
-    use("willothy/nvim-cokeline")
+    use({'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'})
+    -- use("willothy/nvim-cokeline")
     -- use("noib3/nvim-cokeline")
 
     -- Fterm (for ytop and lazygit and such)
