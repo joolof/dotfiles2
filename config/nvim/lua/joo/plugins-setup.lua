@@ -42,9 +42,6 @@ return packer.startup(function(use)
     -- Colorscheme using pywal
     use({ "AlphaTechnolog/pywal.nvim", as = "pywal" })
 
-    -- colorscheme
-    use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
-
     use("szw/vim-maximizer") -- maximizes and restores current window
 
     -- essential plugins
@@ -72,7 +69,6 @@ return packer.startup(function(use)
     use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 
     -- Buffer line
-    -- use({'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'})
     use("willothy/nvim-cokeline")
 
     -- Fterm (for ytop and lazygit and such)
@@ -86,8 +82,7 @@ return packer.startup(function(use)
       requires = { {'nvim-lua/plenary.nvim'} }
     }
     -- fuzzy finding w/ telescope
-    --use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
-    --use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
+    use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
 
     -- autocompletion
     use("hrsh7th/nvim-cmp") -- completion plugin
@@ -129,6 +124,11 @@ return packer.startup(function(use)
 
     -- git integration
     use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+
+    -- neorg
+    use("nvim-neorg/neorg")
+    -- use({"nvim-neorg/neorg", after = "nvim-treesitter"})
+
 
     if packer_bootstrap then
         require("packer").sync()

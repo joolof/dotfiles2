@@ -31,7 +31,7 @@ b/home/joo/Desktop/Stuff/Papers_admin/Chile/
 	1626562631
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -40,69 +40,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Codes/Python/Projects/SEDisk
-	..
-0
-d/home/joo/Codes/Python/Projects
-	external
-13
-d/home/joo/Codes/Python/Projects/external
-	..
-0
-d/home/joo/Codes/Python/Projects
-	old_projects
-14
-d/home/joo/Codes/Python/Projects/old_projects
-	..
-0
-d/home/joo/Codes/Python/Projects
-	phot
-15
-d/home/joo/Codes/Python/Projects/phot
-	..
-0
-d/home/joo/Codes/Python/Projects
-	sedd
-18
-d/home/joo/Codes/Python/Projects/sedd
-	..
-0
-d/home/joo/Codes/Python/Projects
-	sedd
-18
-d/home/joo/Codes/Python/Projects/sedd
-	sedd.py
-5
-d/home/joo/Codes/Python/Projects
-	unbound
-21
-d/home/joo/Codes/Python
-	Projects
-8
-d/home/joo/Codes
-	Python
-5
-d/home/joo
-	Fundings
-12
-d/home/joo/Fundings
-	ICM2019
-5
-d/home/joo/Fundings/ICM2019
-	..
-0
-d/home/joo/Fundings
-	ICM2019
-5
-d/home/joo
-	Talks
-31
-d/home/joo/Talks
-	Talks
-1
-d/home/joo/Talks/Talks
-	Conferences
-2
 d/home/joo/Talks/Talks/Conferences
 	2022-ESO_Lunch
 16
@@ -338,23 +275,74 @@ d/home/joo/Desktop/Stuff
 	Papers_admin
 14
 d/home/joo/Desktop
-	Doctors-and-Medical-Services-Munich-Bavaria.pdf
-6
+	Stuff
+3
+d/home/joo/Desktop/Stuff
+	Papers_admin
+14
+d/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Health
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dermato
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-08-08
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-08-08
+	Bill.pdf
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-08-09
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-08-09
+	Bill.pdf
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-08-09
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dermato
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Health
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+d/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+d/home/joo/Desktop/Stuff
+	Leather
+13
+d/home/joo/Desktop/Stuff/Leather
+	Patterns
+4
+d/home/joo/Desktop/Stuff/Leather/Patterns
+	Youtube
+1
+d/home/joo/Desktop/Stuff/Leather/Patterns/Youtube
+	17_Glasses_case_[HahnsAtelier].pdf
+1
+d/home/joo/Desktop/Stuff/Leather/Patterns
+	Youtube
+1
+d/home/joo/Desktop/Stuff/Leather
+	Patterns
+4
+d/home/joo/Desktop/Stuff
+	upgrade.txt
+19
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Codes/Python/Debris
-	MPTG_Logo
-11
-D/home/joo/Codes/Python
-	Debris
-2
-D/home/joo/Codes
-	Python
-5
-D/home/joo
-	Talks
-31
 D/home/joo/Talks
 	Talks
 1
@@ -641,6 +629,18 @@ D/home/joo/Desktop
 	wetransfer_hd-121617-i_prim-2023-01-25-star-polarization-subtracted_2023-02-07_1905.zip
 19
 D/home/joo
+	Pictures
+25
+D/home/joo/Pictures
+	screenshots
+16
+D/home/joo/Pictures/screenshots
+	address.png
+43
+D/home/joo/Pictures
+	screenshots
+16
+D/home/joo
 	snap
 37
 D
@@ -676,15 +676,17 @@ D
 :mkdir 2023-07-Vilnius
 :bmgo Chile
 :mkdir MPIA
-:!gimp %c
 :nohl
 :unzip
 :mkdir 2022-Jena-DDHA
 :mkdir Archive
 :!ds9 %c
 :mkdir 2023-08-01
-:move
 :trashes
+:!gimp %c
+:mkdir Dermato
+:mkdir 2023-08-8
+:move
 :q
 
 # Search history (oldest to newest):
@@ -719,11 +721,6 @@ D
 /ESO
 
 # Prompt history (oldest to newest):
-pCartola-2020-11.pdf
-pCartola-2020-10.pdf
-pCartola-2020-09.pdf
-pCartola-2020-08.pdf
-pCartola-2020-07.pdf
 pCartola-2020-06.pdf
 pCartola-2020-05.pdf
 pCartola-2020-04.pdf
@@ -819,11 +816,16 @@ pdoctor_bill.pdf
 p2023-06-23.pdf
 p2023-06-23
 p2023-06-19
+pAU_Mic.png
+pAU_Mic_tb.png
+p2023-08-08
+pBill.pdf
+p2023-08-09
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_DFG Wahlberechtigte 2023.xlsx
+""/home/joo/.local/share/vifm/Trash/000_AU_Mic.png
 
 # Directory stack (oldest to newest):
 
@@ -1280,6 +1282,10 @@ t/home/joo/.local/share/vifm/Trash/000_Kennedy_HD98800.pdf
 	/home/joo/Desktop/Kennedy_HD98800.pdf
 t/home/joo/.local/share/vifm/Trash/000_DFG Wahlberechtigte 2023.xlsx
 	/home/joo/Desktop/DFG Wahlberechtigte 2023.xlsx
+t/home/joo/.local/share/vifm/Trash/000_AU_Mic_tb.png
+	/home/joo/Pictures/screenshots/AU_Mic_tb.png
+t/home/joo/.local/share/vifm/Trash/000_AU_Mic.png
+	/home/joo/Pictures/screenshots/AU_Mic.png
 
 # State:
 f

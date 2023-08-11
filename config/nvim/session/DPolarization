@@ -14,7 +14,7 @@ else
   set shortmess=aoO
 endif
 badd +43 ~/SPHERE/dpol/hexabin.py
-badd +14 ~/SPHERE/dpol/get_dust.py
+badd +5 ~/SPHERE/dpol/get_dust.py
 badd +29 ~/SPHERE/dpol/get_dpol.py
 badd +58 ~/SPHERE/dpol/obslog.py
 badd +281 ~/SPHERE/dpol/get_pdfunc.py
@@ -52,19 +52,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 14 - ((13 * winheight(0) + 21) / 43)
+let s:l = 5 - ((4 * winheight(0) + 21) / 43)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 14
-normal! 05|
+keepjumps 5
+normal! 0
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/SPHERE/dpol/get_dpol.py", ":p")) | buffer ~/SPHERE/dpol/get_dpol.py | else | edit ~/SPHERE/dpol/get_dpol.py | endif
+if bufexists(fnamemodify("~/SPHERE/dpol/get_dust.py", ":p")) | buffer ~/SPHERE/dpol/get_dust.py | else | edit ~/SPHERE/dpol/get_dust.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/SPHERE/dpol/get_dpol.py
+  silent file ~/SPHERE/dpol/get_dust.py
 endif
-balt ~/SPHERE/dpol/get_dust.py
+balt ~/SPHERE/dpol/get_dpol.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -75,13 +75,14 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 29 - ((21 * winheight(0) + 21) / 43)
+let s:l = 13 - ((12 * winheight(0) + 21) / 43)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 29
-normal! 074|
+keepjumps 13
+normal! 0
 wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
 exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 tabnext 1
