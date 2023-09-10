@@ -40,72 +40,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Talks/Talks/Conferences
-	2022-ESO_Lunch
-16
-d/home/joo/Talks/Talks
-	Concours
-1
-d/home/joo/Talks/Talks/Concours
-	2014
-5
-d/home/joo/Talks/Talks/Concours/2014
-	CNRS
-2
-d/home/joo/Talks/Talks/Concours/2014/CNRS
-	CNRS_2014.pdf
-2
-d/home/joo/Talks/Talks/Concours/2014
-	CNRS
-2
-d/home/joo/Talks/Talks/Concours
-	2014
-5
-d/home/joo/Talks/Talks
-	Figures
-3
-d/home/joo/Talks/Talks/Figures
-	..
-0
-d/home/joo/Talks/Talks
-	LAOG
-4
-d/home/joo/Talks/Talks/LAOG
-	CHI2
-1
-d/home/joo/Talks/Talks/LAOG/CHI2
-	fit_chaud.png
-6
-d/home/joo/Talks/Talks/LAOG
-	CHI2
-1
-d/home/joo/Talks/Talks
-	Logos
-5
-d/home/joo/Talks/Talks/Logos
-	..
-0
-d/home/joo/Talks/Talks
-	MPIA
-6
-d/home/joo/Talks/Talks/MPIA
-	FB2013
-1
-d/home/joo/Talks/Talks/MPIA/FB2013
-	Final
-2
-d/home/joo/Talks/Talks/MPIA/FB2013/Final
-	FB_science_report_Olofsson.pdf
-1
-d/home/joo/Talks/Talks/MPIA/FB2013
-	Final
-2
-d/home/joo/Talks/Talks/MPIA
-	FB2013
-1
-d/home/joo/Talks/Talks
-	Marp
-7
 d/home/joo/Talks/Talks/Marp
 	test.pdf
 3
@@ -338,41 +272,77 @@ d/home/joo/Desktop/Stuff/Leather
 	Patterns
 4
 d/home/joo/Desktop/Stuff
-	upgrade.txt
-19
+	Go
+9
+d/home/joo/Desktop/Stuff/Go
+	001-ok3624.sgf
+4
+d/home/joo/Desktop/Stuff
+	Go
+9
+d/home/joo/Desktop
+	Lufthansa-LYS-Aug2023
+2
+d/home/joo/Desktop/Lufthansa-LYS-Aug2023
+	confirmation.pdf
+6
+d/home/joo/Desktop
+	Lufthansa-LYS-Aug2023
+2
+d/home/joo
+	Fundings
+12
+d/home/joo/Fundings
+	..
+0
+d/home/joo/Desktop/Stuff/Papers_admin/Chile
+	IFA
+14
+d/home/joo/Desktop/Stuff/Papers_admin/Chile/IFA
+	..
+0
+d/home/joo/Desktop/Stuff/Papers_admin/Chile
+	IFA
+14
+d/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Health
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dermato
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-08
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-08
+	..
+0
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-08
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-08
+	Bill-2023-09-08.pdf
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-08
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dermato
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Health
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Talks
-	Talks
-1
-D/home/joo/Talks/Talks
-	MPIA
-6
-D/home/joo/Talks/Talks/MPIA
-	..
-0
-D/home/joo/Talks/Talks
-	Logos
-5
-D/home/joo/Talks/Talks/Logos
-	UV-IFA-all
-2
-D/home/joo/Talks/Talks/Logos/UV-IFA-all
-	Logo_NPF-apaisado_fondooscuro.png
-4
-D/home/joo/Talks/Talks/Logos
-	UV-IFA-all
-2
-D/home/joo/Talks/Talks
-	Logos
-5
-D/home/joo/Talks
-	Talks
-1
-D/home/joo
-	Documents
-10
 D/home/joo/Documents
 	Passport
 9
@@ -641,6 +611,36 @@ D/home/joo/Pictures
 	screenshots
 16
 D/home/joo
+	Desktop
+9
+D/home/joo/Desktop
+	full_list.csv
+12
+D/home/joo
+	Documents
+10
+D/home/joo/Documents
+	Passport
+9
+D/home/joo/Documents/Passport
+	ABAYO_passport_2031.pdf
+1
+D/home/joo/Documents
+	Passport
+9
+D/home/joo
+	Desktop
+9
+D/home/joo/Desktop
+	unnamed.jpg
+21
+D/home/joo
+	Desktop
+9
+D/home/joo/Desktop
+	full_list.csv
+12
+D/home/joo
 	snap
 37
 D
@@ -674,7 +674,6 @@ D
 :mkdir screenshots
 :mkdir 2023-USD
 :mkdir 2023-07-Vilnius
-:bmgo Chile
 :mkdir MPIA
 :nohl
 :unzip
@@ -686,6 +685,10 @@ D
 :!gimp %c
 :mkdir Dermato
 :mkdir 2023-08-8
+:mkdir Lufthansa-LYS-Aug2023
+:bmgo Chile
+:Mkdir 2023-09-08
+:mkdir 2023-09-08
 :move
 :q
 
@@ -721,9 +724,6 @@ D
 /ESO
 
 # Prompt history (oldest to newest):
-pCartola-2020-06.pdf
-pCartola-2020-05.pdf
-pCartola-2020-04.pdf
 pCartola-2021-03.pdf
 pCartola-2020-03.pdf
 pCartola-2021-02.pdf
@@ -821,11 +821,14 @@ pAU_Mic_tb.png
 p2023-08-08
 pBill.pdf
 p2023-08-09
+pconfirmation.pdf
+pRenuncia_Olofsson.pdf
+pBill-2023-09-08.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_AU_Mic.png
+""/home/joo/.local/share/vifm/Trash/000_out0003.pdf
 
 # Directory stack (oldest to newest):
 
@@ -1286,6 +1289,56 @@ t/home/joo/.local/share/vifm/Trash/000_AU_Mic_tb.png
 	/home/joo/Pictures/screenshots/AU_Mic_tb.png
 t/home/joo/.local/share/vifm/Trash/000_AU_Mic.png
 	/home/joo/Pictures/screenshots/AU_Mic.png
+t/home/joo/.local/share/vifm/Trash/000_Spider-Man.Across.the.Spider-Verse.2023.Hybrid.2160p.WEB-DL.DDP.5.1.Atmos.HDR.DV.H.265-FLUX.torrent
+	/home/joo/Desktop/Spider-Man.Across.the.Spider-Verse.2023.Hybrid.2160p.WEB-DL.DDP.5.1.Atmos.HDR.DV.H.265-FLUX.torrent
+t/home/joo/.local/share/vifm/Trash/000_test-fonts.sh
+	/home/joo/Desktop/test-fonts.sh
+t/home/joo/.local/share/vifm/Trash/000_resolved.sql
+	/home/joo/Desktop/resolved.sql
+t/home/joo/.local/share/vifm/Trash/000_resolved_corrected.sql
+	/home/joo/Desktop/resolved_corrected.sql
+t/home/joo/.local/share/vifm/Trash/000_BrunoMedinaMsC.pdf
+	/home/joo/Desktop/BrunoMedinaMsC.pdf
+t/home/joo/.local/share/vifm/Trash/000_You are checked-in LH2246, MUC-LYS, 12AUG23, 07 05, Gate G, Seat 6D, Boarding Pass.pdf
+	/home/joo/Desktop/You are checked-in LH2246, MUC-LYS, 12AUG23, 07 05, Gate G, Seat 6D, Boarding Pass.pdf
+t/home/joo/.local/share/vifm/Trash/000_You are checked-in LH2248, MUC-LYS, 11AUG23, 10 10, Gate K, Seat 6D, Boarding Pass.pdf
+	/home/joo/Desktop/You are checked-in LH2248, MUC-LYS, 11AUG23, 10 10, Gate K, Seat 6D, Boarding Pass.pdf
+t/home/joo/.local/share/vifm/Trash/000_test_page1.svg
+	/home/joo/test_page1.svg
+t/home/joo/.local/share/vifm/Trash/000_test_page2.svg
+	/home/joo/test_page2.svg
+t/home/joo/.local/share/vifm/Trash/000_test_page3.svg
+	/home/joo/test_page3.svg
+t/home/joo/.local/share/vifm/Trash/000_test_page4.svg
+	/home/joo/test_page4.svg
+t/home/joo/.local/share/vifm/Trash/000_tmp.pdf
+	/home/joo/tmp.pdf
+t/home/joo/.local/share/vifm/Trash/000_unnamed.jpg
+	/home/joo/Desktop/unnamed.jpg
+t/home/joo/.local/share/vifm/Trash/000_20230828_152232.jpg
+	/home/joo/Desktop/20230828_152232.jpg
+t/home/joo/.local/share/vifm/Trash/000_feh_457759_000001_unnamed.jpg
+	/home/joo/Desktop/feh_457759_000001_unnamed.jpg
+t/home/joo/.local/share/vifm/Trash/000_feh_2194466_000001_unnamed.jpg
+	/home/joo/Desktop/feh_2194466_000001_unnamed.jpg
+t/home/joo/.local/share/vifm/Trash/000_feh_2194530_000001_20230828_152232.jpg
+	/home/joo/Desktop/feh_2194530_000001_20230828_152232.jpg
+t/home/joo/.local/share/vifm/Trash/000_2023-ABAYO-Science-Assessments.txt
+	/home/joo/Desktop/2023-ABAYO-Science-Assessments.txt
+t/home/joo/.local/share/vifm/Trash/000_ACTA Bruno Medina.pdf
+	/home/joo/Desktop/ACTA Bruno Medina.pdf
+t/home/joo/.local/share/vifm/Trash/000_AUTHORS.txt
+	/home/joo/Desktop/AUTHORS.txt
+t/home/joo/.local/share/vifm/Trash/000_HD181327_v2.pdf
+	/home/joo/Desktop/HD181327_v2.pdf
+t/home/joo/.local/share/vifm/Trash/000_MUC-HD.pdf
+	/home/joo/Desktop/MUC-HD.pdf
+t/home/joo/.local/share/vifm/Trash/000_Renuncia_ABAYO.pdf
+	/home/joo/Desktop/Renuncia_ABAYO.pdf
+t/home/joo/.local/share/vifm/Trash/000_Starfield-RUNE.torrent
+	/home/joo/Desktop/Starfield-RUNE.torrent
+t/home/joo/.local/share/vifm/Trash/000_out0003.pdf
+	/home/joo/out0003.pdf
 
 # State:
 f

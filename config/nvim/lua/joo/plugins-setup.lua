@@ -40,7 +40,8 @@ return packer.startup(function(use)
     use 'rcarriga/nvim-notify'
 
     -- Colorscheme using pywal
-    use({ "AlphaTechnolog/pywal.nvim", as = "pywal" })
+    -- use({ "AlphaTechnolog/pywal.nvim", as = "pywal" })
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use("szw/vim-maximizer") -- maximizes and restores current window
 
@@ -69,7 +70,8 @@ return packer.startup(function(use)
     use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 
     -- Buffer line
-    use("willothy/nvim-cokeline")
+    -- use("willothy/nvim-cokeline")
+    use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'} 
 
     -- Fterm (for ytop and lazygit and such)
     use("numToStr/FTerm.nvim")

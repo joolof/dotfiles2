@@ -1460,6 +1460,6 @@ editor nvim
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
+# 1984 Light
 include current-theme.conf
 # END_KITTY_THEME

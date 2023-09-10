@@ -18,6 +18,11 @@ require('neorg').setup {
             },
         },
         ["core.summary"] = {},
+        ["core.esupports.metagen"] = {
+            config = {
+                type = "auto",
+            },
+        },
         ["core.concealer"] = {
           config = {
             icon_preset = "varied",

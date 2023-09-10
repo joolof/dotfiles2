@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/joo/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/home/joo/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -134,11 +144,6 @@ _G.packer_plugins = {
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-cokeline"] = {
-    loaded = true,
-    path = "/home/joo/.local/share/nvim/site/pack/packer/start/nvim-cokeline",
-    url = "https://github.com/willothy/nvim-cokeline"
-  },
   ["nvim-lastplace"] = {
     loaded = true,
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/nvim-lastplace",
@@ -173,11 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  pywal = {
-    loaded = true,
-    path = "/home/joo/.local/share/nvim/site/pack/packer/start/pywal",
-    url = "https://github.com/AlphaTechnolog/pywal.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,

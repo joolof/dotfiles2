@@ -115,7 +115,7 @@ bindkey '^[[A' fzf-history-widget
 
 source $HOME/.bash_aliases
 # added by Anaconda2 installer
-export PATH="/home/joo/.local/bin:/home/joo/anaconda2/bin:/home/joo/.scripts:/home/joo/.cargo/bin:$PATH"
+export PATH="/home/joo/.local/bin:/home/joo/anaconda2/bin:/home/joo/.scripts:/home/joo/.cargo/bin:/home/joo/.cargo/env:$PATH"
 
 export DDIT_PATH='/home/joo/SPHERE/HD61005/Modelling/Dust/'
 #export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
@@ -153,7 +153,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 #source $HOME/.dynamic-colors/completions/dynamic-colors.zsh
 #dynamic-colors init
 
-(cat ~/.cache/wal/sequences &)
+# (cat ~/.cache/wal/sequences &)
 
 
 
