@@ -4,15 +4,16 @@
 pseudo-transparency = true
 
 [colors]
-fg = ${xrdb:color2}
-bg = ${xrdb:color0}
-colspot = ${xrdb:color2}
-coldate = ${xrdb:color5}
-icon-bg = ${xrdb:color2}
-icon-fg = ${xrdb:color3}
-underline = ${xrdb:color8}
+fg = ${colors.text}
+bg = ${colors.base}
+colspot = ${colors.sky}
+coldate = ${colors.teal}
+icon-bg = ${colors.lavender}
+icon-fg = ${colors.blue}
+underline = ${colors:color8}
 
 [global/wm]
+include-file = $HOME/.config/polybar/macchiato.ini
 margin-top = 0
 margin-bottom = 0
 
@@ -41,7 +42,7 @@ padding = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = Iosevka:style=Bold:pixelsize=10;3
+font-0 = Iosevka:style=Bold:pixelsize=11;3
 # font-0 = JetBrains Mono:style=Bold:pixelsize=10;3
 font-1 = FontAwesome:pixelsize=12;3
 font-2 = JetBrains Mono:size=12;2
