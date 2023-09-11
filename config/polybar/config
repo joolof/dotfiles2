@@ -4,12 +4,12 @@
 pseudo-transparency = true
 
 [colors]
-fg = ${colors.text}
+fg = ${colors.overlay2}
 bg = ${colors.base}
 colspot = ${colors.sky}
 coldate = ${colors.teal}
 icon-bg = ${colors.lavender}
-icon-fg = ${colors.blue}
+icon-fg = ${colors.teal}
 underline = ${colors:color8}
 
 [global/wm]
@@ -44,7 +44,7 @@ module-margin-right = 1
 
 font-0 = Iosevka:style=Bold:pixelsize=11;3
 # font-0 = JetBrains Mono:style=Bold:pixelsize=10;3
-font-1 = FontAwesome:pixelsize=12;3
+font-1 = FontAwesome:pixelsize=12;4
 font-2 = JetBrains Mono:size=12;2
 
 ; >> Modules
