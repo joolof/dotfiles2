@@ -40,78 +40,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Talks/Talks/Marp
-	test.pdf
-3
-d/home/joo/Talks/Talks
-	Other-people
-8
-d/home/joo/Talks/Talks/Other-people
-	Augereau.pdf
-3
-d/home/joo/Talks/Talks
-	PhD
-9
-d/home/joo/Talks/Talks/PhD
-	..
-0
-d/home/joo/Talks/Talks
-	Posters
-10
-d/home/joo/Talks/Talks/Posters
-	..
-0
-d/home/joo/Talks/Talks
-	Seminars
-11
-d/home/joo/Talks/Talks/Seminars
-	Heidelberg
-2
-d/home/joo/Talks/Talks/Seminars/Heidelberg
-	..
-0
-d/home/joo/Talks/Talks/Seminars
-	Heidelberg
-2
-d/home/joo/Talks/Talks
-	Teaching
-12
-d/home/joo/Talks/Talks/Teaching
-	Valparaiso
-1
-d/home/joo/Talks/Talks/Teaching/Valparaiso
-	VIS_2019
-1
-d/home/joo/Talks/Talks/Teaching/Valparaiso/VIS_2019
-	VIS_cosmic_dust.pdf
-2
-d/home/joo/Talks/Talks/Teaching/Valparaiso
-	VIS_2019
-1
-d/home/joo/Talks/Talks/Teaching
-	Valparaiso
-1
-d/home/joo/Talks/Talks
-	Team_meetings
-13
-d/home/joo/Talks/Talks/Team_meetings
-	..
-0
-d/home/joo/Talks/Talks
-	beamer
-14
-d/home/joo/Talks/Talks/beamer
-	beamer_guide.pdf
-3
-d/home/joo/Talks/Talks
-	beamer
-14
-d/home/joo/Talks
-	Talks
-1
-d/home/joo
-	Talks
-31
 d/home/joo/Talks
 	Talks
 1
@@ -340,12 +268,81 @@ d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
 d/home/joo/Desktop/Stuff/Papers_admin/Germany
 	Munich
 3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	Health
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Doctor
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Doctor
+	2023-06-19
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Doctor/2023-06-19
+	doctor_bill.pdf
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Doctor
+	2023-06-19
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Doctor
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Doctor
+	2023-06-19
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Doctor/2023-06-19
+	LG-59915453.pdf
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Doctor
+	2023-06-19
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dermato
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-14
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-14
+	diagnosis.pdf
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-14
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dentist
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist
+	2023-09-13
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist/2023-09-13
+	bill.pdf
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist
+	2023-09-13
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dermato
+2
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-14
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-14
+	bill.pdf
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
+	2023-09-14
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
+	Dentist
+1
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist
+	2023-09-13
+3
+d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist/2023-09-13
+	bill.pdf
+1
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Documents
-	Passport
-9
 D/home/joo/Documents/Passport
 	..
 0
@@ -643,6 +640,9 @@ D/home/joo/Desktop
 D/home/joo
 	snap
 35
+D/home/joo/Desktop
+	Marshall21.dat
+10
 D
 
 # Command line history (oldest to newest):
@@ -670,7 +670,6 @@ D
 :trashdir
 :h vifm-trash
 :!evince %c
-:bmgo Desktop
 :mkdir screenshots
 :mkdir 2023-USD
 :mkdir 2023-07-Vilnius
@@ -689,7 +688,11 @@ D
 :bmgo Chile
 :Mkdir 2023-09-08
 :mkdir 2023-09-08
+:mkdir 2023-09-14
+:mkdir 2023-09-13
+:mv
 :move
+:bmgo Desktop
 :q
 
 # Search history (oldest to newest):
@@ -724,11 +727,6 @@ D
 /ESO
 
 # Prompt history (oldest to newest):
-pCartola-2021-03.pdf
-pCartola-2020-03.pdf
-pCartola-2021-02.pdf
-pCartola-2021-04.pdf
-pCartola-2021-05.pdf
 pCartola-2021-06.pdf
 pCartola-2021-07.pdf
 pCartola-2021-09.pdf
@@ -824,11 +822,16 @@ p2023-08-09
 pconfirmation.pdf
 pRenuncia_Olofsson.pdf
 pBill-2023-09-08.pdf
+pbill.pdf
+pdiagnosis_01.pdf
+pdiagnosis_02.pdf
+pout0001.pdf
+pout0002.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_out0003.pdf
+""/home/joo/.local/share/vifm/Trash/001_out0003.pdf
 
 # Directory stack (oldest to newest):
 
@@ -1339,6 +1342,26 @@ t/home/joo/.local/share/vifm/Trash/000_Starfield-RUNE.torrent
 	/home/joo/Desktop/Starfield-RUNE.torrent
 t/home/joo/.local/share/vifm/Trash/000_out0003.pdf
 	/home/joo/out0003.pdf
+t/home/joo/.local/share/vifm/Trash/000_diagnosis_01.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-14/diagnosis_01.pdf
+t/home/joo/.local/share/vifm/Trash/000_diagnosis_02.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-14/diagnosis_02.pdf
+t/home/joo/.local/share/vifm/Trash/000_Corvalan_thesis.pptx
+	/home/joo/Desktop/Corvalan_thesis.pptx
+t/home/joo/.local/share/vifm/Trash/000_Poiret_One.zip
+	/home/joo/Desktop/Poiret_One.zip
+t/home/joo/.local/share/vifm/Trash/000_output.pdf
+	/home/joo/Desktop/output.pdf
+t/home/joo/.local/share/vifm/Trash/000_HD181327_SPHERE.pdf
+	/home/joo/Desktop/HD181327_SPHERE.pdf
+t/home/joo/.local/share/vifm/Trash/000_HD181327_submitted_2_columns.pdf
+	/home/joo/Desktop/HD181327_submitted_2_columns.pdf
+t/home/joo/.local/share/vifm/Trash/000_out0001.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist/2023-09-13/out0001.pdf
+t/home/joo/.local/share/vifm/Trash/000_out0002.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist/2023-09-13/out0002.pdf
+t/home/joo/.local/share/vifm/Trash/001_out0003.pdf
+	/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dentist/2023-09-13/out0003.pdf
 
 # State:
 f
