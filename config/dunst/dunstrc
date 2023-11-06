@@ -2,25 +2,12 @@
 
 [global]
     ### Display ###
-
     # Which monitor should the notifications be displayed on.
     monitor = 0
-
-    # Display notification on focused monitor.  Possible modes are:
-    #   mouse: follow mouse pointer
-    #   keyboard: follow window with keyboard focus
-    #   none: don't follow anything
-    #
-    # "keyboard" needs a window manager that exports the
-    # _NET_ACTIVE_WINDOW property.
-    # This should be the case for almost all modern window managers.
-    #
-    # If this option is set to mouse or keyboard, the monitor option
-    # will be ignored.
     follow = none
 
     ### Geometry ###
-    geometry = "300x5-10+43"
+    geometry = "350x1-335+12"
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 1
@@ -28,34 +15,12 @@
     # Maximum number of notification (0 means no limit)
     notification_limit = 20
 
-    ### Progress bar ###
-
-    # Turn on the progess bar. It appears when a progress hint is passed with
-    # for example dunstify -h int:value:12
-    progress_bar = false
-
-    # Set the progress bar height. This includes the frame, so make sure
-    # it's at least twice as big as the frame width.
-    progress_bar_height = 10
-
-    # Set the frame width of the progress bar
-    progress_bar_frame_width = 1
-
-    # Set the minimum width for the progress bar
-    progress_bar_min_width = 150
-
-    # Set the maximum width for the progress bar
-    progress_bar_max_width = 300
-
-    # Corner radius for the progress bar. 0 disables rounded corners.
-    progress_bar_corner_radius = 0
-
     # Corner radius for the icon image.
     icon_corner_radius = 0
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
-    indicate_hidden = yes
+    indicate_hidden = no
 
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
@@ -69,17 +34,17 @@
     separator_height = 2
 
     # Padding between text and separator.
-    padding = 8
+    padding = 6
 
     # Horizontal padding.
-    horizontal_padding = 8
+    horizontal_padding = 1
 
     # Padding between text and icon.
     text_icon_padding = 0
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 3
+    frame_width = 0
 
     # Defines color of the frame around the notification window.
     frame_color = "#ed8796"
@@ -150,11 +115,11 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%s</b>\n%b"
+    format = "<b>%s</b> %b "
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
-    alignment = right
+    alignment = center
 
     # Vertical alignment of message text and icon.
     # Possible values are "top", "center" and "bottom".
@@ -237,7 +202,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 4
+    corner_radius = 0
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -309,8 +274,8 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#24273a"
-    foreground = "#a5adcb"
+    background = "#1e2030"
+    foreground = "#f5a97f"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon

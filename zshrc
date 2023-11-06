@@ -138,6 +138,7 @@ export READER='zathura'
 TZ='Europe/Berlin'; 
 export TZ
 export FZF_DEFAULT_COMMAND='fd --type f'
+export LC_TIME=en_US.utf8
 
 VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
 #export BROWSER='/usr/bin/google-chrome'

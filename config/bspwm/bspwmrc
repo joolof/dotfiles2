@@ -18,11 +18,11 @@ feh --bg-scale /home/joo/Pictures/wallpapers/mountains.png &
 pacmd set-default-sink alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink
 
 
-bspc config top_padding         3
+bspc config top_padding         2
 bspc config border_width        2
 bspc config window_gap          10
 
-bspc config active_border_color FFA71A
+bspc config focused_border_color F5A97F
 
 bspc config split_ratio          0.6
 bspc config borderless_monocle   false
