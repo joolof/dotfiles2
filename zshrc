@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/joo/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -115,23 +115,23 @@ bindkey '^[[A' fzf-history-widget
 
 source $HOME/.bash_aliases
 # added by Anaconda2 installer
-export PATH="/home/joo/.local/bin:/home/joo/anaconda2/bin:/home/joo/.scripts:/home/joo/.cargo/bin:/home/joo/.cargo/env:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.cargo/env:$PATH"
 
-export DDIT_PATH='/home/joo/SPHERE/HD61005/Modelling/Dust/'
+export DDIT_PATH="$HOME/SPHERE/HD61005/Modelling/Dust/"
 #export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/joo/_NOT_SYNC/MultiNest/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
 
 # For ESO p2pp
-export PATH="/home/joo/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
+export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
 #export JAVA_HOME=/home/joo/Codes/Packages/Java/jre
 
 # For esorex and shit
-export CPLDIR=/home/joo/Codes/Packages/ESO/pipelines
-export PATH="/home/joo/gasgano/bin:/home/joo/Codes/Packages/ESO/pipelines/bin:$PATH"
+export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
+export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH"
 
 # For MCFOST
-export MCFOST_UTILS=/home/joo/IRS/mcfost/utils
+export MCFOST_UTILS=$HOME/IRS/mcfost/utils
 
 export READER='zathura'
 

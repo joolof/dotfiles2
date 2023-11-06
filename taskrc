@@ -17,7 +17,7 @@ data.location=~/.task
 # include /home/joo/.task/themes/dark-256.theme
 # include /home/joo/.task/themes/dark-red-256.theme
 # include /home/joo/.task/themes/dark-blue-256.theme
-include /home/joo/.task/themes/nord.theme
+include ~/.task/themes/nord.theme
 
 nag=
 

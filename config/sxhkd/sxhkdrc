@@ -13,7 +13,7 @@ super + t
 
 # Taskwarrior
 super + @p
-    scrot -s '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+    scrot -s '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # $HOME/.scripts/rofi_taskwarrior.py
 
@@ -56,12 +56,12 @@ XF86AudioMute
 
 # Decrease screen brightness
 XF86MonBrightnessUp
-    /home/joo/.scripts/brightness.sh + eDP-1
+    ~/.scripts/brightness.sh + eDP-1
     # xrandr --output eDP-1 -brightness 1.0
 
 # decrease screen brightness
 XF86MonBrightnessDown
-    /home/joo/.scripts/brightness.sh - eDP-1
+    ~/.scripts/brightness.sh - eDP-1
     # xrandr --output eDP-1 -brightness 0.5 
     # xbacklight -dec 10 
 
@@ -71,10 +71,10 @@ super + d
 
 #Screenshots
 # Print
-#     scrot '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+#     scrot '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # shift + @Print
-#     scrot -s '/home/joo/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+#     scrot -s '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # make sxhkd reload its configuration files:
 super + Escape
