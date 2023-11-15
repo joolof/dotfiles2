@@ -15,6 +15,7 @@ require('neorg').setup {
             config = {
                 journal_folder = "jrnl",
                 strategy = "flat",
+                workspace = 'personal',
             },
         },
         ["core.summary"] = {},

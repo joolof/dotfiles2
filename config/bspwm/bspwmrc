@@ -9,6 +9,7 @@ if xrandr -q | grep 'HDMI-1-0 connected' >/dev/null 2>&1; then
     bspc monitor HDMI-1-0 -d 1 3 5 6 7 9
 fi
 
+wmname LG3D
 xrdb ~/.Xresources &
 ~/.config/polybar/launch.sh &
 picom --config ~/.config/picom.conf -b --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness 350 &
@@ -29,7 +30,8 @@ bspc config borderless_monocle   false
 bspc config gapless_monocle      false
 bspc config single_monocle       false
 
-bspc rule -a Zathura state=floating rectangle=1000x750+200+100
+# bspc rule -a Zathura state=floating rectangle=1000x750+200+100
+bspc rule -a Zathura state=floating
 bspc rule -a steam_app_6910 state=floating
 bspc rule -a Skype state=floating
 bspc rule -a Yad state=floating
@@ -49,17 +51,20 @@ bspc rule -a Lutris state=floating
 bspc rule -a ESOQuery.py state=floating
 bspc rule -a Ryujinx state=floating
 bspc rule -a SPHEREQuery.py state=floating
-bspc rule -a tsmapplication.exe state=floating
-bspc rule -a battle.net.exe state=floating
-bspc rule -a blueman-manager state=floating
+bspc rule -a Blueman-manager state=floating
 bspc rule -a matplotlib state=floating layer=above
 bspc rule -a herschel-ia-gui-apps-HipeStarter state=floating
 bspc rule -a " " state=floating
 
-bspc rule -a Firefox desktop='1'
+bspc rule -a firefox desktop='1'
 bspc rule -a thunderbird desktop='2' follow=on
 bspc rule -a GoPanda2 desktop='8'
 bspc rule -a Sabaki desktop='7'
 bspc rule -a mpv desktop='8'
-bspc rule -a Gimp desktop='9' state=floating follow=on
+bspc rule -a Gimp-2.10 desktop='9' state=floating follow=on
 bspc rule -a spotify desktop='10'
+
+bspc rule -a org-kepler-Kepler state=floating
+bspc rule -a sun-awt-X11-XFramePeer desktop='7' state=floating follow=on
+bspc rule -a sun-awt-X11-XDialogPeer desktop='7' state=floating follow=on
+bspc rule -a org-eso-ohs-phase2-apps-ot-gui-OT desktop='7' state=floating follow=on

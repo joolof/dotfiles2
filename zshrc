@@ -110,7 +110,9 @@ bindkey '^[[A' fzf-history-widget
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-
+export OHSROOT=$HOME/USD/OT
+export OT_ROOT=$OHSROOT/ot-3.11.9-usd
+export JAVA_HOME=$OHSROOT/jre1.8.0_45
 
 
 source $HOME/.bash_aliases
@@ -118,17 +120,17 @@ source $HOME/.bash_aliases
 export PATH="$HOME/.local/bin:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.cargo/env:$PATH"
 
 export DDIT_PATH="$HOME/SPHERE/HD61005/Modelling/Dust/"
-#export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
+#export PYTHONPATH=$PYTHONPATH:~/.ipython/pydrs:~/.ipython/loci:~/Codes/Python/Papers:~/.ipython/phot
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
 
 # For ESO p2pp
-export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
-#export JAVA_HOME=/home/joo/Codes/Packages/Java/jre
+# export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
+#export JAVA_HOME=~/Codes/Packages/Java/jre
 
 # For esorex and shit
-export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
-export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH"
+# export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
+# export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH"
 
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils
@@ -146,7 +148,7 @@ export BROWSER='/usr/bin/firefox'
 #export TERM='xterm-256color'
 
 # JAVA stuff for reiszing the window
-export _JAVA_AWT_WM_NONREPARENTING=1
+# export _JAVA_AWT_WM_NONREPARENTING=1
 
 # For dynamic colors
 # https://github.com/sos4nt/dynamic-colors
