@@ -13,7 +13,7 @@ super + t
 
 # Taskwarrior
 super + @p
-    scrot -s '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+    scrot -s -e 'mv $f ~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # $HOME/.scripts/rofi_taskwarrior.py
 
@@ -69,12 +69,6 @@ XF86MonBrightnessDown
 super + d
 	rofi -show drun -width 40 -eh 1
 
-#Screenshots
-# Print
-#     scrot '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
-
-# shift + @Print
-#     scrot -s '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # make sxhkd reload its configuration files:
 super + Escape

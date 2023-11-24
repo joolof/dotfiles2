@@ -31,8 +31,8 @@ b/home/joo/Desktop/Stuff/Papers_admin/Chile/
 	1626562631
 
 # TUI:
-al
-q0
+ar
+q1
 v2
 ov
 m-1
@@ -40,51 +40,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
-	2023-090-29
-5
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-090-29
-	..
-0
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
-	2023-09-29
-5
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato/2023-09-29
-	bill.pdf
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health/Dermato
-	2023-09-29
-5
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/Health
-	Dermato
-2
-d/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
-	Health
-1
-d/home/joo/Desktop/Stuff/Papers_admin/Germany
-	Munich
-3
-d/home/joo/Desktop/Stuff/Papers_admin
-	Germany
-2
-d/home/joo/Desktop/Stuff
-	Papers_admin
-15
-d/home/joo/Desktop
-	Stuff
-4
-d/home/joo
-	Documents
-10
-d/home/joo/Documents
-	Passport
-13
-d/home/joo/Documents/Passport
-	passport_Olofsson.pdf
-10
-d/home/joo/Documents
-	Passport
-13
 d/home/joo
 	Pictures
 25
@@ -340,78 +295,54 @@ d/home/joo/Pictures
 d/home/joo/Pictures/screenshots
 	2023-11-09_11.09.12.png
 56
+d/home/joo/Pictures
+	screenshots
+15
+d/home/joo
+	Desktop
+9
+d/home/joo/Desktop
+	Cha_survey_paper_V2.pdf
+7
+d/home/joo
+	Fundings
+12
+d/home/joo/Fundings
+	2023-Heisenberg
+1
+d/home/joo/Fundings/2023-Heisenberg
+	..
+0
+d/home/joo/Fundings
+	2023-Heisenberg
+1
+d/home/joo/Fundings/2023-Heisenberg
+	proposal_dfg
+2
+d/home/joo/Fundings/2023-Heisenberg/proposal_dfg
+	form_53_20_en.run.xml
+20
+d/home/joo/Fundings/2023-Heisenberg
+	proposal_dfg
+2
+d/home/joo/Fundings
+	2023-Heisenberg
+1
+d/home/joo
+	USD
+32
+d/home/joo/USD
+	Manuals
+1
+d/home/joo/USD/Manuals
+	GRAVITY
+1
+d/home/joo/USD/Manuals/GRAVITY
+	VLT-MAN-ESO-15000-4552_v111.pdf
+1
 d
 
 # Right window history (oldest to newest):
-D/home/joo/Desktop/Photos to be sorted/Villard/Paki
-	IMG_5823.JPG
-8
-D/home/joo/Desktop/Photos to be sorted/Villard
-	Paki
-3
-D/home/joo/Desktop/Photos to be sorted
-	paki
-9
-D/home/joo/Desktop/Photos to be sorted/paki
-	20200723_112432.jpg
-10
-D/home/joo/Desktop/Photos to be sorted
-	paki
-9
-D/home/joo/Desktop
-	Stuff
-3
-D/home/joo/Desktop/Stuff
-	Papers_admin
-14
-D/home/joo/Desktop
-	Ticha
-4
-D/home/joo/Desktop/Ticha
-	Anna
-1
-D/home/joo/Desktop/Ticha/Anna
-	WhatsApp Image 2021-11-26 at 15.54.32.jpeg
-3
-D/home/joo/Desktop/Ticha
-	darktable_exported
-2
-D/home/joo/Desktop/Ticha/darktable_exported
-	IMG_3758.png
-2
-D/home/joo/Desktop/Ticha
-	IMG_3755.CR2
-9
-D/home/joo/Desktop
-	wetransfer_hd-121617-i_prim-2023-01-25-star-polarization-subtracted_2023-02-07_1905.zip
-19
-D/home/joo
-	Pictures
-25
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo/Pictures/screenshots
-	address.png
-43
-D/home/joo/Pictures
-	screenshots
-16
-D/home/joo
-	Desktop
-9
-D/home/joo/Desktop
-	full_list.csv
-12
-D/home/joo
-	Documents
-10
-D/home/joo/Documents
-	Passport
-9
-D/home/joo/Documents/Passport
-	ABAYO_passport_2031.pdf
-1
 D/home/joo/Documents
 	Passport
 9
@@ -643,6 +574,75 @@ D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/ESO/2023 - Contract/Documen
 D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/ESO/2023 - Contract
 	..
 0
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich/ESO
+	2023 - Contract
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Germany/Munich
+	ESO
+1
+D/home/joo/Desktop/Stuff/Papers_admin/Germany
+	Munich
+3
+D/home/joo/Desktop/Stuff/Papers_admin
+	Germany
+2
+D/home/joo/Desktop/Stuff
+	Papers_admin
+15
+D/home/joo/Desktop
+	thesis_no_cv.pdf
+29
+D/home/joo
+	Documents
+10
+D/home/joo/Documents
+	Passport
+13
+D/home/joo/Documents/Passport
+	passport_Olofsson.pdf
+10
+D/home/joo/Documents
+	Passport
+13
+D/home/joo
+	Desktop
+9
+D/home/joo/Desktop
+	keyboard_top.pdf
+26
+D/home/joo
+	USD
+32
+D/home/joo/USD
+	Manuals
+1
+D/home/joo/USD/Manuals
+	SPHERE
+1
+D/home/joo/USD/Manuals/SPHERE
+	..
+0
+D/home/joo/USD/Manuals
+	SPHERE
+1
+D/home/joo/USD/Manuals/SPHERE
+	VLT-MAN-SPH-14690-0430_P111_dec_2022_zwajo.pdf
+2
+D/home/joo/USD/Manuals
+	SPHERE
+1
+D/home/joo/USD
+	Manuals
+1
+D/home/joo
+	Pictures
+25
+D/home/joo/Pictures
+	screenshots
+15
+D/home/joo/Pictures/screenshots
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -697,8 +697,8 @@ D
 :mkdir 2023-10-14
 :mkdir 2023 - New Comer Information
 :mkdir 2023\ -\ New\ Comer\ Information
-:move
 :!gimp %c
+:move
 :q
 
 # Search history (oldest to newest):
@@ -837,7 +837,7 @@ pHD131488_tb.png
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/joo/.local/share/vifm/Trash/000_2023-11-07_14.09.53.png
+""/home/joo/.local/share/vifm/Trash/000_HD131488_tb.png
 
 # Directory stack (oldest to newest):
 
@@ -1422,6 +1422,242 @@ t/home/joo/.local/share/vifm/Trash/000_2023-11-07_14.09.20.png
 	/home/joo/Pictures/screenshots/2023-11-07_14.09.20.png
 t/home/joo/.local/share/vifm/Trash/000_2023-11-07_14.09.53.png
 	/home/joo/Pictures/screenshots/2023-11-07_14.09.53.png
+t/home/joo/.local/share/vifm/Trash/000_VLT-MAN-SPH-14690-0430_P111_dec_2022_zwa.pdf
+	/home/joo/USD/Manuals/SPHERE/VLT-MAN-SPH-14690-0430_P111_dec_2022_zwa.pdf
+t/home/joo/.local/share/vifm/Trash/000_VLT-MAN-SPH-14690-0430_P111_dec_2022_zwa-1.pdf
+	/home/joo/Desktop/VLT-MAN-SPH-14690-0430_P111_dec_2022_zwa-1.pdf
+t/home/joo/.local/share/vifm/Trash/000_VLT-MAN-SPH-14690-0430_P111_dec_2022_zwajo.pdf
+	/home/joo/Desktop/VLT-MAN-SPH-14690-0430_P111_dec_2022_zwajo.pdf
+t/home/joo/.local/share/vifm/Trash/000_PROY_PUBL_INST_FIS_AST_2018_2023.xlsx
+	/home/joo/Desktop/PROY_PUBL_INST_FIS_AST_2018_2023.xlsx
+t/home/joo/.local/share/vifm/Trash/000_ReportI.ps
+	/home/joo/Desktop/ReportI.ps
+t/home/joo/.local/share/vifm/Trash/000_Anamnese_Influenza_interaktiv-BAD_englisch_2023-04.pdf
+	/home/joo/Desktop/Anamnese_Influenza_interaktiv-BAD_englisch_2023-04.pdf
+t/home/joo/.local/share/vifm/Trash/000_Agenda Onboarding course 28-29.11.23.pptx
+	/home/joo/Desktop/Agenda Onboarding course 28-29.11.23.pptx
+t/home/joo/.local/share/vifm/Trash/000_SearchCal(1).jnlp
+	/home/joo/Desktop/SearchCal(1).jnlp
+t/home/joo/.local/share/vifm/Trash/000_CPD-366759-LS-1.pdf
+	/home/joo/Desktop/CPD-366759-LS-1.pdf
+t/home/joo/.local/share/vifm/Trash/000_CPD-366759-LS.pdf
+	/home/joo/Desktop/CPD-366759-LS.pdf
+t/home/joo/.local/share/vifm/Trash/000_CPD-366759-folded.pdf
+	/home/joo/Desktop/CPD-366759-folded.pdf
+t/home/joo/.local/share/vifm/Trash/000_CPD-366759.pdf
+	/home/joo/Desktop/CPD-366759.pdf
+t/home/joo/.local/share/vifm/Trash/000_2023-10-25_20.53.24.png
+	/home/joo/Pictures/screenshots/2023-10-25_20.53.24.png
+t/home/joo/.local/share/vifm/Trash/000_2023-10-25_20.53.38.png
+	/home/joo/Pictures/screenshots/2023-10-25_20.53.38.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-03_16.52.02.png
+	/home/joo/Pictures/screenshots/2023-11-03_16.52.02.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-07_14.09.44.png
+	/home/joo/Pictures/screenshots/2023-11-07_14.09.44.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-09_11.09.12.png
+	/home/joo/Pictures/screenshots/2023-11-09_11.09.12.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_09.33.50.png
+	/home/joo/Pictures/screenshots/2023-11-20_09.33.50.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_09.35.35.png
+	/home/joo/Pictures/screenshots/2023-11-20_09.35.35.png
+t/home/joo/.local/share/vifm/Trash/000_2020-06-30_11.10.44.png
+	/home/joo/Pictures/screenshots/2020-06-30_11.10.44.png
+t/home/joo/.local/share/vifm/Trash/000_2021-06-29_11.58.13.png
+	/home/joo/Pictures/screenshots/2021-06-29_11.58.13.png
+t/home/joo/.local/share/vifm/Trash/000_2021-07-04_11.55.57.png
+	/home/joo/Pictures/screenshots/2021-07-04_11.55.57.png
+t/home/joo/.local/share/vifm/Trash/000_2021-10-04_20.37.33.png
+	/home/joo/Pictures/screenshots/2021-10-04_20.37.33.png
+t/home/joo/.local/share/vifm/Trash/000_2021-10-28_14.38.58.png
+	/home/joo/Pictures/screenshots/2021-10-28_14.38.58.png
+t/home/joo/.local/share/vifm/Trash/000_2022-01-25_12.36.22.png
+	/home/joo/Pictures/screenshots/2022-01-25_12.36.22.png
+t/home/joo/.local/share/vifm/Trash/000_2022-02-04_10.11.59.png
+	/home/joo/Pictures/screenshots/2022-02-04_10.11.59.png
+t/home/joo/.local/share/vifm/Trash/000_2022-02-05_22.00.08.png
+	/home/joo/Pictures/screenshots/2022-02-05_22.00.08.png
+t/home/joo/.local/share/vifm/Trash/000_2022-03-15_18.11.27.png
+	/home/joo/Pictures/screenshots/2022-03-15_18.11.27.png
+t/home/joo/.local/share/vifm/Trash/000_2022-09-02_10.28.50.png
+	/home/joo/Pictures/screenshots/2022-09-02_10.28.50.png
+t/home/joo/.local/share/vifm/Trash/000_2022-09-05_09.31.34.png
+	/home/joo/Pictures/screenshots/2022-09-05_09.31.34.png
+t/home/joo/.local/share/vifm/Trash/000_2022-09-05_09.31.46.png
+	/home/joo/Pictures/screenshots/2022-09-05_09.31.46.png
+t/home/joo/.local/share/vifm/Trash/000_2022-09-16_17.44.25.png
+	/home/joo/Pictures/screenshots/2022-09-16_17.44.25.png
+t/home/joo/.local/share/vifm/Trash/000_2022-09-20_11.59.42.png
+	/home/joo/Pictures/screenshots/2022-09-20_11.59.42.png
+t/home/joo/.local/share/vifm/Trash/000_2022-10-11_15.36.32.png
+	/home/joo/Pictures/screenshots/2022-10-11_15.36.32.png
+t/home/joo/.local/share/vifm/Trash/000_2022-12-01_16.25.19.png
+	/home/joo/Pictures/screenshots/2022-12-01_16.25.19.png
+t/home/joo/.local/share/vifm/Trash/000_2022-12-01_16.27.08.png
+	/home/joo/Pictures/screenshots/2022-12-01_16.27.08.png
+t/home/joo/.local/share/vifm/Trash/000_2022-12-13_16.47.05.png
+	/home/joo/Pictures/screenshots/2022-12-13_16.47.05.png
+t/home/joo/.local/share/vifm/Trash/000_2022-12-21_10.11.57.png
+	/home/joo/Pictures/screenshots/2022-12-21_10.11.57.png
+t/home/joo/.local/share/vifm/Trash/000_2023-01-10_11.54.12.png
+	/home/joo/Pictures/screenshots/2023-01-10_11.54.12.png
+t/home/joo/.local/share/vifm/Trash/000_2023-01-10_11.54.22.png
+	/home/joo/Pictures/screenshots/2023-01-10_11.54.22.png
+t/home/joo/.local/share/vifm/Trash/000_2023-01-11_09.59.09.png
+	/home/joo/Pictures/screenshots/2023-01-11_09.59.09.png
+t/home/joo/.local/share/vifm/Trash/000_2023-01-11_10.04.45.png
+	/home/joo/Pictures/screenshots/2023-01-11_10.04.45.png
+t/home/joo/.local/share/vifm/Trash/000_2023-01-11_10.10.02.png
+	/home/joo/Pictures/screenshots/2023-01-11_10.10.02.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-06_14.05.54.png
+	/home/joo/Pictures/screenshots/2023-02-06_14.05.54.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-06_14.37.25.png
+	/home/joo/Pictures/screenshots/2023-02-06_14.37.25.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-07_14.35.23.png
+	/home/joo/Pictures/screenshots/2023-02-07_14.35.23.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-08_11.31.14.png
+	/home/joo/Pictures/screenshots/2023-02-08_11.31.14.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-24_08.21.32.png
+	/home/joo/Pictures/screenshots/2023-02-24_08.21.32.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-24_08.40.16.png
+	/home/joo/Pictures/screenshots/2023-02-24_08.40.16.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-24_08.41.56.png
+	/home/joo/Pictures/screenshots/2023-02-24_08.41.56.png
+t/home/joo/.local/share/vifm/Trash/000_2023-02-24_08.43.53.png
+	/home/joo/Pictures/screenshots/2023-02-24_08.43.53.png
+t/home/joo/.local/share/vifm/Trash/000_2023-03-08_14.55.30.png
+	/home/joo/Pictures/screenshots/2023-03-08_14.55.30.png
+t/home/joo/.local/share/vifm/Trash/000_2023-03-13_10.39.42.png
+	/home/joo/Pictures/screenshots/2023-03-13_10.39.42.png
+t/home/joo/.local/share/vifm/Trash/000_2023-03-15_10.15.17.png
+	/home/joo/Pictures/screenshots/2023-03-15_10.15.17.png
+t/home/joo/.local/share/vifm/Trash/000_2023-03-29_17.04.07.png
+	/home/joo/Pictures/screenshots/2023-03-29_17.04.07.png
+t/home/joo/.local/share/vifm/Trash/000_2023-03-30_08.35.13.png
+	/home/joo/Pictures/screenshots/2023-03-30_08.35.13.png
+t/home/joo/.local/share/vifm/Trash/000_2023-03-31_13.13.20.png
+	/home/joo/Pictures/screenshots/2023-03-31_13.13.20.png
+t/home/joo/.local/share/vifm/Trash/000_2023-04-03_09.42.09.png
+	/home/joo/Pictures/screenshots/2023-04-03_09.42.09.png
+t/home/joo/.local/share/vifm/Trash/000_2023-04-06_15.20.47.png
+	/home/joo/Pictures/screenshots/2023-04-06_15.20.47.png
+t/home/joo/.local/share/vifm/Trash/000_2023-04-17_14.09.59.png
+	/home/joo/Pictures/screenshots/2023-04-17_14.09.59.png
+t/home/joo/.local/share/vifm/Trash/000_2023-04-26_09.40.32.png
+	/home/joo/Pictures/screenshots/2023-04-26_09.40.32.png
+t/home/joo/.local/share/vifm/Trash/000_2023-04-28_11.30.03.png
+	/home/joo/Pictures/screenshots/2023-04-28_11.30.03.png
+t/home/joo/.local/share/vifm/Trash/000_2023-04-28_14.38.10.png
+	/home/joo/Pictures/screenshots/2023-04-28_14.38.10.png
+t/home/joo/.local/share/vifm/Trash/000_2023-05-01_08.05.42.png
+	/home/joo/Pictures/screenshots/2023-05-01_08.05.42.png
+t/home/joo/.local/share/vifm/Trash/000_2023-05-01_08.15.10.png
+	/home/joo/Pictures/screenshots/2023-05-01_08.15.10.png
+t/home/joo/.local/share/vifm/Trash/000_2023-05-01_09.24.57.png
+	/home/joo/Pictures/screenshots/2023-05-01_09.24.57.png
+t/home/joo/.local/share/vifm/Trash/000_2023-05-03_11.09.48.png
+	/home/joo/Pictures/screenshots/2023-05-03_11.09.48.png
+t/home/joo/.local/share/vifm/Trash/000_2023-05-03_15.33.26.png
+	/home/joo/Pictures/screenshots/2023-05-03_15.33.26.png
+t/home/joo/.local/share/vifm/Trash/000_2023-05-09_19.06.37.png
+	/home/joo/Pictures/screenshots/2023-05-09_19.06.37.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-02_03.47.22.png
+	/home/joo/Pictures/screenshots/2023-06-02_03.47.22.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-02_03.51.58.png
+	/home/joo/Pictures/screenshots/2023-06-02_03.51.58.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-05_11.51.24.png
+	/home/joo/Pictures/screenshots/2023-06-05_11.51.24.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-14_15.27.26.png
+	/home/joo/Pictures/screenshots/2023-06-14_15.27.26.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-14_15.57.51.png
+	/home/joo/Pictures/screenshots/2023-06-14_15.57.51.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-14_16.11.24.png
+	/home/joo/Pictures/screenshots/2023-06-14_16.11.24.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_09.42.54.png
+	/home/joo/Pictures/screenshots/2023-06-15_09.42.54.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_14.05.28.png
+	/home/joo/Pictures/screenshots/2023-06-15_14.05.28.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_14.12.12.png
+	/home/joo/Pictures/screenshots/2023-06-15_14.12.12.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_14.31.57.png
+	/home/joo/Pictures/screenshots/2023-06-15_14.31.57.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_16.47.43.png
+	/home/joo/Pictures/screenshots/2023-06-15_16.47.43.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_17.01.28.png
+	/home/joo/Pictures/screenshots/2023-06-15_17.01.28.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_17.01.49.png
+	/home/joo/Pictures/screenshots/2023-06-15_17.01.49.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_17.02.36.png
+	/home/joo/Pictures/screenshots/2023-06-15_17.02.36.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_17.08.45.png
+	/home/joo/Pictures/screenshots/2023-06-15_17.08.45.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_17.13.11.png
+	/home/joo/Pictures/screenshots/2023-06-15_17.13.11.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-15_17.15.24.png
+	/home/joo/Pictures/screenshots/2023-06-15_17.15.24.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-16_08.42.46.png
+	/home/joo/Pictures/screenshots/2023-06-16_08.42.46.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-16_08.44.01.png
+	/home/joo/Pictures/screenshots/2023-06-16_08.44.01.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-16_08.49.12.png
+	/home/joo/Pictures/screenshots/2023-06-16_08.49.12.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-16_09.44.08.png
+	/home/joo/Pictures/screenshots/2023-06-16_09.44.08.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-16_09.44.16.png
+	/home/joo/Pictures/screenshots/2023-06-16_09.44.16.png
+t/home/joo/.local/share/vifm/Trash/000_2023-06-16_09.44.43.png
+	/home/joo/Pictures/screenshots/2023-06-16_09.44.43.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-08_09.19.29.png
+	/home/joo/Pictures/screenshots/2023-07-08_09.19.29.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-10_15.14.08.png
+	/home/joo/Pictures/screenshots/2023-07-10_15.14.08.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-10_15.15.16.png
+	/home/joo/Pictures/screenshots/2023-07-10_15.15.16.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-17_19.36.07.png
+	/home/joo/Pictures/screenshots/2023-07-17_19.36.07.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-17_19.53.35.png
+	/home/joo/Pictures/screenshots/2023-07-17_19.53.35.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-17_19.54.01.png
+	/home/joo/Pictures/screenshots/2023-07-17_19.54.01.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-17_19.56.20.png
+	/home/joo/Pictures/screenshots/2023-07-17_19.56.20.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-18_09.15.30.png
+	/home/joo/Pictures/screenshots/2023-07-18_09.15.30.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-18_10.05.57.png
+	/home/joo/Pictures/screenshots/2023-07-18_10.05.57.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-19_08.04.23.png
+	/home/joo/Pictures/screenshots/2023-07-19_08.04.23.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-25_09.41.15.png
+	/home/joo/Pictures/screenshots/2023-07-25_09.41.15.png
+t/home/joo/.local/share/vifm/Trash/000_2023-07-25_15.31.55.png
+	/home/joo/Pictures/screenshots/2023-07-25_15.31.55.png
+t/home/joo/.local/share/vifm/Trash/000_2023-08-03_16.15.31.png
+	/home/joo/Pictures/screenshots/2023-08-03_16.15.31.png
+t/home/joo/.local/share/vifm/Trash/000_2023-09-07_16.19.33.png
+	/home/joo/Pictures/screenshots/2023-09-07_16.19.33.png
+t/home/joo/.local/share/vifm/Trash/000_2023-10-06_15.16.08.png
+	/home/joo/Pictures/screenshots/2023-10-06_15.16.08.png
+t/home/joo/.local/share/vifm/Trash/000_2023-10-06_21.16.36.png
+	/home/joo/Pictures/screenshots/2023-10-06_21.16.36.png
+t/home/joo/.local/share/vifm/Trash/000_2023-10-10_08.09.32.png
+	/home/joo/Pictures/screenshots/2023-10-10_08.09.32.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_09.34.13.png
+	/home/joo/Pictures/screenshots/2023-11-20_09.34.13.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_09.46.13.png
+	/home/joo/Pictures/screenshots/2023-11-20_09.46.13.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_15.54.25.png
+	/home/joo/Pictures/screenshots/2023-11-20_15.54.25.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_15.59.51.png
+	/home/joo/Pictures/screenshots/2023-11-20_15.59.51.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_16.05.43.png
+	/home/joo/Pictures/screenshots/2023-11-20_16.05.43.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_16.05.52.png
+	/home/joo/Pictures/screenshots/2023-11-20_16.05.52.png
+t/home/joo/.local/share/vifm/Trash/000_2023-11-20_16.10.50.png
+	/home/joo/Pictures/screenshots/2023-11-20_16.10.50.png
+t/home/joo/.local/share/vifm/Trash/000_HD131488.png
+	/home/joo/Pictures/screenshots/HD131488.png
+t/home/joo/.local/share/vifm/Trash/000_HD131488_tb.png
+	/home/joo/Pictures/screenshots/HD131488_tb.png
 
 # State:
 f

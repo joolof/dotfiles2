@@ -40,7 +40,6 @@ return packer.startup(function(use)
     use 'rcarriga/nvim-notify'
 
     -- Colorscheme using pywal
-    -- use({ "AlphaTechnolog/pywal.nvim", as = "pywal" })
     use { "catppuccin/nvim", as = "catppuccin" }
 
     use("szw/vim-maximizer") -- maximizes and restores current window
@@ -95,6 +94,36 @@ return packer.startup(function(use)
     -- snippets
     use("L3MON4D3/LuaSnip") -- snippet engine
     use("saadparwaiz1/cmp_luasnip") -- for autocompletion
+
+    -- treesitter configuration
+    use({
+        "nvim-treesitter/nvim-treesitter",
+        run = function()
+            local ts_update = require("nvim-treesitter.install").update({ with_sync = true })
+            ts_update()
+        end,
+    })
+
+    -- auto closing
+    use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
+
+    -- git integration
+    use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+
+    -- neorg
+    use("nvim-neorg/neorg")
+
+    -- Harpoon
+    use("ThePrimeagen/harpoon")
+
+    if packer_bootstrap then
+        require("packer").sync()
+end
+end)
+
+
+
+
     -- use("rafamadriz/friendly-snippets") -- useful snippets
 
     -- managing & installing lsp servers, linters & formatters
@@ -112,28 +141,3 @@ return packer.startup(function(use)
     -- use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
     -- use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 
-    -- treesitter configuration
-    use({
-        "nvim-treesitter/nvim-treesitter",
-        run = function()
-            local ts_update = require("nvim-treesitter.install").update({ with_sync = true })
-            ts_update()
-        end,
-    })
-
-    -- auto closing
-    use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
-    --use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
-
-    -- git integration
-    use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
-
-    -- neorg
-    use("nvim-neorg/neorg")
-    -- use({"nvim-neorg/neorg", after = "nvim-treesitter"})
-
-
-    if packer_bootstrap then
-        require("packer").sync()
-end
-end)

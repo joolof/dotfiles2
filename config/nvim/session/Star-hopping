@@ -13,14 +13,16 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1 ~/SPHERE/star-hopping/get_master_cal.py
-badd +282 ~/SPHERE/star-hopping/do_nmf.py
-badd +130 ~/SPHERE/star-hopping/reformat.py
+badd +139 ~/SPHERE/star-hopping/do_nmf.py
+badd +144 ~/SPHERE/star-hopping/reformat.py
 badd +19 ~/SPHERE/star-hopping/merge_qphi.py
+badd +110 ~/SPHERE/star-hopping/plot_epochs.py
+badd +0 ~/SPHERE/star-hopping/cal_list.csv
 argglobal
 %argdel
-edit ~/SPHERE/star-hopping/do_nmf.py
+edit ~/SPHERE/star-hopping/cal_list.csv
 argglobal
+balt ~/SPHERE/star-hopping/do_nmf.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -31,11 +33,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 282 - ((29 * winheight(0) + 29) / 59)
+let s:l = 1 - ((0 * winheight(0) + 29) / 59)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 282
+keepjumps 1
 normal! 0
 if exists(':tcd') == 2 | tcd ~/SPHERE/star-hopping | endif
 tabnext 1
@@ -51,6 +53,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

@@ -38,7 +38,7 @@ wk.register({
         d = {':lua MiniSessions.select("delete")<CR>', 'Delete'},
     },
 }, { prefix = "<leader>" })
-keymap.set("n", "<leader>h", ":lua MiniStarter.open()<CR>", {desc = "Home screen"})
+keymap.set("n", "<leader>k", ":lua MiniStarter.open()<CR>", {desc = "Home screen"})
 
 
 ----------------------
@@ -106,6 +106,15 @@ wk.register({
         name = "telescope", -- optional group name
         f = {":Telescope find_files<CR>", "Files" },
         w = {":Telescope live_grep<CR>", "Word"}
+    },
+}, { prefix = "<leader>" })
+
+-- Harpoon
+wk.register({
+    h = {
+        name = "harpoon", -- optional group name
+        x = {require('harpoon.mark').add_file, "Add file" },
+        m = {":Telescope harpoon marks theme=dropdown<CR>", "Show marks"}
     },
 }, { prefix = "<leader>" })
 

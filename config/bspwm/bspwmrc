@@ -53,6 +53,7 @@ bspc rule -a Ryujinx state=floating
 bspc rule -a SPHEREQuery.py state=floating
 bspc rule -a Blueman-manager state=floating
 bspc rule -a matplotlib state=floating layer=above
+bspc rule -a Matplotlib state=floating layer=above
 bspc rule -a herschel-ia-gui-apps-HipeStarter state=floating
 bspc rule -a " " state=floating
 
@@ -66,5 +67,6 @@ bspc rule -a spotify desktop='10'
 
 bspc rule -a org-kepler-Kepler state=floating
 bspc rule -a sun-awt-X11-XFramePeer desktop='7' state=floating follow=on
+bspc rule -a org-eso-ohs-phase2-apps-ot-gui-OT desktop='7' state=floating
 bspc rule -a sun-awt-X11-XDialogPeer desktop='7' state=floating follow=on
 bspc rule -a org-eso-ohs-phase2-apps-ot-gui-OT desktop='7' state=floating follow=on
