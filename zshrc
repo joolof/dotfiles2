@@ -184,3 +184,4 @@ export BROWSER='/usr/bin/firefox'
 
 autoload -Uz compinit
 compinit -u
+
