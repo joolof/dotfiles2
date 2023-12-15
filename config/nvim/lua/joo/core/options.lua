@@ -1,5 +1,9 @@
 local opt = vim.opt -- for conciseness
 
+-- opt.foldmethod = "expr"
+-- opt.foldexpr = "nvim_treesitter#foldexpr()"
+
+
 vim.notify = require("notify")
 opt.conceallevel = 3
 

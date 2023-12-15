@@ -145,7 +145,7 @@ export LC_TIME=en_US.utf8
 VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
 #export BROWSER='/usr/bin/google-chrome'
 export BROWSER='/usr/bin/firefox'
-#export TERM='xterm-256color'
+export TERM='xterm-256color'
 
 # JAVA stuff for reiszing the window
 # export _JAVA_AWT_WM_NONREPARENTING=1
