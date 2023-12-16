@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +17 ~/Codes/Python/Projects/ddit_rt/DDiT.py
+badd +283 ~/Codes/Python/Projects/ddit_rt/DDiT.py
 badd +36 ~/Codes/Python/Projects/ddit_rt/README.md
 argglobal
 %argdel
@@ -30,11 +30,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 17 - ((16 * winheight(0) + 22) / 44)
+let s:l = 283 - ((44 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 17
+keepjumps 283
 normal! 07|
 if exists(':tcd') == 2 | tcd ~/Codes/Python/Projects/ddit_rt | endif
 tabnext 1

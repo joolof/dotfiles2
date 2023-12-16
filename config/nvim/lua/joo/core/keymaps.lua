@@ -38,7 +38,7 @@ wk.register({
         d = {':lua MiniSessions.select("delete")<CR>', 'Delete'},
     },
 }, { prefix = "<leader>" })
-keymap.set("n", "<leader>h", ":lua MiniStarter.open()<CR>", {desc = "Home screen"})
+keymap.set("n", "<leader>k", ":lua MiniStarter.open()<CR>", {desc = "Home screen"})
 
 
 ----------------------
@@ -109,6 +109,15 @@ wk.register({
     },
 }, { prefix = "<leader>" })
 
+-- Harpoon
+wk.register({
+    h = {
+        name = "harpoon", -- optional group name
+        x = {require('harpoon.mark').add_file, "Add file" },
+        m = {":Telescope harpoon marks theme=dropdown<CR>", "Show marks"}
+    },
+}, { prefix = "<leader>" })
+
 -- Journal
 wk.register({
     j = {
@@ -117,6 +126,8 @@ wk.register({
         y = {":Neorg journal yesterday<CR>", "Yesterday" },
         m = {":Neorg journal tomorrow<CR>", "Tomorrow" },
         c = {":Neorg journal toc<CR>", "Contents" },
+        w = {":Neorg workspace work<CR>", "Work workspace" },
+        p = {":Neorg workspace personal<CR>", "Personal workspace" },
         r = {":Neorg return<CR>", "Return" },
     },
 }, { prefix = "<leader>" })

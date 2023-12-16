@@ -13,7 +13,7 @@ super + t
 
 # Taskwarrior
 super + @p
-    scrot -s '~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
+    scrot -s -e 'mv $f ~/Pictures/screenshots/%Y-%m-%d_%H.%M.%S.png'
 
 # $HOME/.scripts/rofi_taskwarrior.py
 

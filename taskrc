@@ -21,3 +21,4 @@ include ~/.task/themes/nord.theme
 
 nag=
 
+news.version=2.6.0
