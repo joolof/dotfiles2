@@ -44,6 +44,12 @@ for type, icon in pairs(signs) do
 end
 
 -- configure python server
+lspconfig["texlab"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+-- configure python server
 lspconfig["pyright"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
