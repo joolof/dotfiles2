@@ -80,7 +80,7 @@ return packer.startup(function(use)
 
 	use({
 		"nvim-telescope/telescope.nvim",
-		tag = "0.1.2",
+		tag = "0.1.5",
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
 
@@ -108,6 +108,13 @@ return packer.startup(function(use)
 	-- Harpoon
 	use("ThePrimeagen/harpoon")
 
+	-- zk-nvim
+	use("mickael-menu/zk-nvim")
+
+	-- noice
+	use("MunifTanjim/nui.nvim")
+	use("folke/noice.nvim")
+
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin
 	use("hrsh7th/cmp-buffer") -- source for text in buffer
@@ -127,6 +134,7 @@ return packer.startup(function(use)
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig") -- easily configure language servers
 	use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
+	-- use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters

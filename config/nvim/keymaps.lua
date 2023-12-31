@@ -121,10 +121,8 @@ wk.register({
 wk.register({
 	z = {
 		name = "zk", -- optional group name
-		s = { ":ZkNotes<CR>", "Search" },
-		t = { ":ZkTags<CR>", "Tags" },
-		b = { ":ZkBacklinks<CR>", "Back links" },
-		n = { "<Cmd>ZkNew { title = vim.fn.input('Title: ') }<CR>", "New" },
+		s = { ":ZkNotes", "Search" },
+		m = { ":Telescope harpoon marks theme=dropdown<CR>", "Show marks" },
 	},
 }, { prefix = "<leader>" })
 

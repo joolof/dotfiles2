@@ -164,6 +164,16 @@ _G.packer_plugins = {
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/neorg",
     url = "https://github.com/nvim-neorg/neorg"
   },
+  ["noice.nvim"] = {
+    loaded = true,
+    path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/noice.nvim",
+    url = "https://github.com/folke/noice.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -253,6 +263,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
     url = "https://github.com/folke/zen-mode.nvim"
+  },
+  ["zk-nvim"] = {
+    loaded = true,
+    path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/zk-nvim",
+    url = "https://github.com/mickael-menu/zk-nvim"
   }
 }
 

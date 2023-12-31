@@ -121,6 +121,7 @@ export DDIT_PATH="$HOME/SPHERE/HD61005/Modelling/Dust/"
 #export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
+export ZK_NOTEBOOK_DIR=$HOME/.work/notebook/
 
 # For ESO p2pp
 export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
@@ -128,7 +129,7 @@ export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
 
 # For esorex and shit
 export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
-export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH"
+export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH:/usr/local/go/bin/"
 
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils
@@ -143,7 +144,7 @@ export LC_TIME=en_US.utf8
 VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
 #export BROWSER='/usr/bin/google-chrome'
 export BROWSER='/usr/bin/firefox'
-export TERM='xterm-256color'
+# export TERM='xterm-256color'
 
 # JAVA stuff for reiszing the window
 export _JAVA_AWT_WM_NONREPARENTING=1
