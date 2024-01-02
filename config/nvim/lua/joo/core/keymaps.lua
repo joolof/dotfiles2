@@ -15,7 +15,7 @@ keymap.set("n", "0", "g0")
 keymap.set("n", "$", "g$")
 
 -- clear search highlights
-keymap.set("n", "<C-n>", ":nohl<CR>", { desc = "Clear search HL" })
+keymap.set("n", "<C-n>", ":nohl<CR>", { desc = "Clear search HL", silent = true })
 
 -- delete single character without copying into register
 keymap.set("n", "x", '"_x', { desc = "Delete w/o copying" })
@@ -24,7 +24,7 @@ keymap.set("n", "x", '"_x', { desc = "Delete w/o copying" })
 keymap.set("n", "<leader>=", "<C-a>", { desc = "Increment" }) -- increment
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement" }) -- decrement
 
-keymap.set("n", "<leader>z", ":ZenMode<CR>", { desc = "Zen mode" })
+keymap.set("n", "<leader>o", ":ZenMode<CR>", { desc = "Zen mode", silent = true })
 
 ----------------------
 -- Sessions management
@@ -38,34 +38,34 @@ wk.register({
 		d = { ':lua MiniSessions.select("delete")<CR>', "Delete" },
 	},
 }, { prefix = "<leader>" })
-keymap.set("n", "<leader>k", ":lua MiniStarter.open()<CR>", { desc = "Home screen" })
+keymap.set("n", "<leader>k", ":lua MiniStarter.open()<CR>", { desc = "Home screen", silent = true })
 
 ----------------------
 -- Buffers and all
 ----------------------
-keymap.set("n", "<C-j>", ":bp<CR>", { desc = "Previous buffer" }) -- previous buffer
-keymap.set("n", "<C-k>", ":bn<CR>", { desc = "Next buffer" }) -- next buffer
-keymap.set("n", "<leader>q", ":bp<cr>:bd #<cr>", { desc = "Close buffer" })
+keymap.set("n", "<C-j>", ":bp<CR>", { desc = "Previous buffer", silent = true }) -- previous buffer
+keymap.set("n", "<C-k>", ":bn<CR>", { desc = "Next buffer", silent = true }) -- next buffer
+keymap.set("n", "<leader>q", ":bp<cr>:bd #<cr>", { desc = "Close buffer", silent = true })
 -- keymap.set("n", "<leader>c", ":ccl<cr>", {desc = "Quickfix close"})
 
 ----------------------
 -- Language
 ----------------------
-keymap.set("n", "<F6>", ":setlocal spell! spelllang=en_us<CR>")
-keymap.set("n", "<F5>", ":setlocal spell! spelllang=fr<CR>")
+keymap.set("n", "<F6>", ":setlocal spell! spelllang=en_us<CR>", { silent = true })
+keymap.set("n", "<F5>", ":setlocal spell! spelllang=fr<CR>", { silent = true })
 
 ----------------------
 -- Plugin Keybinds
 ----------------------
 
 -- nvim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { desc = "Nvim-tree" }) -- toggle file explorer
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { desc = "Nvim-tree", silent = true }) -- toggle file explorer
 
 -- todo-comments
-keymap.set("n", "<leader>l", ":TodoTelescope theme=dropdown<CR>", { desc = "Todo List" }) -- toggle file explorer
+keymap.set("n", "<leader>l", ":TodoTelescope theme=dropdown<CR>", { desc = "Todo List", silent = true }) -- toggle file explorer
 
 -- fterm
-keymap.set("n", "<leader>p", ":!opout %<CR>", { desc = "Open pdf" })
+keymap.set("n", "<leader>p", ":!opout %<CR>", { desc = "Open pdf", silent = true })
 local ytop = fterm:new({
 	ft = "fterm_ytop",
 	cmd = "bpytop",
@@ -114,6 +114,17 @@ wk.register({
 		name = "telescope", -- optional group name
 		f = { ":Telescope find_files<CR>", "Files" },
 		w = { ":Telescope live_grep<CR>", "Word" },
+	},
+}, { prefix = "<leader>" })
+
+-- zk things
+wk.register({
+	z = {
+		name = "zk", -- optional group name
+		s = { ":ZkNotes<CR>", "Notes" },
+		n = { "<Cmd>ZkNew { title = vim.fn.input('Title: ')}<CR>", "New note" },
+		t = { ":ZkTags<CR>", "Tags" },
+		b = { ":ZkBacklinks<CR>", "Back Links" },
 	},
 }, { prefix = "<leader>" })
 

@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +385 ~/Codes/Python/Projects/ddit_rt/DDiT.py
+badd +465 ~/Codes/Python/Projects/ddit_rt/DDiT.py
 badd +36 ~/Codes/Python/Projects/ddit_rt/README.md
 argglobal
 %argdel
@@ -30,12 +30,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 565 - ((53 * winheight(0) + 29) / 59)
+let s:l = 570 - ((57 * winheight(0) + 29) / 58)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 565
-normal! 015|
+keepjumps 570
+normal! 0
 if exists(':tcd') == 2 | tcd ~/Codes/Python/Projects/ddit_rt | endif
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

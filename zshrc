@@ -117,7 +117,7 @@ export JAVA_HOME=$OHSROOT/jre1.8.0_45
 
 source $HOME/.bash_aliases
 # added by Anaconda2 installer
-export PATH="$HOME/.local/bin:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.cargo/env:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.cargo/env:$PATH:/usr/local/go/bin"
 
 export DDIT_PATH="$HOME/SPHERE/HD61005/Modelling/Dust/"
 #export PYTHONPATH=$PYTHONPATH:~/.ipython/pydrs:~/.ipython/loci:~/Codes/Python/Papers:~/.ipython/phot
@@ -145,7 +145,9 @@ export LC_TIME=en_US.utf8
 VISUAL=nvim; export VISUAL EDITOR=nvim; export EDITOR
 #export BROWSER='/usr/bin/google-chrome'
 export BROWSER='/usr/bin/firefox'
-export TERM='xterm-256color'
+# export TERM='xterm-256color'
+
+export ZK_NOTEBOOK_DIR=$HOME/.work/notebook/
 
 # JAVA stuff for reiszing the window
 # export _JAVA_AWT_WM_NONREPARENTING=1
