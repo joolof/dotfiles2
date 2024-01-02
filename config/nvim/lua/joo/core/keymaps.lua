@@ -117,14 +117,15 @@ wk.register({
 	},
 }, { prefix = "<leader>" })
 
--- zk
+-- zk things
 wk.register({
 	z = {
 		name = "zk", -- optional group name
-		s = { ":ZkNotes<CR>", "Search" },
+		o = { ":ZkNotes<CR>", "Browse" },
+		s = { "<Cmd>ZkNotes { match = {vim.fn.input('Search: ')}}<CR>", "Search" },
+		n = { "<Cmd>ZkNew { title = vim.fn.input('Title: ')}<CR>", "New" },
 		t = { ":ZkTags<CR>", "Tags" },
-		b = { ":ZkBacklinks<CR>", "Back links" },
-		n = { "<Cmd>ZkNew { title = vim.fn.input('Title: ') }<CR>", "New" },
+		b = { ":ZkBacklinks<CR>", "Back Links" },
 	},
 }, { prefix = "<leader>" })
 
