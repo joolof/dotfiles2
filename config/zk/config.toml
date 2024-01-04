@@ -49,6 +49,7 @@ filename = "{{format-date now}}"
 
 # MARKDOWN SETTINGS
 [format.markdown]
+# link-format = "wiki"
 # Enable support for #hashtags
 hashtags = true
 # Enable support for :colon:separated:tags:

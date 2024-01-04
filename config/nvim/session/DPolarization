@@ -15,24 +15,17 @@ else
 endif
 badd +86 ~/SPHERE/dpol/hexabin.py
 badd +12 ~/SPHERE/dpol/obslog_v2.py
-badd +476 ~/SPHERE/dpol/DPol_Optool.py
+badd +144 ~/SPHERE/dpol/DPol_Optool.py
 badd +43 ~/SPHERE/dpol/DPol_AggscatVir.py
 badd +32 ~/SPHERE/dpol/test_optool.py
-badd +23 ~/SPHERE/dpol/results_to_latex.py
+badd +11 ~/SPHERE/dpol/results_to_latex.py
 badd +1 ~/SPHERE/dpol/chains/HD_115600_0_results.txt
-badd +10 ~/SPHERE/dpol/DPol_Max_comparison.py
+badd +13 ~/SPHERE/dpol/DPol_Max_comparison.py
+badd +1 ~/SPHERE/dpol/priors/HD_129590.csv
+badd +6 ~/SPHERE/dpol/priors/HD_115600.csv
 argglobal
 %argdel
-edit ~/SPHERE/dpol/DPol_Max_comparison.py
-let s:save_splitbelow = &splitbelow
-let s:save_splitright = &splitright
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-let &splitbelow = s:save_splitbelow
-let &splitright = s:save_splitright
+edit ~/SPHERE/dpol/results_to_latex.py
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -40,10 +33,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 153 + 153) / 307)
-exe 'vert 2resize ' . ((&columns * 153 + 153) / 307)
 argglobal
-balt ~/SPHERE/dpol/results_to_latex.py
+balt ~/SPHERE/dpol/chains/HD_115600_0_results.txt
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -54,38 +45,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 13 - ((6 * winheight(0) + 29) / 59)
+let s:l = 11 - ((10 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 13
-normal! 05|
-wincmd w
-argglobal
-if bufexists(fnamemodify("~/SPHERE/dpol/DPol_Optool.py", ":p")) | buffer ~/SPHERE/dpol/DPol_Optool.py | else | edit ~/SPHERE/dpol/DPol_Optool.py | endif
-if &buftype ==# 'terminal'
-  silent file ~/SPHERE/dpol/DPol_Optool.py
-endif
-balt ~/SPHERE/dpol/DPol_AggscatVir.py
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 263 - ((26 * winheight(0) + 29) / 59)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 263
-normal! 09|
-wincmd w
-exe 'vert 1resize ' . ((&columns * 153 + 153) / 307)
-exe 'vert 2resize ' . ((&columns * 153 + 153) / 307)
+keepjumps 11
+normal! 070|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

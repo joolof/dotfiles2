@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/SPHERE/ARKS
+cd ~/.dotfiles/config/nvim
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,20 +13,12 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +999 ~/SPHERE/ARKS/FitSphere.py
-badd +11 ~/SPHERE/ARKS/priors/HD131835_2015-05-13.csv
+badd +21 ~/.dotfiles/config/nvim/init.lua
+badd +28 ~/.dotfiles/config/nvim/lua/joo/plugins/treesitter.lua
+badd +21 ~/.dotfiles/config/nvim/lua/joo/plugins/noice.lua
 argglobal
 %argdel
-edit ~/SPHERE/ARKS/FitSphere.py
-let s:save_splitbelow = &splitbelow
-let s:save_splitright = &splitright
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-let &splitbelow = s:save_splitbelow
-let &splitright = s:save_splitright
+edit ~/.dotfiles/config/nvim/init.lua
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -34,9 +26,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-wincmd =
 argglobal
-balt ~/SPHERE/ARKS/priors/HD131835_2015-05-13.csv
+balt ~/.dotfiles/config/nvim/lua/joo/plugins/treesitter.lua
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -47,37 +38,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 999 - ((56 * winheight(0) + 30) / 60)
+let s:l = 21 - ((20 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 999
-normal! 05|
-wincmd w
-argglobal
-if bufexists(fnamemodify("~/SPHERE/ARKS/priors/HD131835_2015-05-13.csv", ":p")) | buffer ~/SPHERE/ARKS/priors/HD131835_2015-05-13.csv | else | edit ~/SPHERE/ARKS/priors/HD131835_2015-05-13.csv | endif
-if &buftype ==# 'terminal'
-  silent file ~/SPHERE/ARKS/priors/HD131835_2015-05-13.csv
-endif
-balt ~/SPHERE/ARKS/FitSphere.py
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 8 - ((7 * winheight(0) + 30) / 60)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 8
-normal! 025|
-wincmd w
-wincmd =
+keepjumps 21
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -93,7 +59,6 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

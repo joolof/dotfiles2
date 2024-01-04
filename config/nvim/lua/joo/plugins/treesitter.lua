@@ -9,13 +9,13 @@ treesitter.setup({
 	-- enable syntax highlighting
 	highlight = {
 		enable = true,
-        additional_vim_regex_highlighting = false,
+		additional_vim_regex_highlighting = false,
 	},
 	-- enable indentation
-	indent = { 
-        enable = true,
-        disable = {"python", }
-    },
+	indent = {
+		enable = true,
+		disable = { "python" },
+	},
 	-- enable autotagging (w/ nvim-ts-autotag plugin)
 	autotag = { enable = true },
 	-- ensure these language parsers are installed
@@ -24,8 +24,8 @@ treesitter.setup({
 		"typescript",
 		"html",
 		"css",
-        "norg",
-		-- "markdown",
+		"norg",
+		"markdown",
 		"bash",
 		"lua",
 		"vim",
