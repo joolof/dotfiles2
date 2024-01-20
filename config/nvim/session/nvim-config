@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/.dotfiles/config/nvim/lua/joo/plugins/lsp
+cd ~/.dotfiles/config/nvim/lua/joo/core
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -19,7 +19,6 @@ badd +18 ~/.dotfiles/config/nvim/lua/joo/core/keymaps.lua
 badd +37 ~/.dotfiles/config/nvim/lua/joo/plugins/luasnip.lua
 badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/nvim-cmp.lua
 badd +11 ~/.dotfiles/config/nvim/lua/joo/core/options.lua
-badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/which-key.lua
 badd +28 ~/.dotfiles/config/nvim/lua/joo/plugins/treesitter.lua
 badd +76 ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/lspconfig.lua
 badd +10 ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/null-ls.lua
@@ -27,9 +26,15 @@ badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/mason.lua
 argglobal
 %argdel
 $argadd ~/.dotfiles/config/nvim/init.lua
-edit ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/mason.lua
+edit ~/.dotfiles/config/nvim/lua/joo/core/options.lua
+wincmd t
+let s:save_winminheight = &winminheight
+let s:save_winminwidth = &winminwidth
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
 argglobal
-balt ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/null-ls.lua
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -40,11 +45,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+let s:l = 11 - ((10 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
+keepjumps 11
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
@@ -53,6 +58,8 @@ endif
 unlet! s:wipebuf
 set winheight=1 winwidth=20
 let &shortmess = s:shortmess_save
+let &winminheight = s:save_winminheight
+let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
 if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
