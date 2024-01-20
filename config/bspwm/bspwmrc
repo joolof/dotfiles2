@@ -53,7 +53,7 @@ bspc rule -a SPHEREQuery.py state=floating
 bspc rule -a tsmapplication.exe state=floating
 bspc rule -a battle.net.exe state=floating
 bspc rule -a blueman-manager state=floating
-bspc rule -a matplotlib state=floating layer=above
+bspc rule -a Matplotlib state=floating layer=above
 bspc rule -a herschel-ia-gui-apps-HipeStarter state=floating
 bspc rule -a " " state=floating
 
