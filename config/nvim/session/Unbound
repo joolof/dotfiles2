@@ -13,22 +13,13 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +328 ~/Codes/Python/Projects/unbound/unbound.py
-badd +280 ~/Codes/Python/Projects/unbound/misc.py
-badd +66 ~/Codes/Python/Projects/unbound/kt.py
+badd +402 ~/Codes/Python/Projects/unbound/unbound.py
+badd +227 ~/Codes/Python/Projects/unbound/misc.py
+badd +102 ~/Codes/Python/Projects/unbound/kt.py
 badd +47 ~/Codes/Python/Projects/unbound/diag.py
 argglobal
 %argdel
 edit ~/Codes/Python/Projects/unbound/unbound.py
-let s:save_splitbelow = &splitbelow
-let s:save_splitright = &splitright
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-let &splitbelow = s:save_splitbelow
-let &splitright = s:save_splitright
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -36,9 +27,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-wincmd =
 argglobal
-balt ~/Codes/Python/Projects/unbound/diag.py
+balt ~/Codes/Python/Projects/unbound/misc.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -49,37 +39,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 328 - ((11 * winheight(0) + 30) / 60)
+let s:l = 402 - ((40 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 328
-normal! 017|
-wincmd w
-argglobal
-if bufexists(fnamemodify("~/Codes/Python/Projects/unbound/misc.py", ":p")) | buffer ~/Codes/Python/Projects/unbound/misc.py | else | edit ~/Codes/Python/Projects/unbound/misc.py | endif
-if &buftype ==# 'terminal'
-  silent file ~/Codes/Python/Projects/unbound/misc.py
-endif
-balt ~/Codes/Python/Projects/unbound/unbound.py
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 280 - ((57 * winheight(0) + 30) / 60)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 280
-normal! 047|
-wincmd w
-wincmd =
+keepjumps 402
+normal! 05|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -95,7 +60,6 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
