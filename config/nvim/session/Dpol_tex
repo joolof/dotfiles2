@@ -13,8 +13,9 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +243 ~/Papers/dpol/dpol.tex
-badd +47 ~/Papers/dpol/biblio.bib
+badd +132 ~/Papers/dpol/dpol.tex
+badd +48 ~/Papers/dpol/biblio.bib
+badd +200 ~/Papers/HD129590/biblio.bib
 argglobal
 %argdel
 $argadd dpol.tex
@@ -38,12 +39,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 243 - ((18 * winheight(0) + 30) / 60)
+let s:l = 132 - ((27 * winheight(0) + 30) / 61)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 243
-normal! 0347|
+keepjumps 132
+normal! 016|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

@@ -145,7 +145,7 @@ wk.register({
 		t = { ":Neorg journal today<CR>", "Today" },
 		y = { ":Neorg journal yesterday<CR>", "Yesterday" },
 		m = { ":Neorg journal tomorrow<CR>", "Tomorrow" },
-		c = { ":Neorg journal toc<CR>", "Contents" },
+		j = { ":Neorg workspace personal<CR>", "Journal" },
 		w = { ":Neorg workspace work<CR>", "Work workspace" },
 		p = { ":Neorg workspace personal<CR>", "Personal workspace" },
 		r = { ":Neorg return<CR>", "Return" },
