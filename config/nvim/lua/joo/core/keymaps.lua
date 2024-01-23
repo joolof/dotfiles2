@@ -24,7 +24,7 @@ keymap.set("n", "x", '"_x', { desc = "Delete w/o copying" })
 keymap.set("n", "<leader>=", "<C-a>", { desc = "Increment" }) -- increment
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement" }) -- decrement
 
-keymap.set("n", "<leader>a", ":ZenMode<CR>", { desc = "Zen mode", silent = true })
+keymap.set("n", "<leader>o", ":ZenMode<CR>", { desc = "Zen mode", silent = true })
 
 ----------------------
 -- Sessions management
@@ -145,7 +145,7 @@ wk.register({
 		t = { ":Neorg journal today<CR>", "Today" },
 		y = { ":Neorg journal yesterday<CR>", "Yesterday" },
 		m = { ":Neorg journal tomorrow<CR>", "Tomorrow" },
-		c = { ":Neorg journal toc<CR>", "Contents" },
+		j = { ":Neorg workspace personal<CR>", "Journal" },
 		w = { ":Neorg workspace work<CR>", "Work workspace" },
 		p = { ":Neorg workspace personal<CR>", "Personal workspace" },
 		r = { ":Neorg return<CR>", "Return" },

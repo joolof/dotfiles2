@@ -97,13 +97,14 @@ return packer.startup(function(use)
 	})
 
 	-- auto closing
-	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, ...
+	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
 	-- neorg
-	use("nvim-neorg/neorg")
+	use({ "nvim-neorg/neorg" })
+	-- use({ "nvim-neorg/neorg", commit = "2e12d18" })
 
 	-- Harpoon
 	use("ThePrimeagen/harpoon")
@@ -144,5 +145,3 @@ return packer.startup(function(use)
 		require("packer").sync()
 	end
 end)
-
--- use("rafamadriz/friendly-snippets") -- useful snippets

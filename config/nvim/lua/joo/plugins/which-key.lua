@@ -20,7 +20,7 @@ require("which-key").setup{
             motions = false,
             windwows = false,
             nav = false,
-            z = false,
+            z = true,
             g = false
         },
     },

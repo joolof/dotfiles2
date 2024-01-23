@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/.dotfiles/config/nvim/lua/joo/plugins
+cd ~/.dotfiles/config/nvim
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,20 +13,15 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +5 ~/.dotfiles/config/nvim/init.lua
-badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins-setup.lua
-badd +18 ~/.dotfiles/config/nvim/lua/joo/core/keymaps.lua
-badd +37 ~/.dotfiles/config/nvim/lua/joo/plugins/luasnip.lua
-badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/nvim-cmp.lua
-badd +11 ~/.dotfiles/config/nvim/lua/joo/core/options.lua
-badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/which-key.lua
-badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/treesitter.lua
-badd +83 ~/.dotfiles/config/nvim/snippets/tex.lua
-badd +48 ~/.dotfiles/config/nvim/lua/joo/plugins/nvim-tree.lua
+badd +25 ~/.dotfiles/config/nvim/init.lua
+badd +28 ~/.dotfiles/config/nvim/lua/joo/plugins/treesitter.lua
+badd +13 ~/.dotfiles/config/nvim/lua/joo/plugins/noice.lua
+badd +148 ~/.dotfiles/config/nvim/lua/joo/core/keymaps.lua
+badd +126 ~/.dotfiles/config/nvim/lua/joo/plugins-setup.lua
+badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/lspconfig.lua
 argglobal
 %argdel
-$argadd ~/.dotfiles/config/nvim/init.lua
-edit ~/.dotfiles/config/nvim/lua/joo/plugins/nvim-tree.lua
+edit ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/lspconfig.lua
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -43,10 +38,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+wincmd =
 argglobal
-balt ~/.dotfiles/config/nvim/lua/joo/plugins/luasnip.lua
+balt ~/.dotfiles/config/nvim/lua/joo/plugins-setup.lua
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -57,19 +51,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 48 - ((25 * winheight(0) + 24) / 49)
+let s:l = 1 - ((0 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 48
-normal! 016|
+keepjumps 1
+normal! 04|
 wincmd w
 argglobal
 if bufexists(fnamemodify("~/.dotfiles/config/nvim/init.lua", ":p")) | buffer ~/.dotfiles/config/nvim/init.lua | else | edit ~/.dotfiles/config/nvim/init.lua | endif
 if &buftype ==# 'terminal'
   silent file ~/.dotfiles/config/nvim/init.lua
 endif
-balt ~/.dotfiles/config/nvim/snippets/tex.lua
+balt ~/.dotfiles/config/nvim/lua/joo/plugins-setup.lua
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -80,15 +74,15 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 5 - ((4 * winheight(0) + 24) / 49)
+let s:l = 25 - ((24 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 5
+keepjumps 25
 normal! 0
 wincmd w
-exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+2wincmd w
+wincmd =
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

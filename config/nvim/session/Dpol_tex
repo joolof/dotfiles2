@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/.work/notebook
+cd ~/Papers/dpol
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,14 +13,13 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +230 ~/Papers/dpol/dpol.tex
-badd +47 ~/Papers/dpol/biblio.bib
-badd +5 ~/Papers/HD129590/biblio.bib
-badd +4 ~/.work/notebook/d6mfn216-dpol-paper.md
+badd +132 ~/Papers/dpol/dpol.tex
+badd +48 ~/Papers/dpol/biblio.bib
+badd +200 ~/Papers/HD129590/biblio.bib
 argglobal
 %argdel
-$argadd ~/Papers/dpol/dpol.tex
-edit ~/.work/notebook/d6mfn216-dpol-paper.md
+$argadd dpol.tex
+edit ~/Papers/dpol/dpol.tex
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -29,7 +28,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-balt ~/Papers/dpol/dpol.tex
+balt ~/Papers/dpol/biblio.bib
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -40,12 +39,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 4 - ((3 * winheight(0) + 24) / 49)
+let s:l = 132 - ((27 * winheight(0) + 30) / 61)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 4
-normal! 07|
+keepjumps 132
+normal! 016|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

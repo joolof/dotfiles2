@@ -13,24 +13,17 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +157 ~/SPHERE/dpol/hexabin.py
-badd +24 ~/SPHERE/dpol/get_dust.py
-badd +29 ~/SPHERE/dpol/get_dpol.py
-badd +58 ~/SPHERE/dpol/obslog.py
-badd +281 ~/SPHERE/dpol/get_pdfunc.py
-badd +8 ~/SPHERE/dpol/size_dist_dpol.py
+badd +133 ~/SPHERE/dpol/hexabin.py
+badd +58 ~/SPHERE/dpol/obslog_v2.py
+badd +489 ~/SPHERE/dpol/DPol_Optool.py
+badd +117 ~/SPHERE/dpol/DPol_AggscatVir.py
+badd +32 ~/SPHERE/dpol/test_optool.py
+badd +21 ~/SPHERE/dpol/results_to_latex.py
+badd +13 ~/SPHERE/dpol/DPol_Max_comparison.py
+badd +126 ~/SPHERE/dpol/plot_pfunc.py
 argglobal
 %argdel
 edit ~/SPHERE/dpol/hexabin.py
-let s:save_splitbelow = &splitbelow
-let s:save_splitright = &splitright
-set splitbelow splitright
-wincmd _ | wincmd |
-vsplit
-1wincmd h
-wincmd w
-let &splitbelow = s:save_splitbelow
-let &splitright = s:save_splitright
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -38,10 +31,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
 argglobal
-balt ~/SPHERE/dpol/get_dust.py
+balt ~/SPHERE/dpol/obslog_v2.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -52,39 +43,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 157 - ((41 * winheight(0) + 21) / 42)
+let s:l = 133 - ((23 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 157
-normal! 0
-wincmd w
-argglobal
-if bufexists(fnamemodify("~/SPHERE/dpol/hexabin.py", ":p")) | buffer ~/SPHERE/dpol/hexabin.py | else | edit ~/SPHERE/dpol/hexabin.py | endif
-if &buftype ==# 'terminal'
-  silent file ~/SPHERE/dpol/hexabin.py
-endif
-balt ~/SPHERE/dpol/get_dust.py
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let &fdl = &fdl
-let s:l = 157 - ((41 * winheight(0) + 21) / 42)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 157
-normal! 0
-wincmd w
-2wincmd w
-exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+keepjumps 133
+normal! 027|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -100,7 +64,6 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

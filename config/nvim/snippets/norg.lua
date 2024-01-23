@@ -19,4 +19,3 @@ local fmt = require("luasnip.extras.fmt").fmt
 ls.add_snippets("norg", {s({ trig = "b/c", wordTrig = false}, t("because"))}, {type = "autosnippets"})
 ls.add_snippets("norg", {s({ trig = "w/o", wordTrig = false}, t("without"))}, {type = "autosnippets"})
 
-
