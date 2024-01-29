@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/.dotfiles/config/nvim
+cd ~/Codes/Python/Projects/sphere_daemon
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,15 +13,10 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +25 ~/.dotfiles/config/nvim/init.lua
-badd +28 ~/.dotfiles/config/nvim/lua/joo/plugins/treesitter.lua
-badd +13 ~/.dotfiles/config/nvim/lua/joo/plugins/noice.lua
-badd +148 ~/.dotfiles/config/nvim/lua/joo/core/keymaps.lua
-badd +126 ~/.dotfiles/config/nvim/lua/joo/plugins-setup.lua
-badd +1 ~/.dotfiles/config/nvim/lua/joo/plugins/lsp/lspconfig.lua
+badd +134 ~/Codes/Python/Projects/sphere_daemon/sphere_daemon.py
 argglobal
 %argdel
-edit ~/.dotfiles/config/nvim/init.lua
+edit ~/Codes/Python/Projects/sphere_daemon/sphere_daemon.py
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -30,7 +25,6 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-balt ~/.dotfiles/config/nvim/lua/joo/plugins-setup.lua
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -41,12 +35,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 25 - ((24 * winheight(0) + 22) / 44)
+let s:l = 134 - ((43 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 25
-normal! 0
+keepjumps 134
+normal! 013|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -62,7 +56,6 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

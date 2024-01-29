@@ -130,7 +130,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
 
 # For esorex and shit
 # export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
-# export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH"
+export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH"
+export PATH=$PATH:$HOME/_NOT_SYNC/esorex/bin/:$HOME/USD/bin
 
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils

@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/Codes/Python/Projects/unbound
+cd ~/Codes/Python/Projects/unbound/test
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,13 +13,23 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +402 ~/Codes/Python/Projects/unbound/unbound.py
-badd +227 ~/Codes/Python/Projects/unbound/misc.py
-badd +102 ~/Codes/Python/Projects/unbound/kt.py
-badd +47 ~/Codes/Python/Projects/unbound/diag.py
+badd +528 ~/Codes/Python/Projects/unbound/unbound.py
+badd +179 ~/Codes/Python/Projects/unbound/misc.py
+badd +60 ~/Codes/Python/Projects/unbound/kt.py
+badd +74 ~/Codes/Python/Projects/unbound/diag.py
+badd +1 ~/Codes/Python/Projects/unbound/test/model.json
 argglobal
 %argdel
 edit ~/Codes/Python/Projects/unbound/unbound.py
+let s:save_splitbelow = &splitbelow
+let s:save_splitright = &splitright
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+let &splitbelow = s:save_splitbelow
+let &splitright = s:save_splitright
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -27,6 +37,7 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+wincmd =
 argglobal
 balt ~/Codes/Python/Projects/unbound/misc.py
 setlocal fdm=manual
@@ -39,12 +50,38 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 402 - ((40 * winheight(0) + 22) / 44)
+let s:l = 528 - ((57 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 402
+keepjumps 528
 normal! 05|
+wincmd w
+argglobal
+if bufexists(fnamemodify("~/Codes/Python/Projects/unbound/test/model.json", ":p")) | buffer ~/Codes/Python/Projects/unbound/test/model.json | else | edit ~/Codes/Python/Projects/unbound/test/model.json | endif
+if &buftype ==# 'terminal'
+  silent file ~/Codes/Python/Projects/unbound/test/model.json
+endif
+balt ~/Codes/Python/Projects/unbound/misc.py
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 1 - ((0 * winheight(0) + 30) / 60)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+wincmd w
+2wincmd w
+wincmd =
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -60,6 +97,7 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
