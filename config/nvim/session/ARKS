@@ -13,11 +13,14 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1006 ~/SPHERE/ARKS/FitSphere.py
-badd +33 ~/SPHERE/ARKS/Modeling_JO.md
+badd +1036 ~/SPHERE/ARKS/FitSphere.py
+badd +5 ~/SPHERE/ARKS/Modeling_JO.md
+badd +102 ~/SPHERE/ARKS/DATA/reformat_DC.py
+badd +13 ~/SPHERE/ARKS/priors/49Cet_2015-10-02.csv
+badd +1 ~/SPHERE/ARKS/priors/HR4796_2021-04-07.csv
 argglobal
 %argdel
-edit ~/SPHERE/ARKS/FitSphere.py
+edit ~/SPHERE/ARKS/DATA/reformat_DC.py
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -36,6 +39,7 @@ set winminwidth=0
 set winwidth=1
 wincmd =
 argglobal
+balt ~/SPHERE/ARKS/priors/49Cet_2015-10-02.csv
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -46,19 +50,19 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1006 - ((47 * winheight(0) + 30) / 60)
+let s:l = 103 - ((59 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1006
-normal! 05|
+keepjumps 103
+normal! 0108|
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/SPHERE/ARKS/Modeling_JO.md", ":p")) | buffer ~/SPHERE/ARKS/Modeling_JO.md | else | edit ~/SPHERE/ARKS/Modeling_JO.md | endif
+if bufexists(fnamemodify("~/SPHERE/ARKS/FitSphere.py", ":p")) | buffer ~/SPHERE/ARKS/FitSphere.py | else | edit ~/SPHERE/ARKS/FitSphere.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/SPHERE/ARKS/Modeling_JO.md
+  silent file ~/SPHERE/ARKS/FitSphere.py
 endif
-balt ~/SPHERE/ARKS/FitSphere.py
+balt ~/SPHERE/ARKS/DATA/reformat_DC.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -69,13 +73,14 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 33 - ((32 * winheight(0) + 30) / 60)
+let s:l = 1036 - ((59 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 33
-normal! 036|
+keepjumps 1036
+normal! 042|
 wincmd w
+2wincmd w
 wincmd =
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
@@ -92,7 +97,6 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

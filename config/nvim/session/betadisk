@@ -13,13 +13,22 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +252 ~/Codes/Python/Projects/betadisk/betadisk.py
-badd +201 ~/Codes/Python/Projects/betadisk/frame.py
+badd +108 ~/Codes/Python/Projects/betadisk/betadisk.py
+badd +207 ~/Codes/Python/Projects/betadisk/frame.py
 badd +3 ~/Codes/Python/Projects/betadisk/setup.py
 badd +106 ~/Codes/Python/Projects/betadisk/README.md
 argglobal
 %argdel
-edit ~/Codes/Python/Projects/betadisk/frame.py
+edit ~/Codes/Python/Projects/betadisk/betadisk.py
+let s:save_splitbelow = &splitbelow
+let s:save_splitright = &splitright
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+let &splitbelow = s:save_splitbelow
+let &splitright = s:save_splitright
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -27,7 +36,31 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+wincmd =
 argglobal
+balt ~/Codes/Python/Projects/betadisk/frame.py
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 108 - ((26 * winheight(0) + 30) / 60)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 108
+normal! 033|
+wincmd w
+argglobal
+if bufexists(fnamemodify("~/Codes/Python/Projects/betadisk/frame.py", ":p")) | buffer ~/Codes/Python/Projects/betadisk/frame.py | else | edit ~/Codes/Python/Projects/betadisk/frame.py | endif
+if &buftype ==# 'terminal'
+  silent file ~/Codes/Python/Projects/betadisk/frame.py
+endif
 balt ~/Codes/Python/Projects/betadisk/betadisk.py
 setlocal fdm=manual
 setlocal fde=0
@@ -39,12 +72,14 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 201 - ((29 * winheight(0) + 30) / 60)
+let s:l = 175 - ((0 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 201
-normal! 027|
+keepjumps 175
+normal! 020|
+wincmd w
+wincmd =
 if exists(':tcd') == 2 | tcd ~/Codes/Python/Projects/betadisk | endif
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

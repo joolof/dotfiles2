@@ -3,7 +3,7 @@ let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/SPHERE/dpol
+cd ~/SPHERE/dpol/unbound
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -13,17 +13,30 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1 ~/SPHERE/dpol/hexabin.py
+badd +348 ~/SPHERE/dpol/hexabin.py
 badd +56 ~/SPHERE/dpol/obslog_v2.py
-badd +17 ~/SPHERE/dpol/DPol_Optool.py
-badd +117 ~/SPHERE/dpol/DPol_AggscatVir.py
-badd +32 ~/SPHERE/dpol/test_optool.py
-badd +21 ~/SPHERE/dpol/results_to_latex.py
+badd +461 ~/SPHERE/dpol/DPol_Optool.py
+badd +39 ~/SPHERE/dpol/DPol_AggscatVir.py
+badd +31 ~/SPHERE/dpol/test_optool.py
+badd +19 ~/SPHERE/dpol/results_to_latex.py
 badd +13 ~/SPHERE/dpol/DPol_Max_comparison.py
-badd +126 ~/SPHERE/dpol/plot_pfunc.py
+badd +115 ~/SPHERE/dpol/plot_pfunc.py
+badd +7 ~/SPHERE/dpol/unbound/diagnostics.py
+badd +61 ~/SPHERE/dpol/reformat_results.py
+badd +5 ~/SPHERE/dpol/priors/HD_129590.csv
+badd +47 ~/SPHERE/dpol/unbound/show_diff.py
 argglobal
 %argdel
-edit ~/SPHERE/dpol/DPol_Optool.py
+edit ~/SPHERE/dpol/hexabin.py
+let s:save_splitbelow = &splitbelow
+let s:save_splitright = &splitright
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+let &splitbelow = s:save_splitbelow
+let &splitright = s:save_splitright
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -31,6 +44,7 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+wincmd =
 argglobal
 balt ~/SPHERE/dpol/obslog_v2.py
 setlocal fdm=manual
@@ -43,12 +57,38 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 17 - ((16 * winheight(0) + 22) / 44)
+let s:l = 349 - ((28 * winheight(0) + 30) / 60)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 17
-normal! 033|
+keepjumps 349
+normal! 0
+wincmd w
+argglobal
+if bufexists(fnamemodify("~/SPHERE/dpol/unbound/diagnostics.py", ":p")) | buffer ~/SPHERE/dpol/unbound/diagnostics.py | else | edit ~/SPHERE/dpol/unbound/diagnostics.py | endif
+if &buftype ==# 'terminal'
+  silent file ~/SPHERE/dpol/unbound/diagnostics.py
+endif
+balt ~/SPHERE/dpol/reformat_results.py
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 7 - ((6 * winheight(0) + 30) / 60)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 7
+normal! 0
+wincmd w
+2wincmd w
+wincmd =
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

@@ -15,18 +15,25 @@ else
 endif
 badd +1 ~/Codes/Python/Projects/SPHEREQuery/dl_window.py
 badd +1 ~/Codes/Python/Projects/SPHEREQuery/pref_window.py
-badd +22 ~/Codes/Python/Projects/SPHEREQuery/do_query.py
+badd +134 ~/Codes/Python/Projects/SPHEREQuery/do_query.py
 badd +6 ~/Codes/Python/Projects/SPHEREQuery/data_reduction.py
-badd +1 ~/Codes/Python/Projects/SPHEREQuery/cm_window.py
-badd +1 ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
+badd +14 ~/Codes/Python/Projects/SPHEREQuery/cm_window.py
+badd +487 ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
 badd +41 ~/Codes/Python/Projects/SPHEREQuery/style.qss
 badd +38 ~/Codes/Python/Projects/SPHEREQuery/README.md
 badd +1 ~/Codes/Python/Projects/SPHEREQuery/requirements.txt
 argglobal
 %argdel
-edit ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
+edit ~/Codes/Python/Projects/SPHEREQuery/do_query.py
+wincmd t
+let s:save_winminheight = &winminheight
+let s:save_winminwidth = &winminwidth
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
 argglobal
-balt ~/Codes/Python/Projects/SPHEREQuery/style.qss
+balt ~/Codes/Python/Projects/SPHEREQuery/SPHEREQuery.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -37,12 +44,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 22) / 44)
+let s:l = 134 - ((22 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
-normal! 0
+keepjumps 134
+normal! 029|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -50,13 +57,14 @@ endif
 unlet! s:wipebuf
 set winheight=1 winwidth=20
 let &shortmess = s:shortmess_save
+let &winminheight = s:save_winminheight
+let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
 if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

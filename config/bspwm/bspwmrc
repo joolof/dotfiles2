@@ -30,8 +30,8 @@ bspc config borderless_monocle   false
 bspc config gapless_monocle      false
 bspc config single_monocle       false
 
-# bspc rule -a Zathura state=floating rectangle=1000x750+200+100
-bspc rule -a Zathura state=floating
+bspc rule -a Zathura state=floating rectangle=1100x1300+200+100
+# bspc rule -a Zathura state=floating
 bspc rule -a steam_app_6910 state=floating
 bspc rule -a Skype state=floating
 bspc rule -a Yad state=floating

@@ -7,7 +7,15 @@ cd ~/Codes/Python/Projects/deproj
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
-set shortmess=aoO
+let s:shortmess_save = &shortmess
+if &shortmess =~ 'A'
+  set shortmess=aoOA
+else
+  set shortmess=aoO
+endif
+badd +128 ~/Codes/Python/Projects/deproj/deproj.py
+badd +30 ~/Codes/Python/Projects/deproj/README.md
+badd +7 ~/Codes/Python/Projects/deproj/setup.py
 argglobal
 %argdel
 edit ~/Codes/Python/Projects/deproj/deproj.py
@@ -27,8 +35,7 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+wincmd =
 argglobal
 balt ~/Codes/Python/Projects/deproj/README.md
 setlocal fdm=manual
@@ -41,15 +48,15 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 118 - ((22 * winheight(0) + 24) / 49)
+let s:l = 128 - ((31 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 118
-normal! 021|
+keepjumps 128
+normal! 0118|
 wincmd w
 argglobal
-if bufexists("~/Codes/Python/Projects/deproj/README.md") | buffer ~/Codes/Python/Projects/deproj/README.md | else | edit ~/Codes/Python/Projects/deproj/README.md | endif
+if bufexists(fnamemodify("~/Codes/Python/Projects/deproj/README.md", ":p")) | buffer ~/Codes/Python/Projects/deproj/README.md | else | edit ~/Codes/Python/Projects/deproj/README.md | endif
 if &buftype ==# 'terminal'
   silent file ~/Codes/Python/Projects/deproj/README.md
 endif
@@ -64,26 +71,22 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 30 - ((5 * winheight(0) + 24) / 49)
+let s:l = 30 - ((5 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 30
 normal! 030|
 wincmd w
-2wincmd w
-exe 'vert 1resize ' . ((&columns * 113 + 113) / 227)
-exe 'vert 2resize ' . ((&columns * 113 + 113) / 227)
+wincmd =
 if exists(':tcd') == 2 | tcd ~/Codes/Python/Projects/deproj | endif
 tabnext 1
-badd +118 ~/Codes/Python/Projects/deproj/deproj.py
-badd +30 ~/Codes/Python/Projects/deproj/README.md
-badd +7 ~/Codes/Python/Projects/deproj/setup.py
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
 endif
 unlet! s:wipebuf
-set winheight=1 winwidth=20 shortmess=filnxtToOFAI
+set winheight=1 winwidth=20
+let &shortmess = s:shortmess_save
 let &winminheight = s:save_winminheight
 let &winminwidth = s:save_winminwidth
 let s:sx = expand("<sfile>:p:r")."x.vim"
@@ -91,6 +94,8 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
+set hlsearch
+nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
