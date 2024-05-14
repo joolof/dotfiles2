@@ -103,7 +103,7 @@ return packer.startup(function(use)
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
 	-- neorg
-	use({ "nvim-neorg/neorg" })
+	-- use({ "nvim-neorg/neorg" })
 	-- use({ "nvim-neorg/neorg", commit = "2e12d18" })
 
 	-- Harpoon
