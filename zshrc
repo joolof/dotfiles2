@@ -116,6 +116,7 @@ bindkey '^[[A' fzf-history-widget
 source $HOME/.bash_aliases
 # added by Anaconda2 installer
 export PATH="$HOME/.local/bin:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.cargo/env:$PATH"
+export PATH="$HOME/USD/Support/scripts:$HOME/USD/Tools/bin:$PATH"
 
 export DDIT_PATH="$HOME/SPHERE/HD61005/Modelling/Dust/"
 #export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
