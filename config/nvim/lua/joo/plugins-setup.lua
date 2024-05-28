@@ -103,7 +103,7 @@ return packer.startup(function(use)
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
 	-- neorg
-	use({ "nvim-neorg/neorg" })
+	-- use({ "nvim-neorg/neorg" })
 	-- use({ "nvim-neorg/neorg", commit = "2e12d18" })
 
 	-- Harpoon
@@ -139,7 +139,6 @@ return packer.startup(function(use)
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
-	-- use("nvimtools/none-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 
 	if packer_bootstrap then

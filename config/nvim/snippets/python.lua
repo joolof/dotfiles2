@@ -18,21 +18,43 @@ local fmt = require("luasnip.extras.fmt").fmt
 ---------------------
 -- import
 ls.add_snippets("python", {
-    s("imp", t({"import numpy as np", "from astropy.io import fits, ascii", "import matplotlib.pyplot as plt", "# -----------------------------------------------------------", "", ""}))})
+	s(
+		"imp",
+		t({
+			"import numpy as np",
+			"from astropy.io import fits, ascii",
+			"import matplotlib.pyplot as plt",
+			"# -----------------------------------------------------------",
+			"",
+			"",
+		})
+	),
+})
 
 -- colorbar
 ls.add_snippets("python", {
-    s("cbar", t({"from mpl_toolkits.axes_grid1 import make_axes_locatable", 
-        "from mpl_toolkits.axes_grid1.inset_locator import inset_axes", 
-        "cbaxes = inset_axes(ax1, width='80%', height='5%', loc=8)", 
-        "cb = plt.colorbar(cb, cax=cbaxes, orientation='horizontal')", 
-        "cb.ax.xaxis.set_ticks_position('top')", 
-        "cb.ax.xaxis.set_label_position('top')", 
-        "cb.ax.tick_params(labelsize=10, color = 'w', labelcolor='w', pad = 1.)", ""}))})
+	s(
+		"cbar",
+		t({
+			"from mpl_toolkits.axes_grid1 import make_axes_locatable",
+			"from mpl_toolkits.axes_grid1.inset_locator import inset_axes",
+			"cbaxes = ax.inset_axes([0.1, 0.05, 0.8, 0.05])",
+			"# cbaxes = inset_axes(ax1, width='80%', height='5%', loc=8)",
+			"cb = plt.colorbar(cb, cax=cbaxes, orientation='horizontal')",
+			"cb.ax.xaxis.set_ticks_position('top')",
+			"cb.ax.xaxis.set_label_position('top')",
+			"cb.ax.tick_params(labelsize=10, color = 'w', labelcolor='w', pad = 1.)",
+			"",
+		})
+	),
+})
 
 -- Figure
 ls.add_snippets("python", {
-    s("fig", fmt([[
+	s(
+		"fig",
+		fmt(
+			[[
         fig = plt.figure(figsize=(7,6))
         ax1 = fig.add_axes([0.16, 0.14, 0.8, 0.79])
         # ax1.set_xscale("log", nonpositive='clip')
@@ -43,15 +65,18 @@ ls.add_snippets("python", {
         # ax1.set_xlabel()
         # ax1.set_ylabel()
         plt.show()]],
-        { i(1, "%content")}, 
-        { delimiters = "<>" }
-    )
-    )
+			{ i(1, "%content") },
+			{ delimiters = "<>" }
+		)
+	),
 })
 
 -- Imshow
 ls.add_snippets("python", {
-    s("ims", fmt([[
+	s(
+		"ims",
+		fmt(
+			[[
         fig = plt.figure(figsize=(7,6))
         ax1 = fig.add_axes([0.16, 0.14, 0.8, 0.79])
         cb = ax1.imshow(<>, origin = 'lower')
@@ -60,15 +85,18 @@ ls.add_snippets("python", {
         # ax1.set_xlabel()
         # ax1.set_ylabel()
         plt.show()]],
-        { i(1, "%content")}, 
-        { delimiters = "<>" }
-    )
-    )
+			{ i(1, "%content") },
+			{ delimiters = "<>" }
+		)
+	),
 })
 
 -- Class
 ls.add_snippets("python", {
-    s("class", fmt([[
+	s(
+		"class",
+		fmt(
+			[[
         class <>():
             """
             docstring for <>1
@@ -78,15 +106,18 @@ ls.add_snippets("python", {
 
                 """
                 ]],
-        { i(1, "%content"), rep(1)}, 
-        { delimiters = "<>" }
-    )
-    )
+			{ i(1, "%content"), rep(1) },
+			{ delimiters = "<>" }
+		)
+	),
 })
 
 -- Class function
 ls.add_snippets("python", {
-    s("func", fmt([[
+	s(
+		"func",
+		fmt(
+			[[
         def <>(self):
             """
 
@@ -94,21 +125,27 @@ ls.add_snippets("python", {
 
             return 
             ]],
-        { i(1, "%content")}, 
-        { delimiters = "<>" }
-    )
-    )
+			{ i(1, "%content") },
+			{ delimiters = "<>" }
+		)
+	),
 })
 
 -- logger
 ls.add_snippets("python", {
-    s("logger", t({"import logging", 
-        "logger = logging.getLogger('joo')",
-        "logger.setLevel(logging.INFO)",
-        "handler = logging.StreamHandler()",
-        "handler.setLevel(logging.INFO)",
-        "formatter = logging.Formatter('[%(levelname)s] %(message)s')",
-        "handler.setFormatter(formatter)",
-        "logger.addHandler(handler)",
-        "# -----------------------------------------------------------",""}))})
-
+	s(
+		"logger",
+		t({
+			"import logging",
+			"logger = logging.getLogger('joo')",
+			"logger.setLevel(logging.INFO)",
+			"handler = logging.StreamHandler()",
+			"handler.setLevel(logging.INFO)",
+			"formatter = logging.Formatter('[%(levelname)s] %(message)s')",
+			"handler.setFormatter(formatter)",
+			"logger.addHandler(handler)",
+			"# -----------------------------------------------------------",
+			"",
+		})
+	),
+})

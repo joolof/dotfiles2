@@ -5,8 +5,8 @@ require("code_runner").setup({
 		python = "python3 -u",
 		tex = "latexmk -pdf",
 		typescript = "deno run",
-		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
 		markdown = "cd $dir && pandoc $fileName -o ~/Desktop/$fileNameWithoutExt.pdf --from markdown --template eisvogel --listings",
+		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
 	},
 	term = {
 		size = 4,

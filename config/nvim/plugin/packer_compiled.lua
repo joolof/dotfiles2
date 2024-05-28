@@ -159,11 +159,6 @@ _G.packer_plugins = {
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/mini.nvim",
     url = "https://github.com/echasnovski/mini.nvim"
   },
-  neorg = {
-    loaded = true,
-    path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/neorg",
-    url = "https://github.com/nvim-neorg/neorg"
-  },
   ["noice.nvim"] = {
     loaded = true,
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/noice.nvim",
