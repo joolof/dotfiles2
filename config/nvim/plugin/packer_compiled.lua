@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
+  ["nvim-tmux-navigation"] = {
+    loaded = true,
+    path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/nvim-tmux-navigation",
+    url = "https://github.com/alexghergh/nvim-tmux-navigation"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/scratch/home/jolofsso/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

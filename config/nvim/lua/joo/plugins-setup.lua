@@ -112,6 +112,9 @@ return packer.startup(function(use)
 	-- zk-nvim
 	use("mickael-menu/zk-nvim")
 
+	-- tmux-navigator
+	use("alexghergh/nvim-tmux-navigation")
+
 	-- noice
 	use("MunifTanjim/nui.nvim")
 	use("folke/noice.nvim")
