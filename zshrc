@@ -124,9 +124,11 @@ bindkey '^[[A' fzf-history-widget
 source $HOME/.bash_aliases
 # added by Anaconda2 installer
 export PATH="$HOME/.local/bin:$HOME/.scripts:$HOME/.cargo/bin:$HOME/.cargo/env:$PATH"
-export PATH="$HOME/USD/Support/scripts:$HOME/USD/Tools/bin:$PATH"
+export PATH="$HOME/USD/Support/scripts:$HOME/USD/Support/scripts/OBStruct:$HOME/USD/Tools/bin:$PATH"
 
 export DDIT_PATH="$HOME/SPHERE/HD61005/Modelling/Dust/"
+export PYTHONPATH=$PYTHONPATH:/scratch/home/jolofsso/Codes/Python/Projects/external/GreeDS
+# export PYTHONPATH=$PYTHONPATH:/scratch/home/jolofsso/Codes/Python/Projects/external/gravi_tools
 #export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
@@ -137,8 +139,8 @@ export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
 #export JAVA_HOME=/home/joo/Codes/Packages/Java/jre
 
 # For esorex and shit
-export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
-export PATH="$HOME/gasgano/bin:$HOME/Codes/Packages/ESO/pipelines/bin:$PATH:/usr/local/go/bin/"
+# export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
+export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/_NOT_SYNC/esorex/bin"
 
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils
@@ -146,6 +148,7 @@ export MCFOST_UTILS=$HOME/IRS/mcfost/utils
 export READER='zathura'
 
 TZ='Europe/Berlin'; 
+TZ='America/Santiago';
 export TZ
 export FZF_DEFAULT_COMMAND='fd --type f'
 export LC_TIME=en_US.utf8
@@ -157,6 +160,9 @@ export BROWSER='/usr/bin/firefox'
 
 # JAVA stuff for reiszing the window
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+# Some Python thing for Zahed's scripts
+# export PYSYN_CDBS=/scratch/home/jolofsso/Codes/Python/Projects/external/pysyn_cdbs
 
 # For dynamic colors
 # https://github.com/sos4nt/dynamic-colors

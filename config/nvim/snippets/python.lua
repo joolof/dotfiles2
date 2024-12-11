@@ -56,7 +56,7 @@ ls.add_snippets("python", {
 		fmt(
 			[[
         fig = plt.figure(figsize=(7,6))
-        ax1 = fig.add_axes([0.16, 0.14, 0.8, 0.79])
+        ax1 = fig.add_axes((0.16, 0.14, 0.8, 0.79))
         # ax1.set_xscale("log", nonpositive='clip')
         # ax1.set_yscale("log", nonpositive='clip')
         ax1.plot(<>)
@@ -78,7 +78,7 @@ ls.add_snippets("python", {
 		fmt(
 			[[
         fig = plt.figure(figsize=(7,6))
-        ax1 = fig.add_axes([0.16, 0.14, 0.8, 0.79])
+        ax1 = fig.add_axes((0.16, 0.14, 0.8, 0.79))
         cb = ax1.imshow(<>, origin = 'lower')
         ax1.set_xlim()
         ax1.set_ylim()

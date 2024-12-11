@@ -3,7 +3,7 @@
 sxhkd &
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 if xrandr -q | grep 'HDMI-1 connected' >/dev/null 2>&1; then
-    xrandr --output eDP-1 --primary --output HDMI-1 --left-of eDP-1
+    xrandr --output eDP-1 --primary --output HDMI-1 --right-of eDP-1
     # autorandr -c
     bspc monitor eDP-1 -d 2 4 8 10
     bspc monitor HDMI-1 -d 1 3 5 6 7 9
@@ -15,7 +15,8 @@ xrdb ~/.Xresources &
 picom --config ~/.config/picom.conf -b --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness 350 &
 nm-applet &
 xmodmap -e "clear Lock" -e 'keycode 0x42 = Escape' &
-feh --bg-scale ~/Pictures/wallpapers/mountains.png &
+feh --bg-scale ~/Pictures/wallpapers/curls.png &
+# feh --bg-scale ~/Pictures/wallpapers/mountains.png &
 pacmd set-default-sink alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink
 
 
@@ -30,7 +31,7 @@ bspc config borderless_monocle   false
 bspc config gapless_monocle      false
 bspc config single_monocle       false
 
-bspc rule -a Zathura state=floating rectangle=1000x1250+1400+100
+bspc rule -a Zathura state=floating rectangle=900x1100+500+30
 bspc rule -a mpv state=floating rectangle=854x480+150+600
 bspc rule -a steam_app_6910 state=floating
 bspc rule -a Skype state=floating
@@ -54,7 +55,7 @@ bspc rule -a SPHEREQuery.py state=floating
 bspc rule -a tsmapplication.exe state=floating
 bspc rule -a battle.net.exe state=floating
 bspc rule -a Blueman-manager state=floating
-bspc rule -a Matplotlib state=floating layer=above
+bspc rule -a matplotlib state=floating layer=above
 bspc rule -a herschel-ia-gui-apps-HipeStarter state=floating
 bspc rule -a " " state=floating
 

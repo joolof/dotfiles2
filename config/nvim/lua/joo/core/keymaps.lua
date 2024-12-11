@@ -27,7 +27,7 @@ keymap.set("n", "<C-n>", ":nohl<CR>", { desc = "Clear search HL", silent = true 
 keymap.set("n", "x", '"_x', { desc = "Delete w/o copying" })
 
 -- increment/decrement numbers
-keymap.set("n", "<leader>=", "<C-a>", { desc = "Increment" }) -- increment
+keymap.set("n", "<leader>\\", "<C-a>", { desc = "Increment" }) -- increment
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement" }) -- decrement
 
 keymap.set("n", "<leader>o", ":ZenMode<CR>", { desc = "Zen mode", silent = true })

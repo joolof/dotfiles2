@@ -115,6 +115,9 @@ return packer.startup(function(use)
 	-- tmux-navigator
 	use("alexghergh/nvim-tmux-navigation")
 
+	-- indent line
+	use("lukas-reineke/indent-blankline.nvim")
+
 	-- noice
 	use("MunifTanjim/nui.nvim")
 	use("folke/noice.nvim")

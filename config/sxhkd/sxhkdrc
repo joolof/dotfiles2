@@ -6,7 +6,7 @@ super + Return
 # negative -w arg to account for a border width (default: 100%)
 
 super + t
-    bspc rule -a \* -o state=floating rectangle=840x1200+2500+200 && kitty
+    bspc rule -a \* -o state=floating rectangle=840x1200+4500+200 && kitty
     # tdrop -ma -w 94% -x 3% -y 0% -h 50% kitty
 
 # super + o
@@ -44,7 +44,7 @@ XF86AudioPrev
     playerctl --player=spotify previous
 
 # Increase sound volume
-alt + equal
+alt + backslash
     pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 # Decrease sound volume
