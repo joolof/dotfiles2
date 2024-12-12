@@ -1,26 +1,27 @@
-require("joo.plugins-setup")
-require("joo.plugins.treesitter")
-require("joo.core.options")
-require("joo.core.keymaps")
-require("joo.plugins.catppuccin")
-require("joo.plugins.notify")
-require("joo.plugins.nvim-tree")
-require("joo.plugins.which-key")
-require("joo.plugins.lualine")
-require("joo.plugins.lastplace")
-require("joo.plugins.autopairs")
-require("joo.plugins.gitsigns")
-require("joo.plugins.code-runner")
-require("joo.plugins.bufferline")
-require("joo.plugins.mini")
-require("joo.plugins.nvim-cmp")
-require("joo.plugins.luasnip")
-require("joo.plugins.todo-comments")
-require("joo.plugins.nvim-tmux-navigation")
-require("joo.plugins.dressing")
-require("joo.plugins.noice")
-require("joo.plugins.ibl")
-require("joo.plugins.zk-nvim")
-require("joo.plugins.lsp.mason")
-require("joo.plugins.lsp.lspconfig")
-require("joo.plugins.lsp.null-ls")
+-- Bootstrap lazy.nvim
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+	local lazyrepo = "https://github.com/folke/lazy.nvim.git"
+	local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
+	if vim.v.shell_error ~= 0 then
+		vim.api.nvim_echo({
+			{ "Failed to clone lazy.nvim:\n", "ErrorMsg" },
+			{ out, "WarningMsg" },
+			{ "\nPress any key to exit..." },
+		}, true, {})
+		vim.fn.getchar()
+		os.exit(1)
+	end
+end
+vim.opt.rtp:prepend(lazypath)
+
+-- Make sure to setup `mapleader` and `maplocalleader` before
+-- loading lazy.nvim so that mappings are correct.
+-- This is also a good place to setup other settings (vim.opt)
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
+-- Setup lazy.nvim
+require("lazy").setup("plugins")
+require("keymaps")
+require("options")
