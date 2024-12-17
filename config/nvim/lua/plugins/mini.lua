@@ -31,6 +31,7 @@ return {
 				post = function() end,
 			},
 		})
+		require("mini.surround").setup({})
 		require("mini.sessions").setup({
 			autoread = false,
 			autowrite = true,
