@@ -6,7 +6,7 @@ super + Return
 # negative -w arg to account for a border width (default: 100%)
 
 super + t
-    tdrop -ma -w 94% -x 3% -y 0% -h 50% kitty
+    bspc rule -a \* -o state=floating rectangle=722x801+3030+170 && kitty
 
 # super + o
 #     $HOME/.scripts/rofi_favorite.py
@@ -31,11 +31,11 @@ super + @space
 # Media keys
 
 # Play pause
-XF86AudioPlay
+alt + p
     playerctl --player=spotify play-pause
 
 # Next song
-XF86AudioNext
+alt + n
     playerctl --player=spotify next
 
 # Previous song
@@ -43,11 +43,11 @@ XF86AudioPrev
     playerctl --player=spotify previous
 
 # Increase sound volume
-XF86AudioRaiseVolume
+alt + equal
     pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 # Decrease sound volume
-XF86AudioLowerVolume
+alt + minus
     pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 # Mute sound
