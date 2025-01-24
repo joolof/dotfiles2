@@ -148,7 +148,7 @@ export MCFOST_UTILS=$HOME/IRS/mcfost/utils
 export READER='zathura'
 
 TZ='Europe/Berlin'; 
-TZ='America/Santiago';
+# TZ='America/Santiago';
 export TZ
 export FZF_DEFAULT_COMMAND='fd --type f'
 export LC_TIME=en_US.utf8
@@ -173,14 +173,14 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # (cat ~/.cache/wal/sequences &)
 
 # yazi change folder
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
-}
+# function y() {
+# 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+# 	yazi "$@" --cwd-file="$tmp"
+# 	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+# 		builtin cd -- "$cwd"
+# 	fi
+# 	rm -f -- "$tmp"
+# }
 
 
 # case $TERM in

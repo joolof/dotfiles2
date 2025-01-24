@@ -6,7 +6,7 @@ super + Return
 # negative -w arg to account for a border width (default: 100%)
 
 super + t
-    bspc rule -a \* -o state=floating rectangle=840x1200+4500+200 && kitty
+    bspc rule -a \* -o state=floating rectangle=900x1200+4000+150 && kitty
     # tdrop -ma -w 94% -x 3% -y 0% -h 50% kitty
 
 # super + o
