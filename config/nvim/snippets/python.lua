@@ -38,7 +38,7 @@ ls.add_snippets("python", {
 		t({
 			"from mpl_toolkits.axes_grid1 import make_axes_locatable",
 			"from mpl_toolkits.axes_grid1.inset_locator import inset_axes",
-			"cbaxes = ax.inset_axes([0.1, 0.05, 0.8, 0.05])",
+			"cbaxes = ax.inset_axes((0.1, 0.05, 0.8, 0.05))",
 			"# cbaxes = inset_axes(ax1, width='80%', height='5%', loc=8)",
 			"cb = plt.colorbar(cb, cax=cbaxes, orientation='horizontal')",
 			"cb.ax.xaxis.set_ticks_position('top')",
@@ -56,9 +56,9 @@ ls.add_snippets("python", {
 		fmt(
 			[[
         fig = plt.figure(figsize=(7,6))
-        ax1 = fig.add_axes((0.16, 0.14, 0.8, 0.79))
-        # ax1.set_xscale("log", nonpositive='clip')
-        # ax1.set_yscale("log", nonpositive='clip')
+        ax1 = fig.add_axes((0.12, 0.12, 0.85, 0.85))
+        # ax1.set_xscale("log", nonpositive="clip")
+        # ax1.set_yscale("log", nonpositive="clip")
         ax1.plot(<>)
         ax1.set_xlim()
         ax1.set_ylim()
@@ -145,6 +145,31 @@ ls.add_snippets("python", {
 			"handler.setFormatter(formatter)",
 			"logger.addHandler(handler)",
 			"# -----------------------------------------------------------",
+			"",
+		})
+	),
+})
+
+-- colors
+ls.add_snippets("python", {
+	s(
+		"colors",
+		t({
+			"import matplotlib",
+			'cmap = matplotlib.colormaps["inferno"]',
+			"colors = cmap(np.linspace(0, 1., ncol))",
+			"",
+		})
+	),
+})
+
+-- thickness
+ls.add_snippets("python", {
+	s(
+		"lws",
+		t({
+			"min_thickness, max_thickness = 1, 6",
+			"lw = min_thickness + (max_thickness - min_thickness) * (ir/(nr))**1.5",
 			"",
 		})
 	),

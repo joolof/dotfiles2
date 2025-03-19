@@ -200,9 +200,18 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 #bindkey -M menuselect 'j' vi-down-line-or-history
 #bindkey -v '^?' backward-delete-char
 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - --no-rehash zsh)"
+eval "$(pyenv virtualenv-init -)"
+# direnv
+# eval "$(direnv hook zsh)"
 
 autoload -Uz compinit
 compinit -u
+
+# zoxide
+eval "$(zoxide init --cmd cd zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
