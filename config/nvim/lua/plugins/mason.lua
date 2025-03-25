@@ -13,7 +13,7 @@ return {
 		mason_lspconfig.setup({
 			-- list of servers for mason to install
 			ensure_installed = {
-				"pyright",
+				"pyright@1.1.364",
 				"texlab",
 				"marksman",
 			},
