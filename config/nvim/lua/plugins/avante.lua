@@ -16,7 +16,11 @@ return {
 	---@type avante.Config
 	opts = {
 		-- add any opts here
-		-- for example
+		mappings = {
+			submit = {
+				insert = "<C-b>",
+			},
+		},
 		provider = "claude",
 		providers = {
 			claude = {
