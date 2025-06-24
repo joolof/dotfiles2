@@ -134,12 +134,7 @@ export PYTHONPATH=$PYTHONPATH:/scratch/home/jolofsso/Codes/Python/Projects/exter
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
 export ZK_NOTEBOOK_DIR=$HOME/.work/notebook/
 
-# For ESO p2pp
-export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
-#export JAVA_HOME=/home/joo/Codes/Packages/Java/jre
-
 # For esorex and shit
-# export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
 export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/SPHERE/bin"
 
 # For MCFOST
