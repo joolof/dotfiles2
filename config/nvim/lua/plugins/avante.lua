@@ -20,9 +20,6 @@ return {
 			submit = {
 				insert = "<C-b>",
 			},
-			diff = {
-				all_theirs = "<leader>cc",
-			},
 		},
 		provider = "claude",
 		providers = {
@@ -38,24 +35,6 @@ return {
 			},
 		},
 	},
-<<<<<<< HEAD
-	-- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
-	build = "make",
-	-- build = "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false" -- for windows
-	providers = {
-		claude = {
-			endpoint = "https://api.anthropic.com",
-            model = "claude-3-5-haiku-20241022",
-			timeout = 30000, -- Timeout in milliseconds
-			disable_tools = true, -- disable tools!
-			extra_request_body = {
-				temperature = 0,
-				max_tokens = 4096,
-			},
-		},
-	},
-=======
->>>>>>> avante-test
 	dependencies = {
 		"nvim-treesitter/nvim-treesitter",
 		"nvim-lua/plenary.nvim",
@@ -96,3 +75,4 @@ return {
 		},
 	},
 }
+
