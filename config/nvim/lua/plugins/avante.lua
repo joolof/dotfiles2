@@ -27,6 +27,7 @@ return {
 			claude = {
 				endpoint = "https://api.anthropic.com",
 				model = "claude-3-7-sonnet-latest",
+                disable_tools = { "python" },
 				disable_tools = true, -- disable tools!
 				timeout = 30000, -- Timeout in milliseconds
 				extra_request_body = {
