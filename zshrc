@@ -140,7 +140,7 @@ export PATH="$HOME/PROPOSALS/ESO/p2pp-3.4.3/bin:$PATH"
 
 # For esorex and shit
 # export CPLDIR=$HOME/Codes/Packages/ESO/pipelines
-export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/_NOT_SYNC/esorex/bin"
+export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/SPHERE/bin"
 
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils
