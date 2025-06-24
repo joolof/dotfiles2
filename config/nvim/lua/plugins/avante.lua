@@ -25,7 +25,7 @@ return {
 		providers = {
 			claude = {
 				endpoint = "https://api.anthropic.com",
-				model = "claude/claude-3-5-sonnet-20241022",
+				model = "claude-3-7-sonnet-latest",
 				disable_tools = true, -- disable tools!
 				timeout = 30000, -- Timeout in milliseconds
 				extra_request_body = {
