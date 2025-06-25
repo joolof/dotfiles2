@@ -131,11 +131,15 @@ export PYTHONPATH=$PYTHONPATH:/scratch/home/jolofsso/Codes/Python/Projects/exter
 # export PYTHONPATH=$PYTHONPATH:/scratch/home/jolofsso/Codes/Python/Projects/external/gravi_tools
 #export PYTHONPATH=$PYTHONPATH:/home/joo/.ipython/pydrs:/home/joo/.ipython/loci:/home/joo/Codes/Python/Papers:/home/joo/.ipython/phot
 
+export PATH=$PATH:$HOME/USD/Pipelines/GRAVI_tools/python_tools:$HOME/USD/Pipelines/GRAVI_tools/python_tools/gravi_shell:$HOME/USD/Pipelines/GRAVI_tools/python_tools/gravi_quicklook
+export PYTHONPATH=$HOME/USD/Pipelines/GRAVI_tools/python_tools:$PYTHONPATH
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/_NOT_SYNC/MultiNest/lib
 export ZK_NOTEBOOK_DIR=$HOME/.work/notebook/
 
 # For esorex and shit
-export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/SPHERE/bin"
+export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/install/bin"
+# export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/SPHERE/bin"
 
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils
