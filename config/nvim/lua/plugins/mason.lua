@@ -1,35 +1,72 @@
+-- return {
+-- 	"williamboman/mason.nvim", -- in charge of managing lsp servers, linters & formatters
+-- 	dependencies = {
+-- 		"williamboman/mason-lspconfig.nvim", -- bridges gap b/w mason & lspconfig
+-- 	},
+-- 	config = function()
+-- 		local mason = require("mason")
+-- 		local mason_lspconfig = require("mason-lspconfig")
+-- 		mason.setup()
+--
+-- 		mason_lspconfig.setup({
+-- 			-- list of servers for mason to install
+-- 			ensure_installed = {
+-- 				"pyright@1.1.364",
+-- 				"texlab",
+-- 				"marksman",
+-- 			},
+-- 			-- auto-install configured servers (with lspconfig)
+-- 			automatic_installation = true, -- not the same as ensure_installed
+-- 		})
+-- 	end,
+-- }
 return {
-	"williamboman/mason.nvim", -- in charge of managing lsp servers, linters & formatters
-	dependencies = {
-		"williamboman/mason-lspconfig.nvim", -- bridges gap b/w mason & lspconfig
-		"jayp0521/mason-null-ls.nvim", -- bridges gap b/w mason & null-ls
-	},
-	config = function()
-		local mason = require("mason")
-		local mason_lspconfig = require("mason-lspconfig")
-		local mason_null_ls = require("mason-null-ls")
-		mason.setup()
+  "williamboman/mason.nvim",
+  dependencies = {
+    "williamboman/mason-lspconfig.nvim",
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
+  },
+  config = function()
+    -- import mason
+    local mason = require("mason")
 
-		mason_lspconfig.setup({
-			-- list of servers for mason to install
-			ensure_installed = {
-				"pyright@1.1.364",
-				"texlab",
-				"marksman",
-			},
-			-- auto-install configured servers (with lspconfig)
-			automatic_installation = true, -- not the same as ensure_installed
-		})
+    -- import mason-lspconfig
+    local mason_lspconfig = require("mason-lspconfig")
 
-		mason_null_ls.setup({
-			-- list of formatters & linters for mason to install
-			ensure_installed = {
-				"prettier", -- ts/js formatter
-				"stylua", -- lua formatter
-				"eslint_d", -- ts/js linter
-			},
-			-- auto-install configured formatters & linters (with null-ls)
-			automatic_installation = true,
-		})
-	end,
+    local mason_tool_installer = require("mason-tool-installer")
+
+    -- enable mason and configure icons
+    mason.setup({
+      ui = {
+        icons = {
+          package_installed = "✓",
+          package_pending = "➜",
+          package_uninstalled = "✗",
+        },
+      },
+    })
+
+    mason_lspconfig.setup({
+      -- list of servers for mason to install
+      ensure_installed = {
+        "texlab",
+        "marksman",
+        "lua_ls",
+        "graphql",
+        "emmet_ls",
+        "pyright@1.1.364",
+      },
+    })
+
+    mason_tool_installer.setup({
+      ensure_installed = {
+        "prettier", -- prettier formatter
+        "stylua", -- lua formatter
+        "isort", -- python formatter
+        "black", -- python formatter
+        "pylint",
+        "eslint_d",
+      },
+    })
+  end,
 }
