@@ -2,6 +2,9 @@ return {
 	{
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
+		opts = function(_, opts)
+			require("nvim-treesitter.install").prefer_git = true
+		end,
 		config = function()
 			require("nvim-treesitter.configs").setup({
 				ensure_installed = {
