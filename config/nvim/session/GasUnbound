@@ -14,9 +14,9 @@ else
   set shortmess=aoO
 endif
 badd +172 ~/Codes/Python/Projects/gasunbound/gasunbound.py
-badd +429 ~/Codes/Python/Projects/gasunbound/func_misc.py
-badd +127 ~/Codes/Python/Projects/gasunbound/integrator.py
-badd +205 ~/Codes/Python/Projects/gasunbound/debug/single_particle.py
+badd +55 ~/Codes/Python/Projects/gasunbound/func_misc.py
+badd +154 ~/Codes/Python/Projects/gasunbound/integrator.py
+badd +267 ~/Codes/Python/Projects/gasunbound/debug/single_particle.py
 badd +100 ~/Codes/Python/Projects/gasunbound/utils/HD121617_beta.csv
 badd +34 ~/Codes/Python/Projects/gasunbound/t85_chopped/model.json
 argglobal
@@ -38,8 +38,7 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 208 + 208) / 417)
-exe 'vert 2resize ' . ((&columns * 208 + 208) / 417)
+wincmd =
 argglobal
 balt ~/Codes/Python/Projects/gasunbound/gasunbound.py
 setlocal foldmethod=manual
@@ -60,11 +59,11 @@ keepjumps 55
 normal! 05|
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/Codes/Python/Projects/gasunbound/func_misc.py", ":p")) | buffer ~/Codes/Python/Projects/gasunbound/func_misc.py | else | edit ~/Codes/Python/Projects/gasunbound/func_misc.py | endif
+if bufexists(fnamemodify("~/Codes/Python/Projects/gasunbound/integrator.py", ":p")) | buffer ~/Codes/Python/Projects/gasunbound/integrator.py | else | edit ~/Codes/Python/Projects/gasunbound/integrator.py | endif
 if &buftype ==# 'terminal'
-  silent file ~/Codes/Python/Projects/gasunbound/func_misc.py
+  silent file ~/Codes/Python/Projects/gasunbound/integrator.py
 endif
-balt ~/Codes/Python/Projects/gasunbound/gasunbound.py
+balt ~/Codes/Python/Projects/gasunbound/debug/single_particle.py
 setlocal foldmethod=manual
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -75,15 +74,15 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 215 - ((0 * winheight(0) + 31) / 62)
+let s:l = 154 - ((0 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 215
+keepjumps 154
 normal! 0
 wincmd w
-exe 'vert 1resize ' . ((&columns * 208 + 208) / 417)
-exe 'vert 2resize ' . ((&columns * 208 + 208) / 417)
+2wincmd w
+wincmd =
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
