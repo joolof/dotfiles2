@@ -13,6 +13,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 		os.exit(1)
 	end
 end
+
 vim.opt.rtp:prepend(lazypath)
 
 -- Make sure to setup `mapleader` and `maplocalleader` before
@@ -26,3 +27,4 @@ require("keymovement")
 require("lazy").setup("plugins")
 require("keymaps")
 require("options")
+require("lsp")

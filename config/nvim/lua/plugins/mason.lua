@@ -1,30 +1,9 @@
--- return {
--- 	"williamboman/mason.nvim", -- in charge of managing lsp servers, linters & formatters
--- 	dependencies = {
--- 		"williamboman/mason-lspconfig.nvim", -- bridges gap b/w mason & lspconfig
--- 	},
--- 	config = function()
--- 		local mason = require("mason")
--- 		local mason_lspconfig = require("mason-lspconfig")
--- 		mason.setup()
---
--- 		mason_lspconfig.setup({
--- 			-- list of servers for mason to install
--- 			ensure_installed = {
--- 				"pyright@1.1.364",
--- 				"texlab",
--- 				"marksman",
--- 			},
--- 			-- auto-install configured servers (with lspconfig)
--- 			automatic_installation = true, -- not the same as ensure_installed
--- 		})
--- 	end,
--- }
 return {
   "williamboman/mason.nvim",
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
     "WhoIsSethDaniel/mason-tool-installer.nvim",
+    "neovim/nvim-lspconfig" ,
   },
   config = function()
     -- import mason
