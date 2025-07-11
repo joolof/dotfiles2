@@ -4,7 +4,6 @@ vim.lsp.enable({
 	"texlab",
 	"lua_ls",
 })
-
 vim.diagnostic.config({
 	-- virtual_lines = true,
 	virtual_text = true,
