@@ -141,6 +141,9 @@ export ZK_NOTEBOOK_DIR=$HOME/.work/notebook/
 # export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/install/bin"
 export PATH="$PATH:/usr/local/go/bin/:/scratch/home/jolofsso/USD/Pipelines/SPHERE/bin"
 
+# opencode
+export PATH=$HOME/.opencode/bin:$PATH
+
 # For MCFOST
 export MCFOST_UTILS=$HOME/IRS/mcfost/utils
 
