@@ -27,10 +27,10 @@ return {
 			}),
 			-- sources for autocompletion
 			sources = cmp.config.sources({
-				{ name = "nvim_lsp" }, -- snippets
+				{ name = "vim.lsp" }, -- snippets
 				{ name = "luasnip" }, -- snippets
-				{ name = "buffer" }, -- text within current buffer
 				{ name = "path" }, -- file system paths
+				{ name = "buffer" }, -- text within current buffer
 			}),
 			-- vim.opt.completeopt = "menu,menuone,noselect",
 		})

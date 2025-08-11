@@ -23,9 +23,9 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
+require("lsp")
 require("keymovement")
 require("lazy").setup("plugins")
 require("keymaps")
 require("options")
-require("lsp")
 require("autocmds")

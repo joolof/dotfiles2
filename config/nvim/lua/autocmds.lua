@@ -31,20 +31,20 @@ vim.api.nvim_create_autocmd("LspAttach", {
 			client
 			and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_documentHighlight, event.buf)
 		then
-			local highlight_augroup = vim.api.nvim_create_augroup("lsp-highlight", { clear = false })
+			-- local highlight_augroup = vim.api.nvim_create_augroup("lsp-highlight", { clear = false })
 
 			-- When cursor stops moving: Highlights all instances of the symbol under the cursor
 			-- When cursor moves: Clears the highlighting
-			vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
-				buffer = event.buf,
-				group = highlight_augroup,
-				callback = vim.lsp.buf.document_highlight,
-			})
-			vim.api.nvim_create_autocmd({ "CursorMoved", "CursorMovedI" }, {
-				buffer = event.buf,
-				group = highlight_augroup,
-				callback = vim.lsp.buf.clear_references,
-			})
+			-- vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
+			-- 	buffer = event.buf,
+			-- 	group = highlight_augroup,
+			-- 	callback = vim.lsp.buf.document_highlight,
+			-- })
+			-- vim.api.nvim_create_autocmd({ "CursorMoved", "CursorMovedI" }, {
+			-- 	buffer = event.buf,
+			-- 	group = highlight_augroup,
+			-- 	callback = vim.lsp.buf.clear_references,
+			-- })
 
 			-- When LSP detaches: Clears the highlighting
 			vim.api.nvim_create_autocmd("LspDetach", {

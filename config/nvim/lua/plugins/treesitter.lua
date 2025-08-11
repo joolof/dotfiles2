@@ -19,6 +19,7 @@ return {
 					"markdown_inline",
 				},
 				auto_install = false,
+				additional_vim_regex_highlighting = false,
 				highlight = {
 					enable = true,
 					disable = function(lang, buf)

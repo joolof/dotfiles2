@@ -1,8 +1,11 @@
-vim.lsp.enable({
-	"pyright",
-	"marksman",
-	"texlab",
-	"lua_ls",
+vim.lsp.config("lua_ls", {
+	settings = {
+		Lua = {
+			diagnostics = {
+				globals = { "vim" },
+			},
+		},
+	},
 })
 vim.diagnostic.config({
 	-- virtual_lines = true,
@@ -23,4 +26,10 @@ vim.diagnostic.config({
 			[vim.diagnostic.severity.HINT] = "󰌶 ",
 		},
 	},
+})
+vim.lsp.enable({
+	"pyright",
+	"marksman",
+	"texlab",
+	"lua_ls",
 })

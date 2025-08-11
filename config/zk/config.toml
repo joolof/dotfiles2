@@ -109,3 +109,6 @@ rm = 'zk list --interactive --quiet --format path --delimiter0 "$@" | xargs -0 r
 wiki-title = "hint"
 # Warn for dead links between notes.
 dead-link = "error"
+
+[lsp.completion]
+use-additional-text-edits = true
